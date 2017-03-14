@@ -1,5 +1,7 @@
 # The Euclid Weak Lensing Encyclopedia
 
+PDF download here: https://github.com/Weak-Lensing/Encyclopedia/blob/master/PDDdict.pdf
+
   Weak lensing is an effect where the images of distant galaxies are
   distorted by the gravitational potential caused by matter
   perturbations along the line of sight. It is a method that majority
