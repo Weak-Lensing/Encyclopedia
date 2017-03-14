@@ -16,3 +16,14 @@
   have a special meaning in weak lensing studies. This document is a live
   document that will be updated in response to community input that can be
   submitted here https://github.com/Weak-Lensing/Encyclopedia/issues as issues.
+  
+  The structure and content of the files is as follows: 
+  * PDDdict.tex is the main Latex file 
+  * definitions.tex contains the definitions 
+  * run_dict_ElCaptain is an executable that will compile the dictionary on Mac OS El Capitan and later 
+  * biblio.bib contains the references 
+  * openjournal.cls is the style file used
+  * makeglossaries is an executable required for the compilation
+  
+  
+  
