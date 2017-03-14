@@ -1,0 +1,32 @@
+#############################################
+#This is a test file to produce a Dictionary.
+#Source: 
+#http://tex.stackexchange.com/questions/5821/creating-a-standalone-glossary/5837#5837
+#Very Useful:
+#http://get-software.net/macros/latex/contrib/glossaries/glossariesbegin.pdf
+#The above pdf file is also saved in the directory.
+#############################################
+#Note0: Do not forget to make this file excutable
+#chmod +x run_dict
+#Then to run the file:
+#./run_dict
+
+#Note1: default pdflatex uses the macport one in “/opt/local/bin/pdflatex”
+#This does not recognise some of the packages I need! I use “/usr/texbin/” path 
+#which is the one TeXShop uses. See:
+#http://tex.stackexchange.com/questions/142554/command-line-pdflatex-vs-texshop
+
+#Note2: you can replace the “makeindex” line with:
+#makeglossaries dictionary
+#############################################
+
+/Library/TeX/texbin/pdflatex PDDdict
+#makeindex -s PDDdict.ist -o PDDdict.gls PDDdict.glo
+makeglossaries PDDdict
+/Library/TeX/texbin/pdflatex PDDdict
+/Library/TeX/texbin/bibtex PDDdict
+/Library/TeX/texbin/pdflatex PDDdict
+/Library/TeX/texbin/pdflatex PDDdict
+rm *glg *glo *gls *.glsdefs *.ist *.aux
+
+
