@@ -27,6 +27,6 @@ makeglossaries PDDdict
 /Library/TeX/texbin/bibtex PDDdict
 /Library/TeX/texbin/pdflatex PDDdict
 /Library/TeX/texbin/pdflatex PDDdict
-rm *glg *glo *gls *.glsdefs *.ist *.aux
+rm *glg *glo *gls *.glsdefs *.ist *.aux *.dct* *.log *.out *.rvw* *.idx *.blg
 
 

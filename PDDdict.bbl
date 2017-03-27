@@ -1,0 +1,1358 @@
+\begin{thebibliography}{}
+
+\bibitem[{Aarseth}, 1963]{1963MNRAS.126..223A}
+{Aarseth}, S.~J. (1963).
+\newblock {Dynamical evolution of clusters of galaxies, I}.
+\newblock {\em \mnras}, 126:223.
+
+\bibitem[{Abdalla} et~al., 2011]{2011MNRAS.417.1891A}
+{Abdalla}, F.~B., {Banerji}, M., {Lahav}, O., and {Rashkov}, V. (2011).
+\newblock {A comparison of six photometric redshift methods applied to 1.5
+  million luminous red galaxies}.
+\newblock {\em \mnras}, 417:1891--1903.
+
+\bibitem[{Albrecht} et~al., 2009]{2009arXiv09010721A}
+{Albrecht}, A., {Amendola}, L., {Bernstein}, G., {Clowe}, D., {Eisenstein}, D.,
+  {Guzzo}, L., {Hirata}, C., {Huterer}, D., {Kirshner}, R., {Kolb}, E., and
+  {Nichol}, R. (2009).
+\newblock {Findings of the Joint Dark Energy Mission Figure of Merit Science
+  Working Group}.
+\newblock {\em ArXiv e-prints}.
+
+\bibitem[{Albrecht} et~al., 2006]{DETF}
+{Albrecht}, A., {Bernstein}, G., {Cahn}, R., {Freedman}, W.~L., {Hewitt}, J.,
+  {Hu}, W., {Huth}, J., {Kamionkowski}, M., {Kolb}, E.~W., {Knox}, L.,
+  {Mather}, J.~C., {Staggs}, S., and {Suntzeff}, N.~B. (2006).
+\newblock {Report of the Dark Energy Task Force}.
+\newblock {\em ArXiv Astrophysics e-prints}.
+
+\bibitem[{Asgari} et~al., 2016]{2016arXiv160100115A}
+{Asgari}, M., {Heymans}, C., {Blake}, C., {Harnois-Deraps}, J., {Schneider},
+  P., and {Van Waerbeke}, L. (2016).
+\newblock {Revisiting CFHTLenS cosmic shear: Optimal E/B mode decomposition
+  using COSEBIs and compressed COSEBIs}.
+\newblock {\em ArXiv e-prints}.
+
+\bibitem[{Asgari} et~al., 2012]{2012A&A...542A.122A}
+{Asgari}, M., {Schneider}, P., and {Simon}, P. (2012).
+\newblock {Cosmic shear tomography and efficient data compression using
+  COSEBIs}.
+\newblock {\em \aap}, 542:A122.
+
+\bibitem[{Bacon} et~al., 2006]{2006MNRAS.365..414B}
+{Bacon}, D.~J., {Goldberg}, D.~M., {Rowe}, B.~T.~P., and {Taylor}, A.~N.
+  (2006).
+\newblock {Weak gravitational flexion}.
+\newblock {\em \mnras}, 365:414--428.
+
+\bibitem[{Bah{\'e}} et~al., 2012]{2012MNRAS.421.1073B}
+{Bah{\'e}}, Y.~M., {McCarthy}, I.~G., and {King}, L.~J. (2012).
+\newblock {Mock weak lensing analysis of simulated galaxy clusters: bias and
+  scatter in mass and concentration}.
+\newblock {\em \mnras}, 421:1073--1088.
+
+\bibitem[{Banerji} et~al., 2008]{2008MNRAS.386.1219B}
+{Banerji}, M., {Abdalla}, F.~B., {Lahav}, O., and {Lin}, H. (2008).
+\newblock {Photometric redshifts for the Dark Energy Survey and VISTA and
+  implications for large-scale structure}.
+\newblock {\em \mnras}, 386:1219--1233.
+
+\bibitem[{Bartelmann} and {Schneider}, 2001]{2001PhR...340..291B}
+{Bartelmann}, M. and {Schneider}, P. (2001).
+\newblock {Weak gravitational lensing}.
+\newblock {\em \physrep}, 340:291--472.
+
+\bibitem[{Becker} et~al., 2015]{2015arXiv150705598B}
+{Becker}, M.~R., {Troxel}, M.~A., {MacCrann}, N., {Krause}, E., {Eifler},
+  T.~F., {Friedrich}, O., {Nicola}, A., {Refregier}, A., {Amara}, A., {Bacon},
+  D., {Bernstein}, G.~M., {Bonnett}, C., {Bridle}, S.~L., {Busha}, M.~T.,
+  {Chang}, C., {Dodelson}, S., {Erickson}, B., {Evrard}, A.~E., {Frieman}, J.,
+  {Gaztanaga}, E., {Gruen}, D., {Hartley}, W., {Jain}, B., {Jarvis}, M.,
+  {Kacprzak}, T., {Kirk}, D., {Kravtsov}, A., {Leistedt}, B., {Rykoff}, E.~S.,
+  {Sabiu}, C., {Sanchez}, C., {Seo}, H., {Sheldon}, E., {Wechsler}, R.~H.,
+  {Zuntz}, J., {Abbott}, T., {Abdalla}, F.~B., {Allam}, S., {Armstrong}, R.,
+  {Banerji}, M., {Bauer}, A.~H., {Benoit-Levy}, A., {Bertin}, E., {Brooks}, D.,
+  {Buckley-Geer}, E., {Burke}, D.~L., {Capozzi}, D., {Carnero Rosell}, A.,
+  {Carrasco Kind}, M., {Carretero}, J., {Castander}, F.~J., {Crocce}, M.,
+  {Cunha}, C.~E., {D'Andrea}, C.~B., {da Costa}, L.~N., {DePoy}, D.~L.,
+  {Desai}, S., {Diehl}, H.~T., {Dietrich}, J.~P., {Doel}, P., {Fausti Neto},
+  A., {Fernandez}, E., {Finley}, D.~A., {Flaugher}, B., {Fosalba}, P.,
+  {Gerdes}, D.~W., {Gruendl}, R.~A., {Gutierrez}, G., {Honscheid}, K., {James},
+  D.~J., {Kuehn}, K., {Kuropatkin}, N., {Lahav}, O., {Li}, T.~S., {Lima}, M.,
+  {Maia}, M.~A.~G., {March}, M., {Martini}, P., {Melchior}, P., {Miller},
+  C.~J., {Miquel}, R., {Mohr}, J.~J., {Nichol}, R.~C., {Nord}, B., {Ogando},
+  R., {Plazas}, A.~A., {Reil}, K., {Romer}, A.~K., {Roodman}, A., {Sako}, M.,
+  {Sanchez}, E., {Scarpine}, V., {Schubnell}, M., {Sevilla-Noarbe}, I.,
+  {Smith}, R.~C., {Soares-Santos}, M., {Sobreira}, F., {Suchyta}, E.,
+  {Swanson}, M.~E.~C., {Tarle}, G., {Thaler}, J., {Thomas}, D., {Vikram}, V.,
+  {Walker}, A.~R., and {The DES Collaboration} (2015).
+\newblock {Cosmic Shear Measurements with DES Science Verification Data}.
+\newblock {\em ArXiv e-prints}.
+
+\bibitem[{Ben{\'{\i}}tez} et~al., 2009]{2009ApJ...691..241B}
+{Ben{\'{\i}}tez}, N., {Gazta{\~n}aga}, E., {Miquel}, R., {Castander}, F.,
+  {Moles}, M., {Crocce}, M., {Fern{\'a}ndez-Soto}, A., {Fosalba}, P.,
+  {Ballesteros}, F., {Campa}, J., {Cardiel-Sas}, L., {Castilla}, J.,
+  {Crist{\'o}bal-Hornillos}, D., {Delfino}, M., {Fern{\'a}ndez}, E.,
+  {Fern{\'a}ndez-Sopuerta}, C., {Garc{\'{\i}}a-Bellido}, J., {Lobo}, J.~A.,
+  {Mart{\'{\i}}nez}, V.~J., {Ortiz}, A., {Pacheco}, A., {Paredes}, S.,
+  {Pons-Border{\'{\i}}a}, M.~J., {S{\'a}nchez}, E., {S{\'a}nchez}, S.~F.,
+  {Varela}, J., and {de Vicente}, J.~F. (2009).
+\newblock {Measuring Baryon Acoustic Oscillations Along the Line of Sight with
+  Photometric Redshifts: The PAU Survey}.
+\newblock {\em \apj}, 691:241--260.
+
+\bibitem[{Berlind} et~al., 2003]{2003ApJ...593....1B}
+{Berlind}, A.~A., {Weinberg}, D.~H., {Benson}, A.~J., {Baugh}, C.~M., {Cole},
+  S., {Dav{\'e}}, R., {Frenk}, C.~S., {Jenkins}, A., {Katz}, N., and {Lacey},
+  C.~G. (2003).
+\newblock {The Halo Occupation Distribution and the Physics of Galaxy
+  Formation}.
+\newblock {\em \apj}, 593:1--25.
+
+\bibitem[{Bernardeau}, 1998]{1998A&A...338..375B}
+{Bernardeau}, F. (1998).
+\newblock {The effects of source clustering on weak lensing statistics}.
+\newblock {\em \aap}, 338:375--382.
+
+\bibitem[{Bernstein} and {Jarvis}, 2002]{2002AJ....123..583B}
+{Bernstein}, G.~M. and {Jarvis}, M. (2002).
+\newblock {Shapes and Shears, Stars and Smears: Optimal Measurements for Weak
+  Lensing}.
+\newblock {\em \aj}, 123:583--618.
+
+\bibitem[{Blandford} and {Narayan}, 1986]{1986ApJ...310..568B}
+{Blandford}, R. and {Narayan}, R. (1986).
+\newblock {Fermat's principle, caustics, and the classification of
+  gravitational lens images}.
+\newblock {\em \apj}, 310:568--582.
+
+\bibitem[{Blanton} and {Moustakas}, 2009]{2009ARA&A..47..159B}
+{Blanton}, M.~R. and {Moustakas}, J. (2009).
+\newblock {Physical Properties and Environments of Nearby Galaxies}.
+\newblock {\em \araa}, 47:159--210.
+
+\bibitem[{Bond} et~al., 1998]{BJK}
+{Bond}, J.~R., {Jaffe}, A.~H., and {Knox}, L. (1998).
+\newblock {Estimating the power spectrum of the cosmic microwave background}.
+\newblock {\em \prd}, 57:2117--2137.
+
+\bibitem[{Brainerd}, 2004]{2004AIPC..743..129B}
+{Brainerd}, T.~G. (2004).
+\newblock {Constraints on Field Galaxy Halos from Weak Lensing and Satellite
+  Dynamics}.
+\newblock In {Allen}, R.~E., {Nanopoulos}, D.~V., and {Pope}, C.~N., editors,
+  {\em The New Cosmology: Conference on Strings and Cosmology}, volume 743 of
+  {\em American Institute of Physics Conference Series}, pages 129--156.
+
+\bibitem[{Bridle} et~al., 2010]{2010MNRAS.405.2044B}
+{Bridle}, S., {Balan}, S.~T., {Bethge}, M., {Gentile}, M., {Harmeling}, S.,
+  {Heymans}, C., {Hirsch}, M., {Hosseini}, R., {Jarvis}, M., {Kirk}, D.,
+  {Kitching}, T., {Kuijken}, K., {Lewis}, A., {Paulin-Henriksson}, S.,
+  {Sch{\"o}lkopf}, B., {Velander}, M., {Voigt}, L., {Witherick}, D., {Amara},
+  A., {Bernstein}, G., {Courbin}, F., {Gill}, M., {Heavens}, A., {Mandelbaum},
+  R., {Massey}, R., {Moghaddam}, B., {Rassat}, A., {R{\'e}fr{\'e}gier}, A.,
+  {Rhodes}, J., {Schrabback}, T., {Shawe-Taylor}, J., {Shmakova}, M., {van
+  Waerbeke}, L., and {Wittman}, D. (2010).
+\newblock {Results of the GREAT08 Challenge: an image analysis competition for
+  cosmological lensing}.
+\newblock {\em \mnras}, 405:2044--2061.
+
+\bibitem[{Bridle} et~al., 2009]{2009AnApS...3....6B}
+{Bridle}, S., {Shawe-Taylor}, J., {Amara}, A., {Applegate}, D., {Balan}, Berge,
+  J.~S.~T., {Bernstein}, G., {Dahle}, H., {Erben}, T., {Gill}, M., {Heavens},
+  A., {Heymans}, C., {High}, F.~W., {Hoekstra}, H., {Jarvis}, M., {Kirk}, D.,
+  {Kitching}, T., {Kneib}, J.-P., {Kuijken}, K., {Lagatutta}, D., {Mandelbaum},
+  R., {Massey}, R., {Mellier}, Y., {Moghaddam}, B., {Moudden}, Y., {Nakajima},
+  R., {Paulin-Henriksson}, S., {Pires}, S., {Rassat}, A., {Refregier}, A.,
+  {Rhodes}, J., {Schrabback}, T., {Semboloni}, E., {Shmakova}, M., {van
+  Waerbeke}, L., {Witherick}, D., {Voigt}, L., and {Wittman}, D. (2009).
+\newblock {Handbook for the GREAT08 Challenge: An image analysis competition
+  for cosmological lensing}.
+\newblock {\em Annals of Applied Statistics}, 3:6--37.
+
+\bibitem[{Brouwer} et~al., 2016]{2016arXiv160407233B}
+{Brouwer}, M.~M., {Cacciato}, M., {Dvornik}, A., {Eardley}, L., {Heymans}, C.,
+  {Hoekstra}, H., {Kuijken}, K., {McNaught-Roberts}, T., {Sif{\'o}n}, C.,
+  {Viola}, M., {Alpaslan}, M., {Bilicki}, M., {Bland-Hawthorn}, J., {Brough},
+  S., {Choi}, A., {Driver}, S.~P., {Erben}, T., {Grado}, A., {Hildebrandt}, H.,
+  {Holwerda}, B.~W., {Hopkins}, A.~M., {de Jong}, J.~T.~A., {Liske}, J.,
+  {McFarland}, J., {Nakajima}, R., {Napolitano}, N.~R., {Norberg}, P.,
+  {Peacock}, J.~A., {Radovich}, M., {Robotham}, A.~S.~G., {Schneider}, P.,
+  {Sikkema}, G., {van Uitert}, E., and {Verdoes Kleijn}, G. (2016).
+\newblock {Dependence of GAMA galaxy halo masses on the cosmic web environment
+  from 100 square degrees of KiDS weak lensing data}.
+\newblock {\em ArXiv e-prints}.
+
+\bibitem[{Capaccioli}, 1989]{1989woga.conf..208C}
+{Capaccioli}, M. (1989).
+\newblock {Photometry of early-type galaxies and the R exp 1/4 law}.
+\newblock In {Corwin}, Jr., H.~G. and {Bottinelli}, L., editors, {\em World of
+  Galaxies (Le Monde des Galaxies)}, pages 208--227.
+
+\bibitem[{Cardone} et~al., 2013]{2013MNRAS.430.2896C}
+{Cardone}, V.~F., {Camera}, S., {Mainini}, R., {Romano}, A., {Diaferio}, A.,
+  {Maoli}, R., and {Scaramella}, R. (2013).
+\newblock {Weak lensing peak count as a probe of f(R) theories}.
+\newblock {\em \mnras}, 430:2896--2909.
+
+\bibitem[{Casaponsa} et~al., 2013]{2013MNRAS.430.2844C}
+{Casaponsa}, B., {Heavens}, A.~F., {Kitching}, T.~D., {Miller}, L., {Barreiro},
+  R.~B., and {Mart{\'{\i}}nez-Gonz{\'a}lez}, E. (2013).
+\newblock {Size magnification as a complement to cosmic shear}.
+\newblock {\em \mnras}, 430:2844--2853.
+
+\bibitem[{Castro} et~al., 2005]{2005PhRvD..72b3516C}
+{Castro}, P.~G., {Heavens}, A.~F., and {Kitching}, T.~D. (2005).
+\newblock {Weak lensing analysis in three dimensions}.
+\newblock {\em \prd}, 72(2):023516.
+
+\bibitem[{Catelan} et~al., 2001]{2001MNRAS.320L...7C}
+{Catelan}, P., {Kamionkowski}, M., and {Blandford}, R.~D. (2001).
+\newblock {Intrinsic and extrinsic galaxy alignment}.
+\newblock {\em \mnras}, 320:L7--L13.
+
+\bibitem[{Chang} et~al., 2016]{2016MNRAS.459.3203C}
+{Chang}, C., {Pujol}, A., {Gazta{\~n}aga}, E., {Amara}, A.,
+  {R{\'e}fr{\'e}gier}, A., {Bacon}, D., {Becker}, M.~R., {Bonnett}, C.,
+  {Carretero}, J., {Castander}, F.~J., {Crocce}, M., {Fosalba}, P.,
+  {Giannantonio}, T., {Hartley}, W., {Jarvis}, M., {Kacprzak}, T., {Ross},
+  A.~J., {Sheldon}, E., {Troxel}, M.~A., {Vikram}, V., {Zuntz}, J., {Abbott},
+  T.~M.~C., {Abdalla}, F.~B., {Allam}, S., {Annis}, J., {Benoit-L{\'e}vy}, A.,
+  {Bertin}, E., {Brooks}, D., {Buckley-Geer}, E., {Burke}, D.~L., {Capozzi},
+  D., {Rosell}, A.~C., {Kind}, M.~C., {Cunha}, C.~E., {D'Andrea}, C.~B., {da
+  Costa}, L.~N., {Desai}, S., {Diehl}, H.~T., {Dietrich}, J.~P., {Doel}, P.,
+  {Eifler}, T.~F., {Estrada}, J., {Evrard}, A.~E., {Flaugher}, B., {Frieman},
+  J., {Goldstein}, D.~A., {Gruen}, D., {Gruendl}, R.~A., {Gutierrez}, G.,
+  {Honscheid}, K., {Jain}, B., {James}, D.~J., {Kuehn}, K., {Kuropatkin}, N.,
+  {Lahav}, O., {Li}, T.~S., {Lima}, M., {Marshall}, J.~L., {Martini}, P.,
+  {Melchior}, P., {Miller}, C.~J., {Miquel}, R., {Mohr}, J.~J., {Nichol},
+  R.~C., {Nord}, B., {Ogando}, R., {Plazas}, A.~A., {Reil}, K., {Romer}, A.~K.,
+  {Roodman}, A., {Rykoff}, E.~S., {Sanchez}, E., {Scarpine}, V., {Schubnell},
+  M., {Sevilla-Noarbe}, I., {Smith}, R.~C., {Soares-Santos}, M., {Sobreira},
+  F., {Suchyta}, E., {Swanson}, M.~E.~C., {Tarle}, G., {Thomas}, D., and
+  {Walker}, A.~R. (2016).
+\newblock {Galaxy bias from the Dark Energy Survey Science Verification data:
+  combining galaxy density maps and weak lensing maps}.
+\newblock {\em \mnras}, 459:3203--3216.
+
+\bibitem[{Clowe} et~al., 2006]{2006ApJ...648L.109C}
+{Clowe}, D., {Brada{\v c}}, M., {Gonzalez}, A.~H., {Markevitch}, M., {Randall},
+  S.~W., {Jones}, C., and {Zaritsky}, D. (2006).
+\newblock {A Direct Empirical Proof of the Existence of Dark Matter}.
+\newblock {\em \apjl}, 648:L109--L113.
+
+\bibitem[{Coles} and {Jones}, 1991]{1991MNRAS.248....1C}
+{Coles}, P. and {Jones}, B. (1991).
+\newblock {A lognormal model for the cosmological mass distribution}.
+\newblock {\em \mnras}, 248:1--13.
+
+\bibitem[{Courbin} et~al., 2002]{2002ApJ...575...95C}
+{Courbin}, F., {Meylan}, G., {Kneib}, J.-P., and {Lidman}, C. (2002).
+\newblock {Cosmic Alignment toward the Radio Einstein Ring PKS 1830-211?}
+\newblock {\em \apj}, 575:95--102.
+
+\bibitem[{Cowie} et~al., 1996]{CowieEtAl96}
+{Cowie}, L.~L., {Songaila}, A., {Hu}, E.~M., and {Cohen}, J.~G. (1996).
+\newblock {New Insight on Galaxy Formation and Evolution From Keck Spectroscopy
+  of the Hawaii Deep Fields}.
+\newblock {\em \aj}, 112:839.
+
+\bibitem[{Cropper} et~al., 2013]{2013MNRAS.431.3103C}
+{Cropper}, M., {Hoekstra}, H., {Kitching}, T., {Massey}, R., {Amiaux}, J.,
+  {Miller}, L., {Mellier}, Y., {Rhodes}, J., {Rowe}, B., {Pires}, S., {Saxton},
+  C., and {Scaramella}, R. (2013).
+\newblock {Defining a weak lensing experiment in space}.
+\newblock {\em \mnras}, 431:3103--3126.
+
+\bibitem[{Dahlen} et~al., 2013]{2013ApJ...775...93D}
+{Dahlen}, T., {Mobasher}, B., {Faber}, S.~M., {Ferguson}, H.~C., {Barro}, G.,
+  {Finkelstein}, S.~L., {Finlator}, K., {Fontana}, A., {Gruetzbauch}, R.,
+  {Johnson}, S., {Pforr}, J., {Salvato}, M., {Wiklind}, T., {Wuyts}, S.,
+  {Acquaviva}, V., {Dickinson}, M.~E., {Guo}, Y., {Huang}, J., {Huang}, K.-H.,
+  {Newman}, J.~A., {Bell}, E.~F., {Conselice}, C.~J., {Galametz}, A.,
+  {Gawiser}, E., {Giavalisco}, M., {Grogin}, N.~A., {Hathi}, N., {Kocevski},
+  D., {Koekemoer}, A.~M., {Koo}, D.~C., {Lee}, K.-S., {McGrath}, E.~J.,
+  {Papovich}, C., {Peth}, M., {Ryan}, R., {Somerville}, R., {Weiner}, B., and
+  {Wilson}, G. (2013).
+\newblock {A Critical Assessment of Photometric Redshift Methods: A CANDELS
+  Investigation}.
+\newblock {\em \apj}, 775:93.
+
+\bibitem[{de Vaucouleurs}, 1948]{1948AnAp...11..247D}
+{de Vaucouleurs}, G. (1948).
+\newblock {Recherches sur les Nebuleuses Extragalactiques}.
+\newblock {\em Annales d'Astrophysique}, 11:247.
+
+\bibitem[{Dickinson}, 2016]{2016arXiv160603606D}
+{Dickinson}, C. (2016).
+\newblock {CMB foregrounds - A brief review}.
+\newblock {\em ArXiv e-prints}.
+
+\bibitem[{Dossett} et~al., 2015]{2015PhRvD..92b3003D}
+{Dossett}, J.~N., {Ishak}, M., {Parkinson}, D., and {Davis}, T.~M. (2015).
+\newblock {Constraints and tensions in testing general relativity from Planck
+  and CFHTLenS data including intrinsic alignment systematics}.
+\newblock {\em \prd}, 92(2):023003.
+
+\bibitem[{Eisenstein} and {Hu}, 1999]{1999ApJ...511....5E}
+{Eisenstein}, D.~J. and {Hu}, W. (1999).
+\newblock {Power Spectra for Cold Dark Matter and Its Variants}.
+\newblock {\em \apj}, 511:5--15.
+
+\bibitem[{Erben} et~al., 2013]{2013MNRAS.433.2545E}
+{Erben}, T., {Hildebrandt}, H., {Miller}, L., {van Waerbeke}, L., {Heymans},
+  C., {Hoekstra}, H., {Kitching}, T.~D., {Mellier}, Y., {Benjamin}, J.,
+  {Blake}, C., {Bonnett}, C., {Cordes}, O., {Coupon}, J., {Fu}, L., {Gavazzi},
+  R., {Gillis}, B., {Grocutt}, E., {Gwyn}, S.~D.~J., {Holhjem}, K., {Hudson},
+  M.~J., {Kilbinger}, M., {Kuijken}, K., {Milkeraitis}, M., {Rowe}, B.~T.~P.,
+  {Schrabback}, T., {Semboloni}, E., {Simon}, P., {Smit}, M., {Toader}, O.,
+  {Vafaei}, S., {van Uitert}, E., and {Velander}, M. (2013).
+\newblock {CFHTLenS: the Canada-France-Hawaii Telescope Lensing Survey -
+  imaging data and catalogue products}.
+\newblock {\em \mnras}, 433:2545--2563.
+
+\bibitem[{Fedeli}, 2014]{2014JCAP...04..028F}
+{Fedeli}, C. (2014).
+\newblock {The clustering of baryonic matter. I: a halo-model approach}.
+\newblock {\em \jcap}, 4:028.
+
+\bibitem[{Ford} et~al., 2015]{2015MNRAS.447.1304F}
+{Ford}, J., {Van Waerbeke}, L., {Milkeraitis}, M., {Laigle}, C., {Hildebrandt},
+  H., {Erben}, T., {Heymans}, C., {Hoekstra}, H., {Kitching}, T., {Mellier},
+  Y., {Miller}, L., {Choi}, A., {Coupon}, J., {Fu}, L., {Hudson}, M.~J.,
+  {Kuijken}, K., {Robertson}, N., {Rowe}, B., {Schrabback}, T., and {Velander},
+  M. (2015).
+\newblock {CFHTLenS: a weak lensing shear analysis of the 3D-Matched-Filter
+  galaxy clusters}.
+\newblock {\em \mnras}, 447:1304--1318.
+
+\bibitem[{Gavazzi} et~al., 2008]{2008ApJ...677.1046G}
+{Gavazzi}, R., {Treu}, T., {Koopmans}, L.~V.~E., {Bolton}, A.~S., {Moustakas},
+  L.~A., {Burles}, S., and {Marshall}, P.~J. (2008).
+\newblock {The Sloan Lens ACS Survey. VI. Discovery and Analysis of a Double
+  Einstein Ring}.
+\newblock {\em \apj}, 677:1046--1059.
+
+\bibitem[{Giannoni} et~al., 1999]{1999math.ph...6023G}
+{Giannoni}, F., {Masiello}, A., and {Piccione}, P. (1999).
+\newblock {The Fermat Principle in General Relativity and Applications}.
+\newblock {\em ArXiv Mathematical Physics e-prints}.
+
+\bibitem[{Gillis} et~al., 2013]{2013MNRAS.431.1439G}
+{Gillis}, B.~R., {Hudson}, M.~J., {Erben}, T., {Heymans}, C., {Hildebrandt},
+  H., {Hoekstra}, H., {Kitching}, T.~D., {Mellier}, Y., {Miller}, L., {van
+  Waerbeke}, L., {Bonnett}, C., {Coupon}, J., {Fu}, L., {Hilbert}, S., {Rowe},
+  B.~T.~P., {Schrabback}, T., {Semboloni}, E., {van Uitert}, E., and
+  {Velander}, M. (2013).
+\newblock {CFHTLenS: the environmental dependence of galaxy halo masses from
+  weak lensing}.
+\newblock {\em \mnras}, 431:1439--1452.
+
+\bibitem[{Goldberg} and {Bacon}, 2005]{2005ApJ...619..741G}
+{Goldberg}, D.~M. and {Bacon}, D.~J. (2005).
+\newblock {Galaxy-Galaxy Flexion: Weak Lensing to Second Order}.
+\newblock {\em \apj}, 619:741--748.
+
+\bibitem[{Goldberg} and {Natarajan}, 2002]{2002ApJ...564...65G}
+{Goldberg}, D.~M. and {Natarajan}, P. (2002).
+\newblock {The Galaxy Octopole Moment as a Probe of Weak-Lensing Shear Fields}.
+\newblock {\em \apj}, 564:65--72.
+
+\bibitem[{Gruen} et~al., 2015]{2015JInst..10C5032G}
+{Gruen}, D., {Bernstein}, G.~M., {Jarvis}, M., {Rowe}, B., {Vikram}, V.,
+  {Plazas}, A.~A., and {Seitz}, S. (2015).
+\newblock {Characterization and correction of charge-induced pixel shifts in
+  DECam}.
+\newblock {\em Journal of Instrumentation}, 10:C05032.
+
+\bibitem[{Gunn} and {Gott}, 1972]{1972ApJ1761G}
+{Gunn}, J.~E. and {Gott}, III, J.~R. (1972).
+\newblock {On the Infall of Matter Into Clusters of Galaxies and Some Effects
+  on Their Evolution}.
+\newblock {\em \apj}, 176:1.
+
+\bibitem[{Heymans} et~al., 2005]{2005MNRAS.361..160H}
+{Heymans}, C., {Brown}, M.~L., {Barden}, M., {Caldwell}, J.~A.~R., {Jahnke},
+  K., {Peng}, C.~Y., {Rix}, H.-W., {Taylor}, A., {Beckwith}, S.~V.~W., {Bell},
+  E.~F., {Borch}, A., {H{\"a}u{\ss}ler}, B., {Jogee}, S., {McIntosh}, D.~H.,
+  {Meisenheimer}, K., {S{\'a}nchez}, S.~F., {Somerville}, R., {Wisotzki}, L.,
+  and {Wolf}, C. (2005).
+\newblock {Cosmological weak lensing with the HST GEMS survey}.
+\newblock {\em \mnras}, 361:160--176.
+
+\bibitem[{Heymans} and {Heavens}, 2003]{2003MNRAS.339..711H}
+{Heymans}, C. and {Heavens}, A. (2003).
+\newblock {Weak gravitational lensing: reducing the contamination by intrinsic
+  alignments}.
+\newblock {\em \mnras}, 339:711--720.
+
+\bibitem[{Heymans} et~al., 2012a]{2012MNRAS.421..381H}
+{Heymans}, C., {Rowe}, B., {Hoekstra}, H., {Miller}, L., {Erben}, T.,
+  {Kitching}, T., and {van Waerbeke}, L. (2012a).
+\newblock {The impact of high spatial frequency atmospheric distortions on
+  weak-lensing measurements}.
+\newblock {\em \mnras}, 421:381--389.
+
+\bibitem[{Heymans} et~al., 2006]{2006MNRAS.368.1323H}
+{Heymans}, C., {Van Waerbeke}, L., {Bacon}, D., {Berge}, J., {Bernstein}, G.,
+  {Bertin}, E., {Bridle}, S., {Brown}, M.~L., {Clowe}, D., {Dahle}, H.,
+  {Erben}, T., {Gray}, M., {Hetterscheidt}, M., {Hoekstra}, H., {Hudelot}, P.,
+  {Jarvis}, M., {Kuijken}, K., {Margoniner}, V., {Massey}, R., {Mellier}, Y.,
+  {Nakajima}, R., {Refregier}, A., {Rhodes}, J., {Schrabback}, T., and
+  {Wittman}, D. (2006).
+\newblock {The Shear Testing Programme - I. Weak lensing analysis of simulated
+  ground-based observations}.
+\newblock {\em \mnras}, 368:1323--1339.
+
+\bibitem[{Heymans} et~al., 2012b]{2012MNRAS.427..146H}
+{Heymans}, C., {Van Waerbeke}, L., {Miller}, L., {Erben}, T., {Hildebrandt},
+  H., {Hoekstra}, H., {Kitching}, T.~D., {Mellier}, Y., {Simon}, P., {Bonnett},
+  C., {Coupon}, J., {Fu}, L., {Harnois D{\'e}raps}, J., {Hudson}, M.~J.,
+  {Kilbinger}, M., {Kuijken}, K., {Rowe}, B., {Schrabback}, T., {Semboloni},
+  E., {van Uitert}, E., {Vafaei}, S., and {Velander}, M. (2012b).
+\newblock {CFHTLenS: the Canada-France-Hawaii Telescope Lensing Survey}.
+\newblock {\em \mnras}, 427:146--166.
+
+\bibitem[{Hikage} et~al., 2011]{2011MNRAS.412...65H}
+{Hikage}, C., {Takada}, M., {Hamana}, T., and {Spergel}, D. (2011).
+\newblock {Shear power spectrum reconstruction using the pseudo-spectrum
+  method}.
+\newblock {\em \mnras}, 412:65--74.
+
+\bibitem[{Hilbert} et~al., 2009]{2009A&A...499...31H}
+{Hilbert}, S., {Hartlap}, J., {White}, S.~D.~M., and {Schneider}, P. (2009).
+\newblock {Ray-tracing through the Millennium Simulation: Born corrections and
+  lens-lens coupling in cosmic shear and galaxy-galaxy lensing}.
+\newblock {\em \aap}, 499:31--43.
+
+\bibitem[{Hilbert} et~al., 2016]{2016arXiv160603216H}
+{Hilbert}, S., {Xu}, D., {Schneider}, P., {Springel}, V., {Vogelsberger}, M.,
+  and {Hernquist}, L. (2016).
+\newblock {Intrinsic Alignments in the Illustris Simulation}.
+\newblock {\em ArXiv e-prints}.
+
+\bibitem[{Hildebrandt} et~al., 2010]{2010A&A...523A..31H}
+{Hildebrandt}, H., {Arnouts}, S., {Capak}, P., {Moustakas}, L.~A., {Wolf}, C.,
+  {Abdalla}, F.~B., {Assef}, R.~J., {Banerji}, M., {Ben{\'{\i}}tez}, N.,
+  {Brammer}, G.~B., {Budav{\'a}ri}, T., {Carliles}, S., {Coe}, D., {Dahlen},
+  T., {Feldmann}, R., {Gerdes}, D., {Gillis}, B., {Ilbert}, O., {Kotulla}, R.,
+  {Lahav}, O., {Li}, I.~H., {Miralles}, J.-M., {Purger}, N., {Schmidt}, S., and
+  {Singal}, J. (2010).
+\newblock {PHAT: PHoto-z Accuracy Testing}.
+\newblock {\em \aap}, 523:A31.
+
+\bibitem[{Hildebrandt} et~al., 2016]{2016arXiv160605338H}
+{Hildebrandt}, H., {Viola}, M., {Heymans}, C., {Joudaki}, S., {Kuijken}, K.,
+  {Blake}, C., {Erben}, T., {Joachimi}, B., {Klaes}, D., {Miller}, L.,
+  {Morrison}, C.~B., {Nakajima}, R., {Verdoes Kleijn}, G., {Amon}, A., {Choi},
+  A., {Covone}, G., {de Jong}, J.~T.~A., {Dvornik}, A., {Fenech Conti}, I.,
+  {Grado}, A., {Harnois-D{\'e}raps}, J., {Herbonnet}, R., {Hoekstra}, H.,
+  {K{\"o}hlinger}, F., {McFarland}, J., {Mead}, A., {Merten}, J., {Napolitano},
+  N., {Peacock}, J.~A., {Radovich}, M., {Schneider}, P., {Simon}, P.,
+  {Valentijn}, E.~A., {van den Busch}, J.~L., {van Uitert}, E., and {Van
+  Waerbeke}, L. (2016).
+\newblock {KiDS-450: Cosmological parameter constraints from tomographic weak
+  gravitational lensing}.
+\newblock {\em ArXiv e-prints}.
+
+\bibitem[{Hirata} et~al., 2004]{2004MNRAS.353..529H}
+{Hirata}, C.~M., {Mandelbaum}, R., {Seljak}, U., {Guzik}, J., {Padmanabhan},
+  N., {Blake}, C., {Brinkmann}, J., {Bud{\'a}vari}, T., {Connolly}, A.,
+  {Csabai}, I., {Scranton}, R., and {Szalay}, A.~S. (2004).
+\newblock {Galaxy-galaxy weak lensing in the Sloan Digital Sky Survey:
+  intrinsic alignments and shear calibration errors}.
+\newblock {\em \mnras}, 353:529--549.
+
+\bibitem[{Hirata} and {Seljak}, 2004]{2004PhRvD..70f3526H}
+{Hirata}, C.~M. and {Seljak}, U. (2004).
+\newblock {Intrinsic alignment-lensing interference as a contaminant of cosmic
+  shear}.
+\newblock {\em \prd}, 70(6):063526.
+
+\bibitem[{Hirata} and {Seljak}, 2010]{2010PhRvD..82d9901H}
+{Hirata}, C.~M. and {Seljak}, U. (2010).
+\newblock {Erratum: Intrinsic alignment-lensing interference as a contaminant
+  of cosmic shear [Phys. Rev. D 70, 063526 (2004)]}.
+\newblock {\em \prd}, 82(4):049901.
+
+\bibitem[{Hivon} et~al., 2002]{MASTER}
+{Hivon}, E., {G{\'o}rski}, K.~M., {Netterfield}, C.~B., {Crill}, B.~P.,
+  {Prunet}, S., and {Hansen}, F. (2002).
+\newblock {MASTER of the Cosmic Microwave Background Anisotropy Power Spectrum:
+  A Fast Method for Statistical Analysis of Large and Complex Cosmic Microwave
+  Background Data Sets}.
+\newblock {\em \apj}, 567:2--17.
+
+\bibitem[{Hoekstra} et~al., 1998]{1998NewAR..42..137H}
+{Hoekstra}, H., {Franx}, M., {Kuijken}, K., and {Squires}, G. (1998).
+\newblock {Weak lensing analysis of CL 1358+62}.
+\newblock {\em \nar}, 42:137--140.
+
+\bibitem[{Hoshino} et~al., 2015]{2015MNRAS.452..998H}
+{Hoshino}, H., {Leauthaud}, A., {Lackner}, C., {Hikage}, C., {Rozo}, E.,
+  {Rykoff}, E., {Mandelbaum}, R., {More}, S., {More}, A., {Saito}, S., and
+  {Vulcani}, B. (2015).
+\newblock {Luminous red galaxies in clusters: central occupation, spatial
+  distributions and miscentring}.
+\newblock {\em \mnras}, 452:998--1013.
+
+\bibitem[{Israel} et~al., 2015a]{2015arXiv151205591I}
+{Israel}, H., {Kitching}, T.~D., and {Massey}, R. (2015a).
+\newblock {Problems using ratios of galaxy shape moments on requirements for
+  weak lensing surveys}.
+\newblock {\em ArXiv e-prints}.
+
+\bibitem[{Israel} et~al., 2015b]{2015MNRAS.453..561I}
+{Israel}, H., {Massey}, R., {Prod'homme}, T., {Cropper}, M., {Cordes}, O.,
+  {Gow}, J., {Kohley}, R., {Marggraf}, O., {Niemi}, S., {Rhodes}, J., {Short},
+  A., and {Verhoeve}, P. (2015b).
+\newblock {How well can charge transfer inefficiency be corrected? A parameter
+  sensitivity study for iterative correction}.
+\newblock {\em \mnras}, 453:561--580.
+
+\bibitem[{Jain} et~al., 2000]{2000ApJ...530..547J}
+{Jain}, B., {Seljak}, U., and {White}, S. (2000).
+\newblock {Ray-tracing Simulations of Weak Lensing by Large-Scale Structure}.
+\newblock {\em \apj}, 530:547--577.
+
+\bibitem[{Jee} and {Tyson}, 2011]{2011PASP..123..596J}
+{Jee}, M.~J. and {Tyson}, J.~A. (2011).
+\newblock {Toward Precision LSST Weak-Lensing Measurement. I. Impacts of
+  Atmospheric Turbulence and Optical Aberration}.
+\newblock {\em \pasp}, 123:596--614.
+
+\bibitem[{Joachimi} and {Bridle}, 2010]{2010A&A...523A...1J}
+{Joachimi}, B. and {Bridle}, S.~L. (2010).
+\newblock {Simultaneous measurement of cosmology and intrinsic alignments using
+  joint cosmic shear and galaxy number density correlations}.
+\newblock {\em \aap}, 523:A1.
+
+\bibitem[{Joachimi} and {Schneider}, 2009]{2009A&A...507..105J}
+{Joachimi}, B. and {Schneider}, P. (2009).
+\newblock {The removal of shear-ellipticity correlations from the cosmic shear
+  signal. Influence of photometric redshift errors on the nulling technique}.
+\newblock {\em \aap}, 507:105--129.
+
+\bibitem[{Joachimi} et~al., 2008]{2008A&A...477...43J}
+{Joachimi}, B., {Schneider}, P., and {Eifler}, T. (2008).
+\newblock {Analysis of two-point statistics of cosmic shear. III. Covariances
+  of shear measures made easy}.
+\newblock {\em \aap}, 477:43--54.
+
+\bibitem[{Joachimi} and {Taylor}, 2014]{2014IAUS..306...99J}
+{Joachimi}, B. and {Taylor}, A. (2014).
+\newblock {Errors on errors - Estimating cosmological parameter covariance}.
+\newblock In {Heavens}, A., {Starck}, J.-L., and {Krone-Martins}, A., editors,
+  {\em Statistical Challenges in 21st Century Cosmology}, volume 306 of {\em
+  IAU Symposium}, pages 99--103.
+
+\bibitem[{Jullo} et~al., 2012]{2012ApJ...750...37J}
+{Jullo}, E., {Rhodes}, J., {Kiessling}, A., {Taylor}, J.~E., {Massey}, R.,
+  {Berge}, J., {Schimd}, C., {Kneib}, J.-P., and {Scoville}, N. (2012).
+\newblock {COSMOS: Stochastic Bias from Measurements of Weak Lensing and Galaxy
+  Clustering}.
+\newblock {\em \apj}, 750:37.
+
+\bibitem[{Kaiser}, 1992]{1992ApJ...388..272K}
+{Kaiser}, N. (1992).
+\newblock {Weak gravitational lensing of distant galaxies}.
+\newblock {\em \apj}, 388:272--286.
+
+\bibitem[{Kaiser}, 2000]{2000ApJ...537..555K}
+{Kaiser}, N. (2000).
+\newblock {A New Shear Estimator for Weak-Lensing Observations}.
+\newblock {\em \apj}, 537:555--577.
+
+\bibitem[{Kaiser}, 2011]{2011ascl.soft08001K}
+{Kaiser}, N. (2011).
+\newblock {IMCAT: Image and Catalogue Manipulation Software}.
+\newblock Astrophysics Source Code Library.
+
+\bibitem[{Kaiser} and {Squires}, 1993]{1993ApJ...404..441K}
+{Kaiser}, N. and {Squires}, G. (1993).
+\newblock {Mapping the dark matter with weak gravitational lensing}.
+\newblock {\em \apj}, 404:441--450.
+
+\bibitem[{Kaiser} et~al., 1995]{1995ApJ...449..460K}
+{Kaiser}, N., {Squires}, G., and {Broadhurst}, T. (1995).
+\newblock {A Method for Weak Lensing Observations}.
+\newblock {\em \apj}, 449:460.
+
+\bibitem[{Kannawadi} et~al., 2016]{2016PASP..128i5001K}
+{Kannawadi}, A., {Shapiro}, C.~A., {Mandelbaum}, R., {Hirata}, C.~M., {Kruk},
+  J.~W., and {Rhodes}, J.~D. (2016).
+\newblock {The Impact of Interpixel Capacitance in CMOS Detectors on PSF Shapes
+  and Implications for WFIRST}.
+\newblock {\em \pasp}, 128(9):095001.
+
+\bibitem[{Kayo} et~al., 2001]{2001ApJ...561...22K}
+{Kayo}, I., {Taruya}, A., and {Suto}, Y. (2001).
+\newblock {Probability Distribution Function of Cosmological Density
+  Fluctuations from a Gaussian Initial Condition: Comparison of One-Point and
+  Two-Point Lognormal Model Predictions with N-Body Simulations}.
+\newblock {\em \apj}, 561:22--34.
+
+\bibitem[{Kettula} et~al., 2015]{2015MNRAS.451.1460K}
+{Kettula}, K., {Giodini}, S., {van Uitert}, E., {Hoekstra}, H., {Finoguenov},
+  A., {Lerchster}, M., {Erben}, T., {Heymans}, C., {Hildebrandt}, H.,
+  {Kitching}, T.~D., {Mahdavi}, A., {Mellier}, Y., {Miller}, L., {Mirkazemi},
+  M., {Van Waerbeke}, L., {Coupon}, J., {Egami}, E., {Fu}, L., {Hudson}, M.~J.,
+  {Kneib}, J.~P., {Kuijken}, K., {McCracken}, H.~J., {Pereira}, M.~J., {Rowe},
+  B., {Schrabback}, T., {Tanaka}, M., and {Velander}, M. (2015).
+\newblock {CFHTLenS: weak lensing calibrated scaling relations for low-mass
+  clusters of galaxies}.
+\newblock {\em \mnras}, 451:1460--1481.
+
+\bibitem[{Kiessling} et~al., 2011a]{2011MNRAS.414.2235K}
+{Kiessling}, A., {Heavens}, A.~F., {Taylor}, A.~N., and {Joachimi}, B. (2011a).
+\newblock {SUNGLASS: a new weak-lensing simulation pipeline}.
+\newblock {\em \mnras}, 414:2235--2245.
+
+\bibitem[{Kiessling} et~al., 2011b]{2011MNRAS.416.1045K}
+{Kiessling}, A., {Taylor}, A.~N., and {Heavens}, A.~F. (2011b).
+\newblock {Simulating the effect of non-linear mode coupling in cosmological
+  parameter estimation}.
+\newblock {\em \mnras}, 416:1045--1055.
+
+\bibitem[{Kilbinger}, 2015]{2015RPPh...78h6901K}
+{Kilbinger}, M. (2015).
+\newblock {Cosmology with cosmic shear observations: a review}.
+\newblock {\em Reports on Progress in Physics}, 78(8):086901.
+
+\bibitem[{Kilbinger} et~al., 2013]{2013MNRAS.430.2200K}
+{Kilbinger}, M., {Fu}, L., {Heymans}, C., {Simpson}, F., {Benjamin}, J.,
+  {Erben}, T., {Harnois-D{\'e}raps}, J., {Hoekstra}, H., {Hildebrandt}, H.,
+  {Kitching}, T.~D., {Mellier}, Y., {Miller}, L., {Van Waerbeke}, L.,
+  {Benabed}, K., {Bonnett}, C., {Coupon}, J., {Hudson}, M.~J., {Kuijken}, K.,
+  {Rowe}, B., {Schrabback}, T., {Semboloni}, E., {Vafaei}, S., and {Velander},
+  M. (2013).
+\newblock {CFHTLenS: combined probe cosmological model comparison using 2D weak
+  gravitational lensing}.
+\newblock {\em \mnras}, 430:2200--2220.
+
+\bibitem[{King} and {Schneider}, 2002]{2002A&A...396..411K}
+{King}, L. and {Schneider}, P. (2002).
+\newblock {Suppressing the contribution of intrinsic galaxy alignments to the
+  shear two-point correlation function}.
+\newblock {\em \aap}, 396:411--418.
+
+\bibitem[{King}, 2005]{2005A&A...441...47K}
+{King}, L.~J. (2005).
+\newblock {Cosmic shear as a tool for precision cosmology: minimising intrinsic
+  galaxy alignment-lensing interference}.
+\newblock {\em \aap}, 441:47--53.
+
+\bibitem[{King} and {Schneider}, 2003]{2003A&A...398...23K}
+{King}, L.~J. and {Schneider}, P. (2003).
+\newblock {Separating cosmic shear from intrinsic galaxy alignments:
+  Correlation function tomography}.
+\newblock {\em \aap}, 398:23--30.
+
+\bibitem[{Kitching} et~al., 2010]{2010arXiv1009.0779K}
+{Kitching}, T., {Balan}, S., {Bernstein}, G., {Bethge}, M., {Bridle}, S.,
+  {Courbin}, F., {Gentile}, M., {Heavens}, A., {Hirsch}, M., {Hosseini}, R.,
+  {Kiessling}, A., {Amara}, A., {Kirk}, D., {Kuijken}, K., {Mandelbaum}, R.,
+  {Moghaddam}, B., {Nurbaeva}, G., {Paulin-Henriksson}, S., {Rassat}, A.,
+  {Rhodes}, J., {Sch{\"o}lkopf}, B., {Shawe-Taylor}, J., {Gill}, M.,
+  {Shmakova}, M., {Taylor}, A., {Velander}, M., {van Waerbeke}, L.,
+  {Witherick}, D., {Wittman}, D., {Harmeling}, S., {Heymans}, C., {Massey}, R.,
+  {Rowe}, B., {Schrabback}, T., and {Voigt}, L. (2010).
+\newblock {Gravitational Lensing Accuracy Testing 2010 (GREAT10) Challenge
+  Handbook}.
+\newblock {\em ArXiv e-prints}.
+
+\bibitem[{Kitching} et~al., 2012]{2012MNRAS.423.3163K}
+{Kitching}, T.~D., {Balan}, S.~T., {Bridle}, S., {Cantale}, N., {Courbin}, F.,
+  {Eifler}, T., {Gentile}, M., {Gill}, M.~S.~S., {Harmeling}, S., {Heymans},
+  C., {Hirsch}, M., {Honscheid}, K., {Kacprzak}, T., {Kirkby}, D., {Margala},
+  D., {Massey}, R.~J., {Melchior}, P., {Nurbaeva}, G., {Patton}, K., {Rhodes},
+  J., {Rowe}, B.~T.~P., {Taylor}, A.~N., {Tewes}, M., {Viola}, M., {Witherick},
+  D., {Voigt}, L., {Young}, J., and {Zuntz}, J. (2012).
+\newblock {Image analysis for cosmology: results from the GREAT10 Galaxy
+  Challenge}.
+\newblock {\em \mnras}, 423:3163--3208.
+
+\bibitem[{Kitching} et~al., 2014]{2014MNRAS.442.1326K}
+{Kitching}, T.~D., {Heavens}, A.~F., {Alsing}, J., {Erben}, T., {Heymans}, C.,
+  {Hildebrandt}, H., {Hoekstra}, H., {Jaffe}, A., {Kiessling}, A., {Mellier},
+  Y., {Miller}, L., {van Waerbeke}, L., {Benjamin}, J., {Coupon}, J., {Fu}, L.,
+  {Hudson}, M.~J., {Kilbinger}, M., {Kuijken}, K., {Rowe}, B.~T.~P.,
+  {Schrabback}, T., {Semboloni}, E., and {Velander}, M. (2014).
+\newblock {3D cosmic shear: cosmology from CFHTLenS}.
+\newblock {\em \mnras}, 442:1326--1349.
+
+\bibitem[{Kitching} et~al., 2008]{2008MNRAS.390..149K}
+{Kitching}, T.~D., {Miller}, L., {Heymans}, C.~E., {van Waerbeke}, L., and
+  {Heavens}, A.~F. (2008).
+\newblock {Bayesian galaxy shape measurement for weak lensing surveys - II.
+  Application to simulations}.
+\newblock {\em \mnras}, 390:149--167.
+
+\bibitem[{Kitching} et~al., 2013]{2013ApJS..205...12K}
+{Kitching}, T.~D., {Rowe}, B., {Gill}, M., {Heymans}, C., {Massey}, R.,
+  {Witherick}, D., {Courbin}, F., {Georgatzis}, K., {Gentile}, M., {Gruen}, D.,
+  {Kilbinger}, M., {Li}, G.~L., {Mariglis}, A.~P., {Meylan}, G., {Storkey}, A.,
+  and {Xin}, B. (2013).
+\newblock {Image Analysis for Cosmology: Results from the GREAT10 Star
+  Challenge}.
+\newblock {\em \apjs}, 205:12.
+
+\bibitem[{Kitching} et~al., 2016]{2016MNRAS.459..971K}
+{Kitching}, T.~D., {Verde}, L., {Heavens}, A.~F., and {Jimenez}, R. (2016).
+\newblock {Discrepancies between CFHTLenS cosmic shear and Planck: new physics
+  or systematic effects?}
+\newblock {\em \mnras}, 459:971--981.
+
+\bibitem[{Klypin}, 2000]{2000astro.ph..5502K}
+{Klypin}, A. (2000).
+\newblock {Numerical Simulations in Cosmology I: Methods}.
+\newblock {\em ArXiv Astrophysics e-prints}.
+
+\bibitem[{Kratochvil} et~al., 2010]{2010PhRvD..81d3519K}
+{Kratochvil}, J.~M., {Haiman}, Z., and {May}, M. (2010).
+\newblock {Probing cosmology with weak lensing peak counts}.
+\newblock {\em \prd}, 81(4):043519.
+
+\bibitem[{Krause} and {Hirata}, 2010]{2010A&A...523A..28K}
+{Krause}, E. and {Hirata}, C.~M. (2010).
+\newblock {Weak lensing power spectra for precision cosmology.
+  Multiple-deflection, reduced shear, and lensing bias corrections}.
+\newblock {\em \aap}, 523:A28.
+
+\bibitem[{Lahav} and {Liddle}, 2014]{2014arXiv1401.1389L}
+{Lahav}, O. and {Liddle}, A.~R. (2014).
+\newblock {The Cosmological Parameters 2014}.
+\newblock {\em ArXiv e-prints}.
+
+\bibitem[{Langston} et~al., 1989]{1989AJ.....97.1283L}
+{Langston}, G.~I., {Schneider}, D.~P., {Conner}, S., {Carilli}, C.~L., {Lehar},
+  J., {Burke}, B.~F., {Turner}, E.~L., {Gunn}, J.~E., {Hewitt}, J.~N., and
+  {Schmidt}, M. (1989).
+\newblock {MG 1654+1346 - an Einstein Ring image of a quasar radio lobe}.
+\newblock {\em \aj}, 97:1283--1290.
+
+\bibitem[{Laureijs} et~al., 2011]{2011arXiv1110.3193L}
+{Laureijs}, R., {Amiaux}, J., {Arduini}, S., {Augu{\`e}res}, J.~.,
+  {Brinchmann}, J., {Cole}, R., {Cropper}, M., {Dabin}, C., {Duvet}, L.,
+  {Ealet}, A., and et~al. (2011).
+\newblock {Euclid Definition Study Report}.
+\newblock {\em ArXiv e-prints}.
+
+\bibitem[{Leistedt} et~al., 2016]{2016arXiv160501414L}
+{Leistedt}, B., {McEwen}, J.~D., {B{\"u}ttner}, M., and {Peiris}, H.~V. (2016).
+\newblock {Wavelet reconstruction of E and B modes for CMB polarisation and
+  cosmic shear analyses}.
+\newblock {\em ArXiv e-prints}.
+
+\bibitem[{Lenzen} et~al., 2004]{2004A&A...416..391L}
+{Lenzen}, F., {Schindler}, S., and {Scherzer}, O. (2004).
+\newblock {Automatic detection of arcs and arclets formed by gravitational
+  lensing}.
+\newblock {\em \aap}, 416:391--401.
+
+\bibitem[{Limber}, 1953]{1953ApJ...117..134L}
+{Limber}, D.~N. (1953).
+\newblock {The Analysis of Counts of the Extragalactic Nebulae in Terms of a
+  Fluctuating Density Field.}
+\newblock {\em \apj}, 117:134.
+
+\bibitem[{Lin} and {Kilbinger}, 2015]{2015A&A...576A..24L}
+{Lin}, C.-A. and {Kilbinger}, M. (2015).
+\newblock {A new model to predict weak-lensing peak counts. I. Comparison with
+  N-body simulations}.
+\newblock {\em \aap}, 576:A24.
+
+\bibitem[{Loverde} and {Afshordi}, 2008]{2008PhRvD..78l3506L}
+{Loverde}, M. and {Afshordi}, N. (2008).
+\newblock {Extended Limber approximation}.
+\newblock {\em \prd}, 78(12):123506.
+
+\bibitem[{Luppino} and {Kaiser}, 1997]{1997ApJ...475...20L}
+{Luppino}, G.~A. and {Kaiser}, N. (1997).
+\newblock {Detection of Weak Lensing by a Cluster of Galaxies at z = 0.83}.
+\newblock {\em \apj}, 475:20--28.
+
+\bibitem[{MacCrann} et~al., 2015]{2015MNRAS.451.2877M}
+{MacCrann}, N., {Zuntz}, J., {Bridle}, S., {Jain}, B., and {Becker}, M.~R.
+  (2015).
+\newblock {Cosmic discordance: are Planck CMB and CFHTLenS weak lensing
+  measurements out of tune?}
+\newblock {\em \mnras}, 451:2877--2888.
+
+\bibitem[{Mandelbaum} et~al., 2015]{2015MNRAS.450.2963M}
+{Mandelbaum}, R., {Rowe}, B., {Armstrong}, R., {Bard}, D., {Bertin}, E.,
+  {Bosch}, J., {Boutigny}, D., {Courbin}, F., {Dawson}, W.~A., {Donnarumma},
+  A., {Fenech Conti}, I., {Gavazzi}, R., {Gentile}, M., {Gill}, M.~S.~S.,
+  {Hogg}, D.~W., {Huff}, E.~M., {Jee}, M.~J., {Kacprzak}, T., {Kilbinger}, M.,
+  {Kuntzer}, T., {Lang}, D., {Luo}, W., {March}, M.~C., {Marshall}, P.~J.,
+  {Meyers}, J.~E., {Miller}, L., {Miyatake}, H., {Nakajima}, R., {Ngol{\'e}
+  Mboula}, F.~M., {Nurbaeva}, G., {Okura}, Y., {Paulin-Henriksson}, S.,
+  {Rhodes}, J., {Schneider}, M.~D., {Shan}, H., {Sheldon}, E.~S., {Simet}, M.,
+  {Starck}, J.-L., {Sureau}, F., {Tewes}, M., {Zarb Adami}, K., {Zhang}, J.,
+  and {Zuntz}, J. (2015).
+\newblock {GREAT3 results - I. Systematic errors in shear estimation and the
+  impact of real galaxy morphology}.
+\newblock {\em \mnras}, 450:2963--3007.
+
+\bibitem[{Mandelbaum} et~al., 2014]{2014ApJS..212....5M}
+{Mandelbaum}, R., {Rowe}, B., {Bosch}, J., {Chang}, C., {Courbin}, F., {Gill},
+  M., {Jarvis}, M., {Kannawadi}, A., {Kacprzak}, T., {Lackner}, C.,
+  {Leauthaud}, A., {Miyatake}, H., {Nakajima}, R., {Rhodes}, J., {Simet}, M.,
+  {Zuntz}, J., {Armstrong}, B., {Bridle}, S., {Coupon}, J., {Dietrich}, J.~P.,
+  {Gentile}, M., {Heymans}, C., {Jurling}, A.~S., {Kent}, S.~M., {Kirkby}, D.,
+  {Margala}, D., {Massey}, R., {Melchior}, P., {Peterson}, J., {Roodman}, A.,
+  and {Schrabback}, T. (2014).
+\newblock {The Third Gravitational Lensing Accuracy Testing (GREAT3) Challenge
+  Handbook}.
+\newblock {\em \apjs}, 212:5.
+
+\bibitem[{Mandelbaum} et~al., 2006]{2006MNRAS.368..715M}
+{Mandelbaum}, R., {Seljak}, U., {Kauffmann}, G., {Hirata}, C.~M., and
+  {Brinkmann}, J. (2006).
+\newblock {Galaxy halo masses and satellite fractions from galaxy-galaxy
+  lensing in the Sloan Digital Sky Survey: stellar mass, luminosity, morphology
+  and environment dependencies}.
+\newblock {\em \mnras}, 368:715--731.
+
+\bibitem[{Marian} et~al., 2010]{2010ApJ...709..286M}
+{Marian}, L., {Smith}, R.~E., and {Bernstein}, G.~M. (2010).
+\newblock {The Impact of Correlated Projections on Weak Lensing Cluster
+  Counts}.
+\newblock {\em \apj}, 709:286--300.
+
+\bibitem[{Marozzi} et~al., 2016]{2016arXiv160508761M}
+{Marozzi}, G., {Fanizza}, G., {Di Dio}, E., and {Durrer}, R. (2016).
+\newblock {CMB-lensing beyond the Born approximation}.
+\newblock {\em ArXiv e-prints}.
+
+\bibitem[Marsaglia, 1965]{Marsaglia:1965:RNV}
+Marsaglia, G. (1965).
+\newblock Ratios of normal variables and ratios of sums of uniform variables.
+\newblock 60(309):193--204.
+
+\bibitem[{Massey}, 2010]{2010MNRAS.409L.109M}
+{Massey}, R. (2010).
+\newblock {Charge transfer inefficiency in the Hubble Space Telescope since
+  Servicing Mission 4}.
+\newblock {\em \mnras}, 409:L109--L113.
+
+\bibitem[{Massey} et~al., 2007]{2007MNRAS.376...13M}
+{Massey}, R., {Heymans}, C., {Berg{\'e}}, J., {Bernstein}, G., {Bridle}, S.,
+  {Clowe}, D., {Dahle}, H., {Ellis}, R., {Erben}, T., {Hetterscheidt}, M.,
+  {High}, F.~W., {Hirata}, C., {Hoekstra}, H., {Hudelot}, P., {Jarvis}, M.,
+  {Johnston}, D., {Kuijken}, K., {Margoniner}, V., {Mandelbaum}, R., {Mellier},
+  Y., {Nakajima}, R., {Paulin-Henriksson}, S., {Peeples}, M., {Roat}, C.,
+  {Refregier}, A., {Rhodes}, J., {Schrabback}, T., {Schirmer}, M., {Seljak},
+  U., {Semboloni}, E., and {van Waerbeke}, L. (2007).
+\newblock {The Shear Testing Programme 2: Factors affecting high-precision
+  weak-lensing analyses}.
+\newblock {\em \mnras}, 376:13--38.
+
+\bibitem[{Massey} et~al., 2013]{2013MNRAS.429..661M}
+{Massey}, R., {Hoekstra}, H., {Kitching}, T., {Rhodes}, J., {Cropper}, M.,
+  {Amiaux}, J., {Harvey}, D., {Mellier}, Y., {Meneghetti}, M., {Miller}, L.,
+  {Paulin-Henriksson}, S., {Pires}, S., {Scaramella}, R., and {Schrabback}, T.
+  (2013).
+\newblock {Origins of weak lensing systematics, and requirements on future
+  instrumentation (or knowledge of instrumentation)}.
+\newblock {\em \mnras}, 429:661--678.
+
+\bibitem[{Massey} et~al., 2014]{2014MNRAS.439..887M}
+{Massey}, R., {Schrabback}, T., {Cordes}, O., {Marggraf}, O., {Israel}, H.,
+  {Miller}, L., {Hall}, D., {Cropper}, M., {Prod'homme}, T., and {Niemi}, S.-M.
+  (2014).
+\newblock {An improved model of charge transfer inefficiency and correction
+  algorithm for the Hubble Space Telescope}.
+\newblock {\em \mnras}, 439:887--907.
+
+\bibitem[{Massey} et~al., 2010]{2010MNRAS.401..371M}
+{Massey}, R., {Stoughton}, C., {Leauthaud}, A., {Rhodes}, J., {Koekemoer}, A.,
+  {Ellis}, R., and {Shaghoulian}, E. (2010).
+\newblock {Pixel-based correction for Charge Transfer Inefficiency in the
+  Hubble Space Telescope Advanced Camera for Surveys}.
+\newblock {\em \mnras}, 401:371--384.
+
+\bibitem[{Mead} et~al., 2015]{2015MNRAS.454.1958M}
+{Mead}, A.~J., {Peacock}, J.~A., {Heymans}, C., {Joudaki}, S., and {Heavens},
+  A.~F. (2015).
+\newblock {An accurate halo model for fitting non-linear cosmological power
+  spectra and baryonic feedback models}.
+\newblock {\em \mnras}, 454:1958--1975.
+
+\bibitem[{Melchior} and {Viola}, 2012]{2012MNRAS.424.2757M}
+{Melchior}, P. and {Viola}, M. (2012).
+\newblock {Means of confusion: how pixel noise affects shear estimates for weak
+  gravitational lensing}.
+\newblock {\em \mnras}, 424:2757--2769.
+
+\bibitem[{Melchior} et~al., 2011]{DEIMOS}
+{Melchior}, P., {Viola}, M., {Sch{\"a}fer}, B.~M., and {Bartelmann}, M. (2011).
+\newblock {Weak gravitational lensing with DEIMOS}.
+\newblock {\em \mnras}, 412:1552--1558.
+
+\bibitem[{Merritt} et~al., 2006]{2006AJ....132.2685M}
+{Merritt}, D., {Graham}, A.~W., {Moore}, B., {Diemand}, J., and {Terzi{\'c}},
+  B. (2006).
+\newblock {Empirical Models for Dark Matter Halos. I. Nonparametric
+  Construction of Density Profiles and Comparison with Parametric Models}.
+\newblock {\em \aj}, 132:2685--2700.
+
+\bibitem[{Meyers} and {Burchat}, 2015]{2015ApJ...807..182M}
+{Meyers}, J.~E. and {Burchat}, P.~R. (2015).
+\newblock {Impact of Atmospheric Chromatic Effects on Weak Lensing
+  Measurements}.
+\newblock {\em \apj}, 807:182.
+
+\bibitem[{Miller} et~al., 2013]{2013MNRAS.429.2858M}
+{Miller}, L., {Heymans}, C., {Kitching}, T.~D., {van Waerbeke}, L., {Erben},
+  T., {Hildebrandt}, H., {Hoekstra}, H., {Mellier}, Y., {Rowe}, B.~T.~P.,
+  {Coupon}, J., {Dietrich}, J.~P., {Fu}, L., {Harnois-D{\'e}raps}, J.,
+  {Hudson}, M.~J., {Kilbinger}, M., {Kuijken}, K., {Schrabback}, T.,
+  {Semboloni}, E., {Vafaei}, S., and {Velander}, M. (2013).
+\newblock {Bayesian galaxy shape measurement for weak lensing surveys - III.
+  Application to the Canada-France-Hawaii Telescope Lensing Survey}.
+\newblock {\em \mnras}, 429:2858--2880.
+
+\bibitem[{Miller} et~al., 2007]{2007MNRAS.382..315M}
+{Miller}, L., {Kitching}, T.~D., {Heymans}, C., {Heavens}, A.~F., and {van
+  Waerbeke}, L. (2007).
+\newblock {Bayesian galaxy shape measurement for weak lensing surveys - I.
+  Methodology and a fast-fitting algorithm}.
+\newblock {\em \mnras}, 382:315--324.
+
+\bibitem[{More} et~al., 2015]{2015ApJ...806....2M}
+{More}, S., {Miyatake}, H., {Mandelbaum}, R., {Takada}, M., {Spergel}, D.~N.,
+  {Brownstein}, J.~R., and {Schneider}, D.~P. (2015).
+\newblock {The Weak Lensing Signal and the Clustering of BOSS Galaxies. II.
+  Astrophysical and Cosmological Constraints}.
+\newblock {\em \apj}, 806:2.
+
+\bibitem[{Munshi} et~al., 2011a]{2011MNRAS.416.1629M}
+{Munshi}, D., {Kitching}, T., {Heavens}, A., and {Coles}, P. (2011a).
+\newblock {Higher order statistics for three-dimensional shear and flexion}.
+\newblock {\em \mnras}, 416:1629--1653.
+
+\bibitem[{Munshi} et~al., 2011b]{2011MNRAS.411.2241M}
+{Munshi}, D., {Smidt}, J., {Heavens}, A., {Coles}, P., and {Cooray}, A.
+  (2011b).
+\newblock {Higher order statistics of weak lensing shear and flexion}.
+\newblock {\em \mnras}, 411:2241--2258.
+
+\bibitem[{Namikawa} et~al., 2013]{2013MNRAS.431..609N}
+{Namikawa}, T., {Hanson}, D., and {Takahashi}, R. (2013).
+\newblock {Bias-hardened CMB lensing}.
+\newblock {\em \mnras}, 431:609--620.
+
+\bibitem[{Navarro} et~al., 1996]{NFW}
+{Navarro}, J.~F., {Frenk}, C.~S., and {White}, S.~D.~M. (1996).
+\newblock {The Structure of Cold Dark Matter Halos}.
+\newblock {\em \apj}, 462:563.
+
+\bibitem[{Niemi} et~al., 2015]{2015ExA....39..207N}
+{Niemi}, S.-M., {Cropper}, M., {Szafraniec}, M., and {Kitching}, T. (2015).
+\newblock {Measuring a charge-coupled device point spread function. Euclid
+  visible instrument CCD273-84 PSF performance}.
+\newblock {\em Experimental Astronomy}, 39:207--231.
+
+\bibitem[{Okabe} et~al., 2010]{2010PASJ...62..811O}
+{Okabe}, N., {Takada}, M., {Umetsu}, K., {Futamase}, T., and {Smith}, G.~P.
+  (2010).
+\newblock {LoCuSS: Subaru Weak Lensing Study of 30 Galaxy Clusters}.
+\newblock {\em \pasj}, 62:811--870.
+
+\bibitem[{Okura} and {Futamase}, 2009]{2009ApJ...699..143O}
+{Okura}, Y. and {Futamase}, T. (2009).
+\newblock {A New Method for Measuring Weak Gravitational Lensing Shear Using
+  Higher Order Spin-2 HOLICs}.
+\newblock {\em \apj}, 699:143--149.
+
+\bibitem[{Osato} et~al., 2015]{2015ApJ...806..186O}
+{Osato}, K., {Shirasaki}, M., and {Yoshida}, N. (2015).
+\newblock {Impact of Baryonic Processes on Weak-lensing Cosmology: Power
+  Spectrum, Nonlocal Statistics, and Parameter Bias}.
+\newblock {\em \apj}, 806:186.
+
+\bibitem[{Pastor Mira} et~al., 2011]{2011A&A...531A.169P}
+{Pastor Mira}, E., {Hilbert}, S., {Hartlap}, J., and {Schneider}, P. (2011).
+\newblock {Probing the dark-matter halos of cluster galaxies with weak
+  lensing}.
+\newblock {\em \aap}, 531:A169.
+
+\bibitem[{Paulin-Henriksson} et~al., 2008]{2008A&A...484...67P}
+{Paulin-Henriksson}, S., {Amara}, A., {Voigt}, L., {Refregier}, A., and
+  {Bridle}, S.~L. (2008).
+\newblock {Point spread function calibration requirements for dark energy from
+  cosmic shear}.
+\newblock {\em \aap}, 484:67--77.
+
+\bibitem[{Paulin-Henriksson} et~al., 2009]{2009A&A...500..647P}
+{Paulin-Henriksson}, S., {Refregier}, A., and {Amara}, A. (2009).
+\newblock {Optimal point spread function modeling for weak lensing: complexity
+  and sparsity}.
+\newblock {\em \aap}, 500:647--655.
+
+\bibitem[{Peebles}, 1970]{1970AJ.....75...13P}
+{Peebles}, P.~J.~E. (1970).
+\newblock {Structure of the Coma Cluster of Galaxies}.
+\newblock {\em \aj}, 75:13.
+
+\bibitem[Perlick, 1990]{0264-9381-7-8-011}
+Perlick, V. (1990).
+\newblock On fermat's principle in general relativity. i. the general case.
+\newblock {\em Classical and Quantum Gravity}, 7(8):1319.
+
+\bibitem[{Perlman}, 2013]{2013pss6.book..305P}
+{Perlman}, E.~S. (2013).
+\newblock {\em {Active Galactic Nuclei}}, page 305.
+
+\bibitem[{Petri} et~al., 2013]{2013PhRvD..88l3002P}
+{Petri}, A., {Haiman}, Z., {Hui}, L., {May}, M., and {Kratochvil}, J.~M.
+  (2013).
+\newblock {Cosmology with Minkowski functionals and moments of the weak lensing
+  convergence field}.
+\newblock {\em \prd}, 88(12):123002.
+
+\bibitem[{Petri} et~al., 2015]{2015PhRvD..91j3511P}
+{Petri}, A., {Liu}, J., {Haiman}, Z., {May}, M., {Hui}, L., and {Kratochvil},
+  J.~M. (2015).
+\newblock {Emulating the CFHTLenS weak lensing data: Cosmological constraints
+  from moments and Minkowski functionals}.
+\newblock {\em \prd}, 91(10):103511.
+
+\bibitem[{Plazas} et~al., 2014]{2014JInst...9C4001P}
+{Plazas}, A.~A., {Bernstein}, G.~M., and {Sheldon}, E.~S. (2014).
+\newblock {Transverse electric fields' effects in the Dark Energy Camera CCDs}.
+\newblock {\em Journal of Instrumentation}, 9:C04001.
+
+\bibitem[{Press} and {Schechter}, 1974]{1974ApJ...187..425P}
+{Press}, W.~H. and {Schechter}, P. (1974).
+\newblock {Formation of Galaxies and Clusters of Galaxies by Self-Similar
+  Gravitational Condensation}.
+\newblock {\em \apj}, 187:425--438.
+
+\bibitem[{Refregier}, 2003]{2003MNRAS.338...35R}
+{Refregier}, A. (2003).
+\newblock {Shapelets - I. A method for image analysis}.
+\newblock {\em \mnras}, 338:35--47.
+
+\bibitem[{Refregier} and {Bacon}, 2003]{2003MNRAS.338...48R}
+{Refregier}, A. and {Bacon}, D. (2003).
+\newblock {Shapelets - II. A method for weak lensing measurements}.
+\newblock {\em \mnras}, 338:48--56.
+
+\bibitem[{Refregier} et~al., 2012]{2012MNRAS.425.1951R}
+{Refregier}, A., {Kacprzak}, T., {Amara}, A., {Bridle}, S., and {Rowe}, B.
+  (2012).
+\newblock {Noise bias in weak lensing shape measurements}.
+\newblock {\em \mnras}, 425:1951--1957.
+
+\bibitem[{Refsdal}, 1970]{Refsdal1970}
+{Refsdal}, S. (1970).
+\newblock {On the Propagation of Light in Universes with Inhomogeneous Mass
+  Distribution}.
+\newblock {\em \apj}, 159:357.
+
+\bibitem[{Rhodes} et~al., 2010]{2010PASP..122..439R}
+{Rhodes}, J., {Leauthaud}, A., {Stoughton}, C., {Massey}, R., {Dawson}, K.,
+  {Kolbe}, W., and {Roe}, N. (2010).
+\newblock {The Effects of Charge Transfer Inefficiency (CTI) on Galaxy Shape
+  Measurements}.
+\newblock {\em \pasp}, 122:439--450.
+
+\bibitem[{Rhodes} et~al., 2007]{2007ApJS..172..203R}
+{Rhodes}, J.~D., {Massey}, R.~J., {Albert}, J., {Collins}, N., {Ellis}, R.~S.,
+  {Heymans}, C., {Gardner}, J.~P., {Kneib}, J.-P., {Koekemoer}, A.,
+  {Leauthaud}, A., {Mellier}, Y., {Refregier}, A., {Taylor}, J.~E., and {Van
+  Waerbeke}, L. (2007).
+\newblock {The Stability of the Point-Spread Function of the Advanced Camera
+  for Surveys on the Hubble Space Telescope and Implications for Weak
+  Gravitational Lensing}.
+\newblock {\em \apjs}, 172:203--218.
+
+\bibitem[{Ridpath}, 2013]{2013A&G....54a1.22R}
+{Ridpath}, I. (2013).
+\newblock {Alexander Jamieson, celestial map maker}.
+\newblock {\em Astronomy and Geophysics}, 54(1):1.22--1.23.
+
+\bibitem[{Rowe} et~al., 2013]{2013MNRAS.435..822R}
+{Rowe}, B., {Bacon}, D., {Massey}, R., {Heymans}, C., {H{\"a}u{\ss}ler}, B.,
+  {Taylor}, A., {Rhodes}, J., and {Mellier}, Y. (2013).
+\newblock {Flexion measurement in simulations of Hubble Space Telescope data}.
+\newblock {\em \mnras}, 435:822--844.
+
+\bibitem[{Samuroff} et~al., 2016]{2016arXiv160707910S}
+{Samuroff}, S., {Troxel}, M., {Bridle}, S., {Zuntz}, J., {MacCrann}, N.,
+  {Krause}, E., {Eifler}, T., and {Kirk}, D. (2016).
+\newblock {Simultaneous Constraints on Cosmology and Photometric Redshift Bias
+  from Weak Lensing and Galaxy Clustering}.
+\newblock {\em ArXiv e-prints}.
+
+\bibitem[{S{\'a}nchez} et~al., 2014]{2014MNRAS.445.1482S}
+{S{\'a}nchez}, C., {Carrasco Kind}, M., {Lin}, H., {Miquel}, R., {Abdalla},
+  F.~B., {Amara}, A., {Banerji}, M., {Bonnett}, C., {Brunner}, R., {Capozzi},
+  D., {Carnero}, A., {Castander}, F.~J., {da Costa}, L.~A.~N., {Cunha}, C.,
+  {Fausti}, A., {Gerdes}, D., {Greisel}, N., {Gschwend}, J., {Hartley}, W.,
+  {Jouvel}, S., {Lahav}, O., {Lima}, M., {Maia}, M.~A.~G., {Mart{\'{\i}}}, P.,
+  {Ogando}, R.~L.~C., {Ostrovski}, F., {Pellegrini}, P., {Rau}, M.~M., {Sadeh},
+  I., {Seitz}, S., {Sevilla-Noarbe}, I., {Sypniewski}, A., {de Vicente}, J.,
+  {Abbot}, T., {Allam}, S.~S., {Atlee}, D., {Bernstein}, G., {Bernstein},
+  J.~P., {Buckley-Geer}, E., {Burke}, D., {Childress}, M.~J., {Davis}, T.,
+  {DePoy}, D.~L., {Dey}, A., {Desai}, S., {Diehl}, H.~T., {Doel}, P.,
+  {Estrada}, J., {Evrard}, A., {Fern{\'a}ndez}, E., {Finley}, D., {Flaugher},
+  B., {Frieman}, J., {Gaztanaga}, E., {Glazebrook}, K., {Honscheid}, K., {Kim},
+  A., {Kuehn}, K., {Kuropatkin}, N., {Lidman}, C., {Makler}, M., {Marshall},
+  J.~L., {Nichol}, R.~C., {Roodman}, A., {S{\'a}nchez}, E., {Santiago}, B.~X.,
+  {Sako}, M., {Scalzo}, R., {Smith}, R.~C., {Swanson}, M.~E.~C., {Tarle}, G.,
+  {Thomas}, D., {Tucker}, D.~L., {Uddin}, S.~A., {Vald{\'e}s}, F., {Walker},
+  A., {Yuan}, F., and {Zuntz}, J. (2014).
+\newblock {Photometric redshift analysis in the Dark Energy Survey Science
+  Verification data}.
+\newblock {\em \mnras}, 445:1482--1506.
+
+\bibitem[{Sch{\"a}fer} et~al., 2012]{2012MNRAS.420..455S}
+{Sch{\"a}fer}, B.~M., {Heisenberg}, L., {Kalovidouris}, A.~F., and {Bacon},
+  D.~J. (2012).
+\newblock {On the validity of the Born approximation for weak cosmic flexions}.
+\newblock {\em \mnras}, 420:455--467.
+
+\bibitem[{Schmalzing} et~al., 1996]{1996dmu..conf..281S}
+{Schmalzing}, J., {Kerscher}, M., and {Buchert}, T. (1996).
+\newblock {Minkowski Functionals in Cosmology}.
+\newblock In {Bonometto}, S., {Primack}, J.~R., and {Provenzale}, A., editors,
+  {\em Dark Matter in the Universe}, page 281.
+
+\bibitem[{Schneider} et~al., 2010]{COSEBI}
+{Schneider}, P., {Eifler}, T., and {Krause}, E. (2010).
+\newblock {COSEBIs: Extracting the full E-/B-mode information from cosmic shear
+  correlation functions}.
+\newblock {\em \aap}, 520:A116.
+
+\bibitem[{Schneider} et~al., 2002]{2002A&A...389..729S}
+{Schneider}, P., {van Waerbeke}, L., and {Mellier}, Y. (2002).
+\newblock {B-modes in cosmic shear from source redshift clustering}.
+\newblock {\em \aap}, 389:729--741.
+
+\bibitem[{Schneider} and {Watts}, 2005]{2005A&A...432..783S}
+{Schneider}, P. and {Watts}, P. (2005).
+\newblock {Galaxy-galaxy-galaxy lensing: Third-order correlations between the
+  galaxy and mass distributions in the Universe}.
+\newblock {\em \aap}, 432:783--795.
+
+\bibitem[{Schneider} and {Weiss}, 1988]{1988ApJ3301S}
+{Schneider}, P. and {Weiss}, A. (1988).
+\newblock {Light propagation in inhomogeneous universes - The ray-shooting
+  method}.
+\newblock {\em \apj}, 330:1--15.
+
+\bibitem[{Semboloni} et~al., 2013]{2013MNRAS.432.2385S}
+{Semboloni}, E., {Hoekstra}, H., {Huang}, Z., {Cardone}, V.~F., {Cropper}, M.,
+  {Joachimi}, B., {Kitching}, T., {Kuijken}, K., {Lombardi}, M., {Maoli}, R.,
+  {Mellier}, Y., {Miller}, L., {Rhodes}, J., {Scaramella}, R., {Schrabback},
+  T., and {Velander}, M. (2013).
+\newblock {On the shear estimation bias induced by the spatial variation of
+  colour across galaxy profiles}.
+\newblock {\em \mnras}, 432:2385--2401.
+
+\bibitem[{Semboloni} et~al., 2011]{2011MNRAS.417.2020S}
+{Semboloni}, E., {Hoekstra}, H., {Schaye}, J., {van Daalen}, M.~P., and
+  {McCarthy}, I.~G. (2011).
+\newblock {Quantifying the effect of baryon physics on weak lensing
+  tomography}.
+\newblock {\em \mnras}, 417:2020--2035.
+
+\bibitem[{S{\'e}rsic}, 1963]{1963BAAA....6...41S}
+{S{\'e}rsic}, J.~L. (1963).
+\newblock {Influence of the atmospheric and instrumental dispersion on the
+  brightness distribution in a galaxy}.
+\newblock {\em Boletin de la Asociacion Argentina de Astronomia La Plata
+  Argentina}, 6:41.
+
+\bibitem[{Sheldon}, 2015]{2015ascl.soft08008S}
+{Sheldon}, E. (2015).
+\newblock {NGMIX: Gaussian mixture models for 2D images}.
+\newblock Astrophysics Source Code Library.
+
+\bibitem[{Shirasaki} and {Yoshida}, 2014]{2014ApJ...786...43S}
+{Shirasaki}, M. and {Yoshida}, N. (2014).
+\newblock {Statistical and Systematic Errors in the Measurement of Weak-Lensing
+  Minkowski Functionals: Application to the Canada-France-Hawaii Lensing
+  Survey}.
+\newblock {\em \apj}, 786:43.
+
+\bibitem[{Simon}, 2007]{2007A&A...473..711S}
+{Simon}, P. (2007).
+\newblock {How accurate is Limber's equation?}
+\newblock {\em \aap}, 473:711--714.
+
+\bibitem[{Simon} et~al., 2013]{2013MNRAS.430.2476S}
+{Simon}, P., {Erben}, T., {Schneider}, P., {Heymans}, C., {Hildebrandt}, H.,
+  {Hoekstra}, H., {Kitching}, T.~D., {Mellier}, Y., {Miller}, L., {Van
+  Waerbeke}, L., {Bonnett}, C., {Coupon}, J., {Fu}, L., {Hudson}, M.~J.,
+  {Kuijken}, K., {Rowe}, B.~T.~P., {Schrabback}, T., {Semboloni}, E., and
+  {Velander}, M. (2013).
+\newblock {CFHTLenS: higher order galaxy-mass correlations probed by
+  galaxy-galaxy-galaxy lensing}.
+\newblock {\em \mnras}, 430:2476--2498.
+
+\bibitem[{Sluse} et~al., 2006]{2006A&A...449..539S}
+{Sluse}, D., {Claeskens}, J.-F., {Altieri}, B., {Cabanac}, R.~A., {Garcet}, O.,
+  {Hutsem{\'e}kers}, D., {Jean}, C., {Smette}, A., and {Surdej}, J. (2006).
+\newblock {Multi-wavelength study of the gravitational lens system RXS
+  J113155.4-123155. I. Multi-epoch optical and near infrared imaging}.
+\newblock {\em \aap}, 449:539--550.
+
+\bibitem[{Smith} et~al., 2003]{2003MNRAS.341.1311S}
+{Smith}, R.~E., {Peacock}, J.~A., {Jenkins}, A., {White}, S.~D.~M., {Frenk},
+  C.~S., {Pearce}, F.~R., {Thomas}, P.~A., {Efstathiou}, G., and {Couchman},
+  H.~M.~P. (2003).
+\newblock {Stable clustering, the halo model and non-linear cosmological power
+  spectra}.
+\newblock {\em \mnras}, 341:1311--1332.
+
+\bibitem[{Takada} and {Hu}, 2013]{2013PhRvD..87l3504T}
+{Takada}, M. and {Hu}, W. (2013).
+\newblock {Power spectrum super-sample covariance}.
+\newblock {\em \prd}, 87(12):123504.
+
+\bibitem[{Takahashi} et~al., 2012]{2012ApJ...761..152T}
+{Takahashi}, R., {Sato}, M., {Nishimichi}, T., {Taruya}, A., and {Oguri}, M.
+  (2012).
+\newblock {Revising the Halofit Model for the Nonlinear Matter Power Spectrum}.
+\newblock {\em \apj}, 761:152.
+
+\bibitem[{Taylor} et~al., 2013]{2013MNRAS.432.1928T}
+{Taylor}, A., {Joachimi}, B., and {Kitching}, T. (2013).
+\newblock {Putting the precision in precision cosmology: How accurate should
+  your data covariance matrix be?}
+\newblock {\em \mnras}, 432:1928--1946.
+
+\bibitem[{Taylor}, 2011]{2011AdAst2011E...6T}
+{Taylor}, J.~E. (2011).
+\newblock {Dark Matter Halos from the Inside Out}.
+\newblock {\em Advances in Astronomy}, 2011:604898.
+
+\bibitem[{Tegmark} et~al., 1997]{1997ApJ...480...22T}
+{Tegmark}, M., {Taylor}, A.~N., and {Heavens}, A.~F. (1997).
+\newblock {Karhunen-Lo{\`e}ve Eigenvalue Problems in Cosmology: How Should We
+  Tackle Large Data Sets?}
+\newblock {\em \apj}, 480:22--35.
+
+\bibitem[Tin, 1965]{10.2307/2283154}
+Tin, M. (1965).
+\newblock Comparison of some ratio estimators.
+\newblock {\em Journal of the American Statistical Association},
+  60(309):294--307.
+
+\bibitem[{Troxel} and {Ishak}, 2015]{2015PhR...558....1T}
+{Troxel}, M.~A. and {Ishak}, M. (2015).
+\newblock {The intrinsic alignment of galaxies and its impact on weak
+  gravitational lensing in an era of precision cosmology}.
+\newblock {\em \physrep}, 558:1--59.
+
+\bibitem[{Viola} et~al., 2015]{2015MNRAS.452.3529V}
+{Viola}, M., {Cacciato}, M., {Brouwer}, M., {Kuijken}, K., {Hoekstra}, H.,
+  {Norberg}, P., {Robotham}, A.~S.~G., {van Uitert}, E., {Alpaslan}, M.,
+  {Baldry}, I.~K., {Choi}, A., {de Jong}, J.~T.~A., {Driver}, S.~P., {Erben},
+  T., {Grado}, A., {Graham}, A.~W., {Heymans}, C., {Hildebrandt}, H.,
+  {Hopkins}, A.~M., {Irisarri}, N., {Joachimi}, B., {Loveday}, J., {Miller},
+  L., {Nakajima}, R., {Schneider}, P., {Sif{\'o}n}, C., and {Verdoes Kleijn},
+  G. (2015).
+\newblock {Dark matter halo properties of GAMA galaxy groups from 100 square
+  degrees of KiDS weak lensing data}.
+\newblock {\em \mnras}, 452:3529--3550.
+
+\bibitem[Viola et~al., 2014]{Viola01042014}
+Viola, M., Kitching, T.~D., and Joachimi, B. (2014).
+\newblock On the probability distributions of ellipticity.
+\newblock {\em Monthly Notices of the Royal Astronomical Society},
+  439(2):1909--1932.
+
+\bibitem[{Viola} et~al., 2014]{2014MNRAS.439.1909V}
+{Viola}, M., {Kitching}, T.~D., and {Joachimi}, B. (2014).
+\newblock {On the probability distributions of ellipticity}.
+\newblock {\em \mnras}, 439:1909--1932.
+
+\bibitem[{Voigt} and {Bridle}, 2010]{2010MNRAS.404..458V}
+{Voigt}, L.~M. and {Bridle}, S.~L. (2010).
+\newblock {Limitations of model-fitting methods for lensing shear estimation}.
+\newblock {\em \mnras}, 404:458--467.
+
+\bibitem[{Voigt} et~al., 2012]{2012MNRAS.421.1385V}
+{Voigt}, L.~M., {Bridle}, S.~L., {Amara}, A., {Cropper}, M., {Kitching}, T.~D.,
+  {Massey}, R., {Rhodes}, J., and {Schrabback}, T. (2012).
+\newblock {The impact of galaxy colour gradients on cosmic shear measurement}.
+\newblock {\em \mnras}, 421:1385--1398.
+
+\bibitem[{Walter}, 2015]{2015JInst..10C5015W}
+{Walter}, C.~W. (2015).
+\newblock {The Brighter-Fatter and other sensor effects in CCD simulations for
+  precision astronomy}.
+\newblock {\em Journal of Instrumentation}, 10:C05015.
+
+\bibitem[{White}, 2004]{2004APh....22..211W}
+{White}, M. (2004).
+\newblock {Baryons and weak lensing power spectra}.
+\newblock {\em Astroparticle Physics}, 22:211--217.
+
+\bibitem[{Wolf} et~al., 2003]{2003A&A...401...73W}
+{Wolf}, C., {Meisenheimer}, K., {Rix}, H.-W., {Borch}, A., {Dye}, S., and
+  {Kleinheinrich}, M. (2003).
+\newblock {The COMBO-17 survey: Evolution of the galaxy luminosity function
+  from 25 000 galaxies with 0.2<z<1.2}.
+\newblock {\em \aap}, 401:73--98.
+
+\bibitem[{Xavier} et~al., 2016]{2016MNRAS.459.3693X}
+{Xavier}, H.~S., {Abdalla}, F.~B., and {Joachimi}, B. (2016).
+\newblock {Improving lognormal models for cosmological fields}.
+\newblock {\em \mnras}, 459:3693--3710.
+
+\bibitem[{Yao} et~al., 2006]{2006JPhG...33....1Y}
+{Yao}, W.-M., {Amsler}, C., {Asner}, D., {Barnett}, R.~M., {Beringer}, J.,
+  {Burchat}, P.~R., {Carone}, C.~D., {Caso}, C., {Dahl}, O., {D'Ambrosio}, G.,
+  {De Gouvea}, A., {Doser}, M., {Eidelman}, S., {Feng}, J.~L., {Gherghetta},
+  T., {Goodman}, M., {Grab}, C., {Groom}, D.~E., {Gurtu}, A., {Hagiwara}, K.,
+  {Hayes}, K.~G., {Hern{\'a}ndez-Rey}, J.~J., {Hikasa}, K., {Jawahery}, H.,
+  {Kolda}, C., {Kwon}, Y., {Mangano}, M.~L., {Manohar}, A.~V., {Masoni}, A.,
+  {Miquel}, R., {M{\"o}nig}, K., {Murayama}, H., {Nakamura}, K., {Navas}, S.,
+  {Olive}, K.~A., {Pape}, L., {Patrignani}, C., {Piepke}, A., {Punzi}, G.,
+  {Raffelt}, G., {Smith}, J.~G., {Tanabashi}, M., {Terning}, J.,
+  {T{\"o}rnqvist}, N.~A., {sTrippe}, T.~G., {Vogel}, P., {Watari}, T., {Wohl},
+  C.~G., {Workman}, R.~L., {Zyla}, P.~A., {Armstrong}, B., {Harper}, G.,
+  {Lugovsky}, V.~S., {Schaffner}, P., {Artuso}, M., {Babu}, K.~S., {Band},
+  H.~R., {Barberio}, E., {Battaglia}, M., {Bichsel}, H., {Biebel}, O., {Bloch},
+  P., {Blucher}, E., {Cahn}, R.~N., {Casper}, D., {Cattai}, A., {Ceccucci}, A.,
+  {Chakraborty}, D., {Chivukula}, R.~S., {Cowan}, G., {Damour}, T., {DeGrand},
+  T., {Desler}, K., {Dobbs}, M.~A., {Drees}, M., {Edwards}, A., {Edwards},
+  D.~A., {Elvira}, V.~D., {Erler}, J., {Ezhela}, V.~V., {Fetscher}, W.,
+  {Fields}, B.~D., {Foster}, B., {Froidevaux}, D., {Gaisser}, T.~K., {Garren},
+  L., {Gerber}, H.-J., {Gerbier}, G., {Gibbons}, L., {Gilman}, F.~J.,
+  {Giudice}, G.~F., {Gritsan}, A.~V., {Gr{\"u}newald}, M., {Haber}, H.~E.,
+  {Hagmann}, C., {Hinchliffe}, I., {H{\"o}cker}, A., {Igo-Kemenes}, P.,
+  {JAckson}, J.~D., {Johnson}, K.~F., {Karlen}, D., {Kayser}, B., {Kirkby}, D.,
+  {Klein}, S.~R., {Kleinknecht}, K., {Knowles}, I.~G., {Kowalewski}, R.~V.,
+  {Kreitz}, P., {Kursche}, B., {Kuyanov}, Y.~V., {Lahav}, O., {Langacker}, P.,
+  {Liddle}, A., {Ligeti}, Z., {Liss}, T.~M., {Littenberg}, L., {Liu}, J.~C.,
+  {Lugovsky}, K.~S., {Lugovsky}, s.~B., {Mannel}, T., {Manley}, D.~M.,
+  {Marciano}, W.~J., {Martin}, A.~D., {Milstead}, D., {Narain}, M., {Nason},
+  P., {Nir}, Y., {Peacock}, J.~A., {Prell}, S.~A., {Quadt}, A., {Raby}, S.,
+  {Ratcliff}, B.~N., {Razuvaev}, E.~A., {Renk}, B., {Richardson}, P.,
+  {Roesler}, S., {Rolandi}, G., {Ronan}, M.~T., {Rosenberg}, L.~J.,
+  {Sachrajda}, C.~T., {Sakai}, Y., {Sarkar}, S., {Schmitt}, M., {Schneider},
+  O., {Scott}, D., {Sj{\"o}strand}, T., {Smoot}, G.~F., {Sokolsky}, P.,
+  {Spanier}, S., {Spieler}, H., {Stahl}, A., {Stanev}, T., {Streitmatter},
+  R.~E., {Sumiyoshi}, T., {Tkachenko}, N.~P., {Trilling}, G.~H., {Valencia},
+  G., {van Bibber}, K., {Vincter}, M.~G., {Ward}, D.~R., {Webber}, B.~R.,
+  {Wells}, J.~D., {Whalley}, M., {Wolfenstsein}, L., {Womersley}, J., {Woody},
+  C.~L., {Yamamoto}, A., {Zenin}, O.~V., {Zhang}, J., and {Zhu}, R.-Y. (2006).
+\newblock {Review of Particle Physics}.
+\newblock {\em Journal of Physics G Nuclear Physics}, 33:1--1232.
+
+\bibitem[{Zuntz} et~al., 2013]{2013MNRAS.434.1604Z}
+{Zuntz}, J., {Kacprzak}, T., {Voigt}, L., {Hirsch}, M., {Rowe}, B., and
+  {Bridle}, S. (2013).
+\newblock {IM3SHAPE: a maximum likelihood galaxy shear measurement code for
+  cosmic gravitational lensing}.
+\newblock {\em \mnras}, 434:1604--1618.
+
+\end{thebibliography}

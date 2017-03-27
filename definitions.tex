@@ -7,8 +7,7 @@ A well established standard of cosmology, established by an ensemble of previous
 \dictentry{dictionary}{Angular-Diameter Distance}{\ADDnew}
 \newcommand\ADDnew{
 The angular-diameter distance $D_{\rm A}$ to a source is defined as
-the square root of the ratio of its physical surface area $\d A$ and the solid angle $\d\omega$ it subtends on the observer's sky, $D_{\rm A}=\sqrt{\d A/\d \omega}$. In general, the angular-diameter distance is affected by the tidal gravitational field along the line-of-sight, leading to (isotropic) focusing or anisotropic shearing of the light bundle. For a homogeneous, isotropic universe, the angular-diameter distance is a function of the cosmological redshift of a source
--- {\scshape{\footnotesize see} \gls{Friedman--Robertson--Walker Models}}.
+the square root of the ratio of its physical surface area $\d A$ and the solid angle $\d\omega$ it subtends on the observer's sky, $D_{\rm A}=\sqrt{\d A/\d \omega}$. In general, the angular-diameter distance is affected by the tidal gravitational field along the line-of-sight, leading to (isotropic) focusing or anisotropic shearing of the light bundle. For a homogeneous, isotropic universe, the angular-diameter distance is a function of the cosmological redshift of a source. {\scshape{\footnotesize see} \gls{Friedman--Robertson--Walker Models}}.
 }%
 
 %%%%%%%%%%%%%%%%
@@ -16,25 +15,38 @@ the square root of the ratio of its physical surface area $\d A$ and the solid a
 This is defined in terms of the intrinsic luminosity $L$ of an object at redshift $z_2$ to
 the flux $S$ that it received by an observer at redshift $z_1$
 \setcounter{equation}{0}
-\renewcommand{\theequation}{LD.\arabic{equation}}
+\renewcommand{\theHequation}{\arabic{equation}}
+%
 \be
 D_{L}(z_1,z_2) = 
 \sqrt{\left(\frac{L}{4\pi S} \right)}\;.
+\tag{LD.1}
+\label{eq:LD.1}
 \ee
+%
 In a metric cosmology, such as those described by general relativity, the luminosity
 distance can be determined by other measures of distance, such as the comoving distance $D_M(z_1,z_2)$
+%
 \be
 D_L(z_1,z_2) = 
 \frac{1+z_2}{(1+z_1)^2}D_M(z_1,z_2)\;,
+\tag{LD.2}
+\label{eq:LD.2}
 \ee
+%
 and the angular diameter distance $D_A(z_1,z_2)$
+%
 \be
 D_L(z_1,z_2) = 
 \frac{(1+z_2)^2}{(1+z_1)^2}\; D_A(z_1,z_2)\;.
+\tag{LD.3}
+\label{eq:LD.3}
 \ee
+%
 As an example, fitting the luminosity of the CMB to a blackbody spectrum 
-has allowed for the determatio of the relation between $D_L$ and $D_A$.
+has allowed for the determination of the relation between $D_L$ and $D_A$.
 }%
+
 %%%%%%%%%%%%%%%%
 \dictentry{dictionary}{Environment (-al dependence)}{
 This refers to the dependency of measured galaxy, or inferred dark matter properties, on the properties that can be used to characterise a particular spatial location. For example local gravitational potential, 
@@ -110,6 +122,7 @@ this baryonic component and the dark matter e.g. \cite{2014JCAP...04..028F}, \ci
 \cite{2015MNRAS.454.1958M}.
 }%
 
+%%%%%%%%%%%%%%%%
 \dictentry{dictionary}{Density Profile}{\DP}
 \newcommand\DP{
 A density profile describes how the density of the distribution of matter changes as a function of radial 
@@ -118,24 +131,36 @@ There exists three commonly used models for dark matter density profiles that ar
 All assume a spherically symmetric mass distribution with the follow functional forms for the density of 
 dark matter as a function of radius:  
 \setcounter{equation}{0}
-\renewcommand{\theequation}{DP.\arabic{equation}}
+\renewcommand{\theHequation}{\arabic{equation}}
 \begin{enumerate}
 \item Pseudo-isothermal halo \citep{1972ApJ1761G} is defined as 
+%
 \be
 \rho(r) = \rho_o \left[ 1 + \left(\frac{r}{r_c}\right)^2 \right]^{-1} \;,
+\tag{DP.1}
+\label{eq:DP.1}
 \ee
+%
 where $\rho_o$ is the central density and $r_c$ is the core radius. This model is a good fit to most rotation curve data, but is only an approximation. 
 
 \item NFW (Navarro-Frenk-White) profile \citep{NFW} is defined as 
+%
 \be
 \rho(r)=\frac{\rho_c \delta_c}{(1/r_s)(1+r/r_s)^2}\;,
+\tag{DP.2}
+\label{eq:DP.2}
 \ee
+%
 where $r_s$ is a scale radius, $\delta_c$ is a characteristic density, and $\rho_c$ is the critical over density defined as $\rho_c=3H^2/8\pi G$. The NFW profile works for a large range of halo masses and sizes, from individual galaxies to the halos of galaxy clusters. 
 
 \item Einasto profile (investigated in \cite{2006AJ....132.2685M}) is defined as 
+%
 \be
 \rho(r)=\rho_e \exp\left[-d_n ((r/r_c)^1/n)-1) \right]\;,
+\tag{DP.3}
+\label{eq:DP.3}
 \ee
+%
 where $r$ is the spatial (i.e., not projected) radius. The term $d_n$ is a function of $n$ such that $\rho_e$ is the density at the radius $r_e$ that defines a volume containing half of the total mass. High resolution computer simulations lead to this model.
 \end{enumerate}
 For a review on dark matter halo models see e.g. \cite{2011AdAst2011E...6T}.
@@ -170,9 +195,9 @@ would be $M \gtrsim 10^{15} M_{\odot}$. See for e.g. \cite{2010PASJ...62..811O}.
 %%%%%%%%%%%%%%%%
 \dictentry{dictionary}{Baryonic Feedback}{The transfer of energy and momentum
   from a non-dark matter-related physical process (or, more generally, physical process 
-  beyond those that can 
+  beyond those that can be 
   attributed to local gravitational interactions) to the surrounding
-  matter (both dark matter and baryonic matter). The subsequent
+  matter (both dark matter and baryonic matter) distribution. The subsequent
   changes in the matter environment may lead to further changes
   in the non-dark matter physics, hence a feedback loop may be
   caused. Sources of such feedback processes include the outflows from
@@ -233,17 +258,25 @@ linear equations i.e. that part that can be computed from first order perturbati
 theory of the matter overdensity field and initial conditions. 
 In the standard cosmological model, the linear power spectrum can be written as
 \setcounter{equation}{0}
-\renewcommand{\theequation}{LMPS.\arabic{equation}}
+\renewcommand{\theHequation}{\arabic{equation}}
+%
 \be
  P_{\rm lin}(k,z)=
  P_0\;D_+(z)^2\;k^{n_{s}}\;T(k)^2\;,
+\tag{LMPS.1}
+\label{eq:LMPS.1}
 \ee
+%
 where $n_{\rm s}$ is the power-law index of a primordial matter overdensity power spectrum, $P_0$
 is the spectrum normalisation, $T(k)$ is a transfer function that described the amplitude of power spectrum as 
 a function of scale, and 
+%
 \be
 D_+(z) \propto H(a(z))\; \int_0^{a(z)}\frac{{\rm d}a}{a^3\;H(a)^3}\;,
+\tag{LMPS.2}
+\label{eq:LMPS.2}
 \ee 
+%
 is the linear growth factor to be scaled to $D_+=1$ at $z=0$. The linear
 growth factor and transfer function depend on the particular set of
 cosmological parameters, such as the matter density or the parameter
@@ -252,14 +285,19 @@ $P_0$ is determined by specifying the variance $\sigma_8$ of (linear)
 matter density fluctuations inside a sphere of comoving radius 
 $R=8\;h^{-1}\;\rm Mpc$ at a redshift of $z=0$ as additional cosmological
 parameter. Hence $P_0$ is chosen to satisfy
+%
 \be
 \sigma_8^2=
 \frac{1}{2\pi^2}\; \int_0^\infty\;{\rm d}k\;k^2\;|W(k\;R)|^2\;P_{\rm lin}(k,0)\;,
+\tag{LMPS.3}
+\label{eq:LMPS.3}
 \ee
+%
 for a given $\sigma_8$ and for the window function $W(x)=3\;x^{-3}\;(\sin{x}-x\;\cos{x})$. The linear matter power spectrum describes fluctuations in the matter overdensity on large scales, 
 where structure on these scales is less affected by late-time gravitational clustering and non-linear 
 gravitational feedback effects or evolution. {\scshape{\footnotesize see} \gls{Correlation Functions and Power Spectra}}.
 }%
+
 %%%%%%%%%%%%%%%%
 \dictentry{dictionary}{Wings (of the PSF)}{
 The `wings' of a PSF refer to the extended (and most commonly smoothly varying) component of the point spread function (PSF), i.e. away 
@@ -267,6 +305,7 @@ from the mean (center) of the intensity distribution.
 For example \cite{2005MNRAS.361..160H} for a reference to this in weak lensing where the wings 
 of the Hubble Space Telescope PSF are investigated.
 }%
+
 %%%%%%%%%%%%%%%%
 \dictentry{dictionary}{3D Fast}{
 A software suite\footnote{\url{https://tomkitching.wordpress.com/2014/01/27/3dfast/}} used to 
@@ -318,7 +357,6 @@ In weak lensing, this is important because;
 \end{enumerate}
 For space-based telescopes, such as Euclid, only the first two elements are relevant.}%
 
-%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%
 \dictentry{dictionary}{Fsky}{
 $f_{\rm sky}$ is the fraction of the sky observed by a survey. For example, Euclid will observe $15000$ square degrees, 
@@ -393,16 +431,24 @@ please refer to \cite{2005PhRvD..72b3516C} and references therein.
 The Hankel transform, and inverse Hankel transform, of a quantity $a(k)$ in general are defined as 
 \setcounter{equation}{0}
 \renewcommand{\theequation}{HT.\arabic{equation}}
+%
 \begin{eqnarray}
 a(r) & = & \int\limits_0^\infty {\rm d} k \; r \; (r k)^{-q} {\rm J}_\mu(k r) \hat a(k); \nonumber\\
 \hat a(k) & = & \int\limits_0^\infty {\rm d} r \; k \; (r k)^{q} {\rm J}_\mu(k r) a(r), 
+%\tag{HT.1}
+\label{eq:HT.1}
 \end{eqnarray}
+%
 respectively, where $J$ are Bessel functions of the first kind, and $r$ is the Fourier transform variable of $k$. 
 If the bias $q=0$, the above indicate the unbiased Hankel transform. 
 In weak lensing a Hankel transform relates cosmic shear power spectra $C(\ell)$ to their respective correlation functions 
-\begin{equation}
+%
+\be
 \xi_{+/-}(\theta)=\int_0^\infty {\rm d}\ell\ell J_{0/4}(\ell\theta)C(\ell), 
-\end{equation}
+%\tag{HT.2}
+\label{eq:HT.2}
+\ee
+%
 see for example \cite{2015RPPh...78h6901K}, where $\theta$ are angular coordinates on the sky and $\ell$ are angular 
 wavenumbers.
 }%
@@ -458,7 +504,8 @@ e.g. \cite{2011MNRAS.411.2241M,2011MNRAS.416.1629M}.
 \dictentry{dictionary}{Beat Coupling}{
 The coupling of the density contrast to super-survey modes and the effect that this induces 
 on the power spectrum. It is also known as ``super-sample
-covariance'',  {\scshape{\footnotesize see} \gls{Super-Sample Covariance}}.}%
+covariance''. {\scshape{\footnotesize see} \gls{Super-Sample Covariance}}.
+}%
 
 %%%%%%%%%%%%%%%%
 \dictentry{dictionary}{Auto-Correlation Function}{
@@ -499,10 +546,14 @@ The correlation between some variable at three points in space, or with in trans
 As given in, for two galaxies $i = 1,2$ at  right ascension and declination ($\alpha_i, \delta_i$), their great 
 circle distance can be calculated using, 
 \setcounter{equation}{0}
-\renewcommand{\theequation}{TH.\arabic{equation}}
-\begin{equation}
+\renewcommand{\theHequation}{\arabic{equation}}
+%
+\be
 \cos \theta = \cos(\alpha_2 - \alpha_1) \cos \delta_1 \cos \delta_2 + \sin \delta_1 \sin \delta_2\;.
+\tag{TH.1}
+\label{eq:TH.1}
 \ee
+%
 See for example \cite{2015RPPh...78h6901K}.
 }%
 
@@ -526,23 +577,27 @@ Large-scale modes that exist outside of the survey  area are known as super-surv
 }%
 
 %%%%%%%%%%%%%%%%%
-
 \dictentry{dictionary}{Angle-Averaging}{
 Taking the average value of a 2D-function over a circle of equal angular 
 separation in real space or equal wavenumber 
-in Fourier space. Also referred to as azimuthal averaging.}%
+in Fourier space.
+}%
+
+%%%%%%%%%%%%%%%%%
+\dictentry{dictionary}{Azimuthal Averaging}{
+Also known as angle-averaging; {\scshape{\footnotesize see} \gls{Angle-Averaging}}. 
+}%
 
 %%%%%%%%%%%%%%%%
 \dictentry{dictionary}{Accuracy}{The difference between the results of a
 measurement, or a combination of a set of
 measurements, and the true value. The differences are associated with
 systematic effects, rather than statistical errors. The statistical
-literature commonly uses the term ``bias'' instead of accuracy; meaning a highly accurate result has a low bias
-{\scshape{\footnotesize see}. \gls{Bias}}. 
+literature commonly uses the term ``bias'' instead of accuracy; meaning a highly accurate result has a low bias.
+{\scshape{\footnotesize see} \gls{Bias}}. 
 }%
 
 %%%%%%%%%%%%%%%%%
-
 \dictentry{dictionary}{3D}{
 Term usually applied to cosmic shear analysis when the radial information is explicitly made use of, and usually with moderate to high resolution.
 }%
@@ -552,7 +607,7 @@ Term usually applied to cosmic shear analysis when the radial information is exp
 Statistical term referring to 1-point statistical properties of a
 continuous or discrete stochastic process, such as the matter density field or
 galaxy distribution, using values of the field at a single
-point or wavenumber. Examples are moments of the field or the distribution 
+point or wavenumber. Examples are moments of the field or the distribution. 
 }%
 
 %%%%%%%%%%%%%%%%
@@ -561,8 +616,8 @@ Statistical term referring to 2-point statistical properties of a
 continuous or discrete stochastic process, such as the matter density field or
 galaxy distribution, using values of the field at two distinct points
 or wavenumbers. Examples are the 2-point correlation function or the
-power spectrum 
-{\scshape{\footnotesize see} \gls{Correlation Functions and Power Spectra}}
+power spectrum.
+{\scshape{\footnotesize see} \gls{Correlation Functions and Power Spectra}}.
 }%
   
 %%%%%%%%%%%%%%%%
@@ -571,8 +626,8 @@ Statistical term referring to 3-point statistical properties of a
 continuous or discrete stochastic process, such as the matter density field or
 galaxy distribution, using values of the field at a three distinct
 points or wavenumbers. Examples are the 3-point correlation function
-or the bispectrum 
-{\scshape{\footnotesize see} \gls{Correlation Functions and Power Spectra}; \gls{Bispectrum}}
+or the bispectrum.
+{\scshape{\footnotesize see} \gls{Correlation Functions and Power Spectra}; \gls{Bispectrum}}.
 }%
   
 %%%%%%%%%%%%%%%%
@@ -608,8 +663,9 @@ approximation assumes that the random field quickly decorrelates such that
 correlations between positions with different radial distances from the observer can effectively be 
 evaluated at the same $\chi$. For example, it assumes for a two-point correlation function that 
 \setcounter{equation}{0}
-\renewcommand{\theequation}{LM.\arabic{equation}}
-\begin{equation}
+\renewcommand{\theHequation}{\arabic{equation}}
+%
+\be
 C_{\delta\delta}=
 \ave{
   \delta[f_{\rm K}(\chi){\vec\theta},\chi]
@@ -620,37 +676,48 @@ C_{\delta\delta}=
   \delta[f_{\rm K}(\chi){\vec\theta},\chi]
   \delta[f_{\rm K}(\chi){\vec\theta^\prime},\chi]
 }\;.
+\tag{LM.1}
+\label{eq:LM.1}
 \ee
+%
 Importantly, the Limber approximation assumes small angular separations on the sky, or large angular wave 
 numbers in the case of power spectra \citep{2007A&A...473..711S}.  Thereby we arrive at the following 
 integral for the angular two-point correlation function $C_{12}(\theta)$ of homogeneous and isotropic random fields $\delta$. For this let
-\begin{equation}
+%
+\be
  g_i(\vec\theta)=
  \int_0^\infty\;{\rm d}\chi\;q_i(\chi)\;\delta[f_{\rm K}(\chi)\vec\theta,\chi]\;,
+\tag{LM.2}
+\label{eq:LM.2}
 \ee
+%
 be projections $i$ of $\delta$ on the sky along $\vec\theta$ with projection kernel $q_i(\chi)$. The Limber approximation then yields for the cross correlation between $g_i(\vec\theta)$ and $g_j(\vec\theta^\prime)$ the integral
-\begin{equation}
+%
+\be
 C_{ij}(\theta)=
 \int_0^\infty{\rm d}\chi\;q_1(\chi)\;q_2(\chi)\;
 \int\;{\rm d}(\Delta\chi)\;
 C_{\delta\delta}(\sqrt{f_{\rm K}^2(\chi)\theta^2+(\Delta\chi)^2},\chi)\;,
+\tag{LM.3}
+\label{eq:LM.3}
 \ee
+%
 for separations $\theta=|\vec\theta-\vec\theta^\prime|$. More frequently employed in gravitational lensing is the Limber approximation of the angular power spectrum at angular wave number $\ell$, namely
-\begin{equation}
+%
+\be
 P_{12}(\ell)=
 \int{\rm d}{\vec\theta}\;C_{12}(\theta)\;{\rm e}^{{\rm i}\vec\ell\cdot\vec\theta}=
 \int_0^\infty{\rm d}\chi\;
 \frac{q_1(\chi)\;q_2(\chi)}{f_{\rm K}^2(\chi)}\;
 P_\delta\left(\frac{\ell}{f_{\rm K}(\chi)},\chi\right)\;,
+\tag{LM.4}
+\label{eq:LM.4}
 \ee
+%
 where $P_\delta(k,\chi)$ is the spatial power spectrum of $\delta$ at spatial wave number $k$ and distance $\chi$, 
 and we use the notation of \cite{2010A&A...523A...1J}. For an 
 exposition of the Limber approximation in the case of projected fields see \cite{2008PhRvD..78l3506L}.
 }%
-
-
-
-
 
 %%%%%%%%%%%%%%%%
 \dictentry{dictionary}{Weight Map}{ A weight map is a map which attaches a weight
@@ -732,13 +799,13 @@ The FoV of the camera is 1.5 degrees diameter.
 }%
 
 %%%%%%%%%%%%%%%%%
-
 \dictentry{dictionary}{Absolute Photometry}{
 Absolute photometry ties the measured
 count rate of an observation in a specific photometric band to an
 absolute, calibrated flux scale. This is normally done by observing
 the object through multiple filters and also observing a number of
-photometric standard stars.}%
+photometric standard stars. 
+}%
 
 %%%%%%%%%%%%%%%%
 \dictentry{dictionary}{Stellar Calibration Field}{
@@ -753,13 +820,7 @@ A photometric system with filters ranging from the UV (u $\sim$ 350nm) to the ne
 This system was used in the Sloan Digital Sky 
 Survey (SDSS)\footnote{\url{http://skyserver.sdss.org/dr1/en/proj/advanced/color/sdssfilters.asp}}.
 }%
-    
-    
-    
-    
-    
-    
-    
+
 %%%%%%%%%%%%%%%%
 \dictentry{dictionary}{Early and Late Type (Galaxies)}{\elg}
 \newcommand\elg{
@@ -800,18 +861,25 @@ account when measuring shapes because the bias in estimators of galaxy shapes us
 among other things, on the light profile. A model for the radial light profile of a galaxy 
 can be found by averaging over all angles 
 \setcounter{equation}{0}
-\renewcommand{\theequation}{LP.\arabic{equation}}
+\renewcommand{\theHequation}{\arabic{equation}}
+%
 \be
 I(s):=
 2\pi s \int_0^{2\pi} {\rm d}\phi\;s\;I(s\;{\rm e}^{{\rm i}\phi})\;.
+\tag{LP.1}
+\label{eq:LP.1}
 \ee
+%
 A commonly used functional form that has been found to be a good approximations to observed galaxy light profiles
 is known as the `S\'ersic' model \cite{1963BAAA....6...41S}
+%
 \be
 I_n(s):=
-\exp{\left(-k\;\left[\frac{s}{s_{\rm h}}\right]^{\frac{1}{n}}\right)}
-\;,
+\exp{\left(-k\;\left[\frac{s}{s_{\rm h}}\right]^{\frac{1}{n}}\right)}\;,
+\tag{LP.2}
+\label{eq:LP.2}
 \ee
+%
 which is determined by the `S\'ersic index' $n$ and the half-light
 radius $s_{\rm h}$. \cite{1989woga.conf..208C} finds $k\sim 1.992n-0.3271$. Special cases of this 
 function form are the exponential profile that has $n=1$, and the `de Vaucoleur' \citep{1948AnAp...11..247D} profile which has $n=4$. 
@@ -822,7 +890,7 @@ profile for late-type galaxies, and the de Vaucouleur profile for early-type gal
 %%%%%%%%%%%%%%%%
 \dictentry{dictionary}{AGN}{
 Acronym for Active Galactic Nucleus;
-{\scshape{\footnotesize see} \gls{Active Galactic Nucleus}} .
+{\scshape{\footnotesize see} \gls{Active Galactic Nucleus}}.
 }%
 
 %%%%%%%%%%%%%%%%
@@ -885,7 +953,6 @@ references therein]{2016arXiv160603216H}.
 }%
 
 %%%%%%%%%%%%%%%%%
-
 \dictentry{dictionary}{CLASH}{
 Cluster Lensing And Supernova survey with Hubble (CLASH)\footnote{\url{http://www.stsci.edu/~postman/CLASH/Home.html}} 
 is a survey aiming to observe $25$ massive galaxy clusters over a $3$ year period using the Hubble Space Telescope (HST).
@@ -895,7 +962,7 @@ is a survey aiming to observe $25$ massive galaxy clusters over a $3$ year perio
 \dictentry{dictionary}{Colour Gradient}{\colgrad}
 \newcommand\colgrad{
 A colour gradient is a spatially varying spectral energy distribution 
-within a galaxy profile {\scshape{\footnotesize see} \gls{Light Profile}}, manifest as 
+within a galaxy profile ({\scshape{\footnotesize see} \gls{Light Profile}}), manifested as 
 a change in the mean colour as a function of radius of the galaxy light profile. This can cause an 
 important potential systematic effect in weak lensing, because it is necessary to measure galaxy shapes with great accuracy, 
 which in turn requires a detailed model of the 
@@ -903,7 +970,8 @@ point spread function (PSF). In general, the PSF varies with wavelength and ther
 observing filter depends on the spectrum of the object. For a typical galaxy the spectrum varies across the galaxy image, 
 thus the PSF depends on the position within the image. Therefore colour gradients within galaxies can nessitate a position-dependent 
 PSF correction to be applied when measuring the shapes of galaxies. This effect has been investigated in 
-\cite{2012MNRAS.421.1385V} and \cite{2013MNRAS.432.2385S}.}%
+\cite{2012MNRAS.421.1385V} and \cite{2013MNRAS.432.2385S}.
+}%
 
 %%%%%%%%%%%%%%%%
 \dictentry{dictionary}{Comoving Distance}{
@@ -914,13 +982,18 @@ Comoving distance is normalised so that it is a distance between two
 events in space at the present cosmological time. For objects moving with the Hubble flow, it remains constant in time. 
 The comoving distance from an observer to a distant object (e.g. galaxy) can be computed by 
 \setcounter{equation}{0}
-\renewcommand{\theequation}{CD.\arabic{equation}}
+\renewcommand{\theHequation}{\arabic{equation}}
+%
 \be
-\chi = \int_{t_e}^t c \; \frac{dt^\prime}{a(t^\prime)}, 
+\chi = \int_{t_e}^t c \; \frac{dt^\prime}{a(t^\prime)}\;, 
+\tag{CD.1}
+\label{eq:CD.1}
 \ee 
+%
 where $a(t^\prime)$ is the scale factor, $t_e$ is the time of emission of the photons detected by the observer, 
 $t$ is the present time, and $c$ is the speed of light in vacuum. 
-{\scshape{\footnotesize see} \gls{Friedman--Robertson--Walker Models}}}%
+{\scshape{\footnotesize see} \gls{Friedman--Robertson--Walker Models}}.
+}%
 
 %%%%%%%%%%%%%%%%
 \dictentry{dictionary}{Convolution}{
@@ -928,9 +1001,11 @@ A convolution (sometimes known as `folding') is an integral that expresses the a
 function as it is shifted over another function. It therefore `blends' one function with another. 
 Convolution of two functions $f$ and $g$ is given by 
 \setcounter{equation}{0}
-\renewcommand{\theequation}{CV.\arabic{equation}}
+\renewcommand{\theHequation}{\arabic{equation}}
 \be
 [f*g](t)=\int f(\tau)\, g(t-\tau)\; \d\tau\;.
+\tag{CV.1}
+\label{eq:CV.1}
 \ee
 A convolution in real space becomes a multiplication in Fourier space
 and vice versa. This is a particularly important mathematical concept 
@@ -951,11 +1026,11 @@ dependent fields.
 \\
 Correlation fucntion is a general term for any two variables, however
 there is some nomenclature referring to auto-correlation and cross-correlations that is
-clarified in {\scshape{\footnotesize see} \gls{Correlation Functions and Power Spectra}; \gls{Auto-Correlation Function}\gls{Cross-Correlation Function}}.
+clarified in \gls{Correlation Functions and Power Spectra}; \gls{Auto-Correlation Function}; \gls{Cross-Correlation Function}.
 \\
 \\
 Correlation is often used as a synonym for covariance; {\scshape{\footnotesize see} \gls{Covariance}}.
- }%
+}%
 
 %%%%%%%%%%%%%%%%
 \dictentry{dictionary}{COSEBI}{
@@ -965,7 +1040,7 @@ For a measurement of the shear correlation functions
   $\xi_\pm(\theta)$ over the range $\theta_{\rm min}\le
   \theta\le\theta_{\rm max}$, one defines 
 \setcounter{equation}{0}
-\renewcommand{\theequation}{COS.\arabic{equation}}
+\renewcommand{\theHequation}{\arabic{equation}}
 %
 \be
 E_n={1\over 2}\int_{\theta_{\rm min}}^{\theta_{\rm
@@ -974,7 +1049,8 @@ E_n={1\over 2}\int_{\theta_{\rm min}}^{\theta_{\rm
 B_n={1\over 2}\int_{\theta_{\rm min}}^{\theta_{\rm
     max}}\d\theta\;\theta\, \eck{T_{+n}(\theta)\xi_+(\theta)
 -T_{-n}(\theta)\xi_-(\theta)}\; .
-\label{eq:COS1}
+\tag{COS.1}
+\label{eq:COS.1}
 \ee
 %
 The functions $T_{-n}(\theta)$ are related to the $T_{+n}(\theta)$
@@ -984,21 +1060,26 @@ through
 T_{-n}(\vartheta)=T_{+n}(\vartheta)+\int_{\theta_{\rm min}}^\vartheta
 \d\theta\;\theta\, T_{+n}(\theta)\rund{{4\over \vartheta^2}
 -{12\theta^2\over\vartheta^4}} \;.
-\label{eq:COS2}
+\tag{COS.2}
+\label{eq:COS.2}
 \ee
+%
 Provided that the $T_{+n}(\theta)$ satisfy the conditions
+%
 \be
 \int_{\theta_{\rm min}}^{\theta_{\rm max}}\d\theta\;\theta\,
 T_{+n}(\theta) = 0 =
 \int_{\theta_{\rm min}}^{\theta_{\rm max}}\d\theta\;\theta^3\,
 T_{+n}(\theta) \;,
-\label{eq:COS3}
+\tag{COS.3}
+\label{eq:COS.3}
 \ee
+%
 $E_n$ is sensitive only to E-modes, whereas $B_n$ is sensitive only to
 B-modes of the shear. One can now construct a complete set of
 functions $T_{+n}$ on the interval $\theta_{\rm min}\le
   \theta\le\theta_{\rm max}$ which satisfy the conditions
-  (\ref{eq:COS3}); this then yields a set of COSEBIs $E_n$, $B_n$
+  (\ref{eq:COS.3}); this then yields a set of COSEBIs $E_n$, $B_n$
   which contain all E-/B-mode information of the correlation functions
   on that interval \citep[see][]{COSEBI}.
 }%
@@ -1008,7 +1089,8 @@ functions $T_{+n}$ on the interval $\theta_{\rm min}\le
   effect caused by the large-scale structure along and around
   the line of sight to distant objects. This large-scale structure can
   induce both a shear and a magnification in the images of
-    distant sources.}%
+    distant sources. Cosmic shear is usually studied via a correlation function (or power spectrum).
+    }%
 
 %%%%%%%%%%%%%%%%
 \dictentry{dictionary}{Cosmology-sensitive}{
@@ -1025,7 +1107,8 @@ Covariance is a statistical measure that indicates the extent to which two or mo
 \\
 \\
 In the community, {\it correlation} is often used as a synonym for {\it covariance}. 
-{\scshape{\footnotesize see} \gls{Correlation Function}}.}%
+{\scshape{\footnotesize see} \gls{Correlation Function}}.
+}%
 
 %%%%%%%%%%%%%%%%
 \dictentry{dictionary}{CTE}{\cte} \newcommand\cte{ Charge Transfer Efficiency
@@ -1067,13 +1150,17 @@ The impact of CTE, or CTI, on weak lensing has been investigated in
 The angle between an incoming and outgoing ray, and deflection by lens, for a geometrically-thin
 lens is called the deflection angle, which is defined as 
 \setcounter{equation}{0}
-\renewcommand{\theequation}{DA.\arabic{equation}}
+\renewcommand{\theHequation}{\arabic{equation}}
+%
 \be
 \hat{\alpha}=-\frac{2}{c^2}\int \nabla_{\bot} \Phi dr \; ,
+\tag{DA.1}
+\label{eq:DA.1}
 \ee
+%
 i.e. gradient of the potential $\Phi$ is taken perpendicular to the
 light path. The deflection angle is twice the classical prediction in
-Newtonian dynamics if photons were massive particles with velocity $c$ 
+Newtonian dynamics if photons were massive particles with velocity $c$.
 {\scshape{\footnotesize see} \gls{Surface Density}; \gls{Weak Lensing Equations}}.
 }%
 
@@ -1130,7 +1217,7 @@ and hence are formed later in the history of the Universe.}%
 
 %%%%%%%%%%%%%%%%
 \dictentry{dictionary}{E-mode}{
-{\scshape{\footnotesize see} \gls{EB-mode Decomposition}}.
+{\scshape{\footnotesize see} \gls{E/B-mode Decomposition}}.
 }%
 
 %%%%%%%%%%%%%%%%
@@ -1150,9 +1237,11 @@ particular survey to a set of parameters and has been used largely
 for forecasting and optimisation. It is defined as the ensemble
 average of the \textit{curvature} of the likelihood function 
 \setcounter{equation}{0}
-\renewcommand{\theequation}{FM.\arabic{equation}}
+\renewcommand{\theHequation}{\arabic{equation}}
 \be
-F_{\alpha\beta}=\left\langle -\frac{\partial^{2}\ln\mathcal{L}}{\partial\theta_{\alpha}\partial\theta_{\beta}}\right\rangle \label{eq:General_FM}\;,
+F_{\alpha\beta}=\left\langle -\frac{\partial^{2}\ln\mathcal{L}}{\partial\theta_{\alpha}\partial\theta_{\beta}}\right\rangle \;,
+\tag{FM.1}
+\label{eq:FM.1}
 \ee
 where $\mathcal{L}$ is the likelihood function and $\theta_{\alpha}$ and $\theta_{\beta}$ are cosmological parameters. 
 Its inverse is an approximation of the covariance matrix of the parameters, by analogy with a 
@@ -1167,7 +1256,7 @@ likelihood function is approximately Gaussian near the peak.
 }%
 
 %%%%%%%%%%%%%%%%
-\dictentry{dictionary}{Flat-Sky}{
+\dictentry{dictionary}{Flat Sky}{
 Considered when the area of sky under consideration is small enough that geometric effects caused by observing on the 
 celestial sphere are negligible and can be ignored. 
 The limit and area of the sky that can be considered flat may change depending on the function that is being calculated.
@@ -1219,11 +1308,15 @@ over all parameter space, but is not sensitive to any degeneracies
 amongst the parameters. 
 \item Entropy (also called the Kullback-Leibler divergence) 
 \setcounter{equation}{0}
-\renewcommand{\theequation}{FOM.\arabic{equation}}
+\renewcommand{\theequation}{FoM.\arabic{equation}}
+%
 \begin{eqnarray}
 E & = & \int d\theta\; P(\theta|\hat{\theta},e,o)\log\frac{P(\theta|\hat{\theta},e,o)}{P(\theta|o)}\nonumber \\
  & = & \frac{1}{2}\left[\log\left|\mathbf{F}\right|-\log|\mathbf{\Pi}|-\textrm{trace}(\mathbb{I}-\mathbf{\Pi}\mathbf{F}^{-1})\right]\;,
+%\tag{FoM.1}
+\label{eq:FoM.1}
 \end{eqnarray}
+%
 where $P(\theta|\hat{\theta},e,o)$ is the posterior distribution
 with Fisher matrix $\mathbf{F}$ and $P(\theta|o)$ is the prior distribution
 with Fisher matrix $\mathbf{\Pi}$. 
@@ -1371,7 +1464,7 @@ weight of the object is an extrinsic property as it depends on the strength of t
 }%
 
 %%%%%%%%%%%%%%%%
-\dictentry{dictionary}{Kaiser-Squires Mass Reconstruction}{
+\dictentry{dictionary}{Kaiser-Squires (KS) Mass Reconstruction}{
 This is used to refer to the inverse method of estimating a map covergence 
 from estimates of galaxy shear, which was first described in \citet{1993ApJ...404..441K}; 
 {\scshape{\footnotesize see} \gls{Mass Map}; \gls{3D Mass Map}; \gls{Kappa}; \gls{Potential Map}}.
@@ -1383,10 +1476,14 @@ from estimates of galaxy shear, which was first described in \citet{1993ApJ...40
 $\kappa$ and referred to in shorthand as `kappa', i.e. in `kappa map' means `weak lensing covergence map'; 
 {\scshape{\footnotesize see} \gls{Mass Map}; \gls{3D Mass Map}; \gls{Kappa}; \gls{Potential Map}}. The convergence is related to the projected lensing potential by 
 \setcounter{equation}{0}
-\renewcommand{\theequation}{KP.\arabic{equation}}
+\renewcommand{\theHequation}{\arabic{equation}}
+%
 \be 
 \kappa(\theta)=\frac{1}{2}\eth\tilde\eth\phi(\theta),
+\tag{KP.1}
+\label{eq:KP.1}
 \ee
+%
 where $\theta$ is an angular coordinate on the sky, $\phi$ is the projected lensing potential 
 and $\eth$ is a complex derivative on the sky ({\scshape{\footnotesize see} \gls{eth Differential Operator}}) which 
 are simplified covariant derivatives in a Cartesian coordinate system, see e.g. \citep{2005PhRvD..72b3516C}. The 
@@ -1487,10 +1584,14 @@ An equation that relates the angular position of light ray at which it would hav
 observed in the absence of gravitational lensing $\beta$, to the actual angular observed $\theta$, and the deflection 
 angle in the path of the light ray caused by a gravitational lens $\alpha$
 \setcounter{equation}{0}
-\renewcommand{\theequation}{LE.\arabic{equation}}
+\renewcommand{\theHequation}{\arabic{equation}}
+%
 \be
 \beta=\theta-\alpha\frac{D_{LS}}{D_S}\;,
+\tag{LE.1}
+\label{eq:LE.1}
 \ee
+%
 where $D_{LS}$ is the angular diameter distance between the source and the lens, and $D_S$ is the 
 angular diameter distance to the source. {\scshape{\footnotesize see} \gls{Distortion Matrix}; 
 \gls{Weak Lensing Equations}}.
@@ -1500,7 +1601,8 @@ angular diameter distance to the source. {\scshape{\footnotesize see} \gls{Disto
 \dictentry{dictionary}{Lens Plane}{
 The transverse 2D projection along the line-of-sight at which it is assumed the 
 change in light paths geodesic is affected by the presence of a massive object causing gravitational 
-lensing; i.e. the plane at which the lens sits.}%
+lensing; i.e. the plane at which the lens sits.
+}%
 
 %%%%%%%%%%%%%%%%
 \dictentry{dictionary}{Lensfit}{
@@ -1525,7 +1627,7 @@ The lensing kernel, or lensing efficiency, defines the efficiency of
 lensing for a distribution of sources and 
 lenses with respect to the observers. The kernel is broad and it is most sensitive to structure halfway 
 between the observer and the source. The kernel is defined as the combination of distances that appears in the 
-len equation {\scshape{\footnotesize see} Lens Equation}
+len equation. {\scshape{\footnotesize see} \gls{Lens Equation}; \gls{Weak Lensing Equations}}.
 }%
 
 %%%%%%%%%%%%%%%%
@@ -1591,10 +1693,14 @@ singular case of `multi-epoch'. See {\scshape{\footnotesize see} \gls{Multi-Epoc
 Singular Isothermal Sphere (SIS) is the simplest symmetrical parameterisation of 
 the matter distribution in astronomical systems, such as galaxies. The density distribution is defined as 
 \setcounter{equation}{0}
-\renewcommand{\theequation}{SIS.\arabic{equation}}
+\renewcommand{\theHequation}{\arabic{equation}}
+%
 \be
 \rho(r) = \frac{\sigma_{V}^{2}}{2\pi G r^{2}} \; ,
+\tag{SIS.1}
+\label{eq:SIS.1}
 \ee
+%
 where $\sigma_{V}^{2}$ is the velocity dispersion. The SIS profile is unphysical because of the singularity at 
 zero radius and the fact that the total mass calculated by integrating the function out to infinite radius 
 does not converge (i.e., it is infinite). However, it is commonly utilised in the literature due to the simplicity of its form.
@@ -1682,9 +1788,11 @@ in a system of spherical coordinates with $\theta$ and $\phi$, Laplace's spheric
 a specific set of spherical harmonics that forms an orthogonal system, first introduced 
 by Pierre Simon de Laplace in 1782. They form a complete orthonormal set on the unit sphere and are defined as
 \setcounter{equation}{0}
-\renewcommand{\theequation}{SH.\arabic{equation}}
+\renewcommand{\theHequation}{\arabic{equation}}
 \be
 Y_\ell^m = \sqrt{\frac{2\ell + 1}{4\pi} \frac{(l-m)!}{(l + m)!}} P_\ell^m(\cos\theta)e^{im\phi} \; , 
+\tag{SH.1}
+\label{eq:SH.1}
 \ee
 where $\ell$ is the multipole representing angular scale $\alpha$ as $\alpha \simeq \pi / \ell$, with $\ell = 0,...,\infty$. 
 The order $m$ ranges as $-\ell \le m \le \ell$ and $P_\ell^m$ are the Legendre polynomials. Spherical harmonics 
@@ -1719,10 +1827,14 @@ that is a combination of the shear and convergence.
 In a measurement of 
 the ellipticity, or inference of shear, it is the `reduced shear' that is measured. This is defined as
 \setcounter{equation}{0}
-\renewcommand{\theequation}{RS.\arabic{equation}}
+\renewcommand{\theHequation}{\arabic{equation}}
+%
 \be
 g = \frac{\gamma}{1-\kappa} \;.
+\tag{RS.1}
+\label{eq:RS.1}
 \ee
+%
 Where $\gamma$ is the (not reduced) shear, and $\kappa$ is the convergence. 
 This has the same properties as shear such as spin-2 transformation properties. Weak lensing is 
 the regime where the effect of gravitational lensing is very small, with both the 
@@ -1737,15 +1849,23 @@ Redshift quantifies the amount by which the light from a distant object, such as
 is moved to the redder end of the spectrum. Galaxies have redshifts caused by 
 the expansion of the Universe. The redshift is defined by 
 \setcounter{equation}{0}
-\renewcommand{\theequation}{ZZ.\arabic{equation}}
+\renewcommand{\theHequation}{\arabic{equation}}
+%
 \be
 z = \frac{\lambda_{\text{obs}} - \lambda_{\text{emit}}}{\lambda_{\text{emit}}}\;,
+\tag{ZZ.1}
+\label{eq:ZZ.1}
 \ee
+%
 where $\lambda_\text{obs}$ is the observed wavelength and $\lambda_\text{emit}$ is the emitted/absorbed wavelength.
 The redshift can be related to the dimensionless scale factor in the following way 
+%
 \be 
 z= \frac{a(t_{\rm obs})}{a(t_{\rm emit})}-1
+\tag{ZZ.2}
+\label{eq:ZZ.2}
 \ee
+%
 where $a(t)$ are the scale factors at the cosmic time $t$ (the proper time measured 
 by an observer at rest to the local matter distribution, or `substratum'). 
 Because, by convention, $a(t_{\rm obs}) = 1$ the redshift is usually related to the 
@@ -1780,10 +1900,14 @@ from the projected centre of a galaxy.
 \dictentry{dictionary}{R-squared}{
 A particular estimate for the size of a galaxy, obtained from galaxy images, using quadrupole moments. It is defined as 
 \setcounter{equation}{0}
-\renewcommand{\theequation}{RS.\arabic{equation}}
+\renewcommand{\theHequation}{\arabic{equation}}
+%
 \be
 R^2=(Q_{11}Q_{22}-Q_{12}^2) \;.
+\tag{RSq.1}
+\label{eq:RSq.1}
 \ee 
+%
 In some weak lensing literature this is referred to as $A$, since it is also related to the projected area of the 
 galaxy in question \citep{2015arXiv151205591I}. {\scshape{\footnotesize see} \gls{Ellipticity (observed)}; \gls{Quadrupole Moments}; \gls{Galaxy Size}}.
 }%
@@ -1805,11 +1929,15 @@ The quadrupole moment is a second-rank tensor.
 It represents the ellipsoidal shape of an object. In weak lensing it is used to quantify the 
 observed ellipticity of an object, such as a galaxy or a star, and is defined as 
 \setcounter{equation}{0}
-\renewcommand{\theequation}{QM.\arabic{equation}}
+\renewcommand{\theHequation}{\arabic{equation}}
+%
 \be
 Q_{ij} = \frac{\int{\rm d}^2x (x_i - \bar{x}_i) (x_j - \bar{x}_j) I(\mathbf{x}) W(\mathbf{x})} 
 {\int{\rm d}x^2 I(\mathbf{x})W(\mathbf{x})}\;,
+\tag{QM.1}
+\label{eq:QM.1}
 \ee
+%
 where $\{i , j\} = \{1, 2\}$ and $\mathbf{x}=(x_i,x_j)$ is the 2D
 position of the object in the image. The weight function
 $W(\mathbf{x})$ is typically assumed to be a multivariate Gaussian and
@@ -1817,14 +1945,22 @@ $I(\mathbf{x})$ is the flux of the image centred at
 $(\bar{x}_i,\bar{x}_j)$. The three quadrupole moments $\mathbf{Q} = \left(Q_{11}, Q_{22}, Q_{12}\right)$ can be related to the ellipticity of an object in two ways;
 \begin{enumerate}
 \item third eccentricity 
+%
 \be
 \mathbf{\chi} \equiv \chi_1 + i\chi_2 \equiv \frac{Q_{11} - Q_{22} + 2iQ_{12}}{Q_{11} + Q_{22}} \;.
+\tag{QM.2}
+\label{eq:QM.2}
 \ee
+%
 {\scshape{\footnotesize see} Third Eccentricity}.
 \item third flattening 
+%
 \be
 \mathbf{\epsilon} \equiv \epsilon_1 + i\epsilon_2 \equiv \frac{Q_{11} - Q_{22} + 2iQ_{12}}{Q_{11} + Q_{22}+2R} \;,
+\tag{QM.3}
+\label{eq:QM.3}
 \ee
+%
 where $R=(Q_{11}Q_{22}-Q_{12}^2)^{1/2}$ is a measure of the size of the image (in some weak lensing literature this is referred to as $R^2$; {\scshape{\footnotesize see} \gls{R-squared}}). {\scshape{\footnotesize see} \gls{Third Flattening}}.
 \end{enumerate}
 There is a simple relation between third flattening and third eccentricity $\mathbf{\chi} = 2 \mathbf{\epsilon}/(1 + | \epsilon |^2)$.
@@ -1846,10 +1982,14 @@ In principle, Monte Carlo methods can be used to solve any problem having a prob
 \dictentry{dictionary}{Newtonian Potential}{
 Refers to the gravitational potentials. For example in an expanding universe in the following equation
 \setcounter{equation}{0}
-\renewcommand{\theequation}{NP.\arabic{equation}}
+\renewcommand{\theHequation}{\arabic{equation}}
+%
 \be
 {\rm d}s^2 = \left(1+\frac{2\Psi}{c^2}\right) c^2 {\rm d}t^2 - a^2(t)\left(1-\frac{2\Phi}{c^2}\right){\rm d}l^2 \;,
+\tag{NP.1}
+\label{eq:NP.1}
 \ee
+%
 where ${\rm d}s$ is the line element, $a$ is the scale factor, $c$ is the speed of light, $\Psi$ is the Newtonian potential and $\Phi$ is the Newtonian curvature. {\scshape{\footnotesize see} \gls{Friedman--Robertson--Walker Models}}.
 }%
 
@@ -1857,10 +1997,14 @@ where ${\rm d}s$ is the line element, $a$ is the scale factor, $c$ is the speed 
 \dictentry{dictionary}{NFW}{
 The Navarro-Frenk-White (NFW) profile describes the spatial distribution of dark matter halos that was fitted to N-body simulations by \cite{NFW}. The NFW profile is one of the most commonly used models in cosmology and it defines the density of dark matter as a function of radius as
 \setcounter{equation}{0}
-\renewcommand{\theequation}{NFW.\arabic{equation}}
+\renewcommand{\theHequation}{\arabic{equation}}
+%
 \be
 \rho(r)=\frac{\rho_c \delta_c}{(1/r_s)(1+r/r_s)^2} \;,
+\tag{NFW.1}
+\label{eq:NFW.1}
 \ee
+%
 where $r_s$ is a scale radius, $\delta_c$ is a characteristic density, and $\rho_c$ is the critical over density defined as $\rho_c=3H^2/8\pi G$. The NFW profile works for a large range of halo masses and sizes, from individual galaxies to the halos of galaxy clusters. {\scshape{\footnotesize see} \gls{Halo Model}}.
 }%
 
@@ -1890,10 +2034,14 @@ eigenvalues are reciprocals.%
 that are orthogonal to each other and are a linear combination of
 the original parameters ${\normalcolor \mathbf{O}}$, through the eigenvectors
 \setcounter{equation}{0}
-\renewcommand{\theequation}{PCA.\arabic{equation}}
+\renewcommand{\theHequation}{\arabic{equation}}
+%
 \be
 \mathbf{X}=\mathbf{EO}\;.
+\tag{PCA.1}
+\label{eq:PCA.1}
 \ee
+%
 The $X_{i}$ are called the \emph{principal components} of the experiment
 and are ordered so that so that $X_{1}$ has the smallest
 eigenvalue and $X_{n}$ the largest. In this construction, the eigenvalues
@@ -1974,14 +2122,22 @@ The power spectrum is the Fourier counterpart of the two-point correlation funct
 The power can also be in the harmonic space. Given a harmonic transform of a quantity, the power spectrum is the average of the quadrature of the harmonic transform coefficients. An example in weak lensing is the spherical harmonic transform of the shear field $\gamma(\theta,z)$ 
 on a redshift slice $z$ 
 \setcounter{equation}{0}
-\renewcommand{\theequation}{PS.\arabic{equation}}
+\renewcommand{\theHequation}{\arabic{equation}}
+%
 \be
 \gamma^m_{\ell}(z)=\sum_{g\in z}\gamma(\theta,z)_2Y^m_{\ell}(\theta)\;,
+\tag{PS.1}
+\label{eq:PS.1}
 \ee 
+%
 that results in a power spectrum 
+%
 \be
 \langle \gamma^m_{\ell}(z)\gamma^{m'*}_{\ell'}(z')\rangle=C_{\ell}(z,z')\delta_{\ell\ell'}\delta_{mm'}\;,
+\tag{PS.2}
+\label{eq:PS.2}
 \ee
+%
 where $C_{\ell}(z,z')$ is the power spectrum that assumes homogeneity and isotropy. 
 {\scshape{\footnotesize see} \gls{Shear Power Spectrum}}.
 }%
@@ -1991,19 +2147,29 @@ where $C_{\ell}(z,z')$ is the power spectrum that assumes homogeneity and isotro
 \newcommand\ShearPowerSpectrum{
 Tomographic cosmic shear power spectrum is the auto- and cross-correlation of shear of galaxies at different redshift bins
 \setcounter{equation}{0}
-\renewcommand{\theequation}{SP.\arabic{equation}}
+\renewcommand{\theHequation}{\arabic{equation}}
 \be
 C_{ij}(\ell)=\int^{r_H}_{0}\textrm{d}r \; W_{ij}^{GG}(r) \; P_{\delta\delta}\left(k=\frac{\ell}{S_k(r)};r\right)\:,
+\tag{SPS.1}
+\label{eq:SPS.1}
 \ee
 %
 where $P_{\delta\delta}\left(k=\ell/S_k(r);r\right)$ is the 3D density matter power spectrum, with $S_k(r)$ being the comoving angular diameter distance and $r$ being the comoving distance. The lensing weight function $W_{ij}^{GG}(r)$ is expressed as
+%
 \be
 W_{ij}^{GG}(r)=\frac{q_i(r)q_j(r)}{S^2_k(r)}\:,
+\tag{SPS.2}
+\label{eq:SPS.2}
 \ee
+%
 with kernel  
+%
 \be
 q_i(r)=\frac{3H_0^2\Omega_m S_k(r)}{2a(r)} \int^{r_H}_r \textrm{d}r^\prime \; p_i(r^\prime) \; \frac{S_k(r^\prime-r)}{S_k(r^\prime)}\;,
+\tag{SPS.3}
+\label{eq:SPS.3}
 \ee
+%
 where $ij$ subscripts refer to redshift bins, $r_H$ is the horizon distance and $a$ is the scale factor. The comoving source galaxy probability distribution $p_i(r)$ is given by $p_i(z)\propto z^2 \exp(-1.4z/z_m)^{1.5}$, where $z_m$ is the median redshift of the survey and $p_i(r)dr = p_i(z)dz$. {\scshape{\footnotesize see} \gls{Power Spectrum}}.
 }%
 
@@ -2025,14 +2191,22 @@ The projected density refers to the integrated mass density along a line of sigh
 \newcommand\PSF{
 Acronym for Point Spread Function of telescope, which describes the response of the telescope to a point source {\scshape{\footnotesize see} \gls{Impulse Response Function (of telescope)}}. PSF is a convolutive function, which distorts sizes and shapes of galaxies. The observed source has a larger size of 
 \setcounter{equation}{0}
-\renewcommand{\theequation}{PSF.\arabic{equation}}
+\renewcommand{\theHequation}{\arabic{equation}}
+%
 \be
 R^2_{\rm{obs}} = R^2_{\rm{gal}} + R^2_{\rm{PSF}}\;,
+\tag{PSF.1}
+\label{eq:PSF.1}
 \ee
-and a perturbed ellipticity given by 
+and a
+% perturbed ellipticity given by 
+%
 \be 
 \epsilon_{\rm{obs}} = \epsilon_{\rm{gal}} + \frac{R^2_{\rm{PSF}}}{R^2_{\rm{gal}}+R^2_{\rm{PSF}}} \left( \epsilon_{\rm{PSF}} - \epsilon_{\rm{gal}}\right)\;.
+\tag{PSF.2}
+\label{eq:PSF.2}
 \ee
+%
 Galaxy shapes have to be deconvolved for the effects of PSF, using point objects, such as stellar images. 
 \cite{2013ApJS..205...12K} review several methods for estimating the PSF from images for weak lensing.
 }%
@@ -2057,34 +2231,56 @@ Quantum efficiency (QE) measures the effectiveness of a CCD to produce electroni
 \newcommand\PseudoCl{
 The shear field can be expanded in terms of spherical harmonic functions $Y_{\ell m}$ as
 \setcounter{equation}{0}
-\renewcommand{\theequation}{PCL.\arabic{equation}}
+\renewcommand{\theHequation}{\arabic{equation}}
+%
 \be
 \gamma = \sum\limits_{\ell=0}^{\infty} \sum\limits_{m=-\ell}^{\ell} a_{\ell m} Y_{\ell m} \;,
+\tag{PCL.1}
+\label{eq:PCL.1}
 \ee
+%
 with $a_{\ell m}$ being the spherical harmonic coefficients. For a Gaussian $\gamma$ with zero mean, $\langle a_{\ell m} \rangle = 0$, the power spectrum is the variance
+%
 \be
 \langle a_{\ell m} a^*_{\ell^{\prime} m^{\prime}} \rangle = \delta_{\ell \ell^{\prime}} \delta_{mm^{\prime}} C_\ell^{\textrm{th}} \;,
-\label{eq:ps}
+\tag{PCL.2}
+\label{eq:PCL.2}
 \ee
+%
 where $C_\ell^{\textrm{th}}$ is the shear angular power spectrum. We only observe a realisation of this underlying power spectrum on our sky, which we can estimate using the \textit{empirical power spectrum estimator} defined as
+%
 \be
 \widehat{C}^{\mathrm{th}}_\ell = \frac{1}{2\ell + 1} \sum\limits_{m=-\ell}^{\ell} | a_{\ell m} |^2\;,
-\label{eq:empirical-ps}
+\tag{PCL.3}
+\label{eq:PCL.3}
 \ee
+%
 where $\widehat{C}^{\mathrm{th}}_\ell$ is an unbiased estimator of the true underlying power spectrum; $\langle \widehat{C}^{\mathrm{th}}_\ell\rangle = C_\ell^{\textrm{th}}$, in the case of noiseless data over full sky. Applying a mask on the sky results in the following modification of the spherical harmonic coefficients:
-\begin{equation}
-	\tilde{a}_{\ell m} = \int {\rm d} \, \Omega\gamma(\Omega) W(\Omega) Y_{\ell m}^*(\Omega)\;,
-\end{equation}
+%
+\be
+\tilde{a}_{\ell m} = \int {\rm d} \, \Omega\gamma(\Omega) W(\Omega) Y_{\ell m}^*(\Omega)\;,
+\tag{PCL.4}
+\label{eq:PCL.4}
+\ee
+%
 where $W(\Gamma)$ is the window function applied to the data. The presence of the window function induces correlations between the $a_{\ell m}$ coefficients at different $\ell$ and different $m$. One can define the \textit{pseudo power spectrum} $\widetilde{C}_{\ell}$ as the application of the empirical power spectrum estimator on the spherical harmonic coefficients of the masked sky. In case of data contaminated with additive Gaussian stationary noise, the pseudo power spectrum is
+%
 \be
 \widetilde{C}_\ell = \frac{1}{ 2 \ell + 1 } \sum_{m = -\ell}^{\ell} | \tilde{a}_{\ell m} + \tilde{n}_{\ell m} |^2 \;,
+\tag{PCL.5}
+\label{eq:PCL.5}
 \ee
+%
 where $\tilde{n}_{\ell m}$ are the spherical harmonic coefficients of the masked instrumental noise. 
 
 Following the MASTER method from \citet{MASTER}, the pseudo power spectrum $\widetilde{C}_\ell$ and the empirical power spectrum $\widehat{C}^{\mathrm{th}}_\ell$ can be related through their ensemble averages:
-\begin{equation}
+%
+\be
 \langle \widetilde{C}_\ell \rangle = \sum_{\ell^\prime} M_{\ell \ell^\prime}  {C}^{\mathrm{th}}_{\ell^\prime} +  \langle \widetilde{N}_\ell \rangle \;,
-\end{equation}
+\tag{PCL.6}
+\label{eq:PCL.6}
+\ee
+%
 where $M_{\ell \ell^\prime}$ describes the mode-mode coupling between modes $\ell$ and $\ell^\prime$ resulting from computing the transform on the masked sky.
 {\scshape{\footnotesize see} \gls{Power Spectrum}}.
 }%
@@ -2093,10 +2289,14 @@ where $M_{\ell \ell^\prime}$ describes the mode-mode coupling between modes $\el
 \dictentry{dictionary}{K-correction}{
 This is a correction to the magnitude or flux of a source to convert it to its rest frame magnitude or flux. The K-correction can be defined as 
 \setcounter{equation}{0}
-\renewcommand{\theequation}{KC.\arabic{equation}}
+\renewcommand{\theHequation}{\arabic{equation}}
+%
 \be
 M = m - 5 \left( {\rm log}_{10} D_L -1  \right) -K_{\rm cor} \;,
+\tag{KC.1}
+\label{eq:KC.1}
 \ee
+%
 where $D_L$ is the luminosity distance.  
 K-correction is necessary when objects are observed through a single bandpass, as only a fraction of the total spectrum of the source is observed.
 }%
@@ -2149,7 +2349,7 @@ This is the sunlight scattered by interplanetary dust in the zodiacal cloud in t
 %%%%%%%%%%%%%%%%
 \dictentry{dictionary}{Brighter-Fatter Effect}{\bfe}
 \newcommand\bfe{This is an effect in which the profile of point
-  sources ({\scshape{\footnotesize see} PSF}) as recorded on the detector is flattened 
+  sources ({\scshape{\footnotesize see} \gls{PSF}}) as recorded on the detector is flattened 
 and broadened to an extent depending on the flux recorded by a CCD detector 
 (the effect is negligible in HeCdTe detectors used in the infrared). 
 
@@ -2173,7 +2373,7 @@ The impact of this effect on weak lensing has been studied in \cite{2015ExA....3
 
 %%%%%%%%%%%%%%%%
 \dictentry{dictionary}{AOCS}{
-An Attitude and Orientation Control System (AOCS) is a system in a satellite which controls the satellite pointing direction, the stability of this pointing, and the rotation of the satellite to point in a different direction. The AOCS is critical in ensuring the safety of the satellite consequent to an equipment failure or commanding error. The system contains sensors, such as Sun sensor, star trackers, fine guidance sensors and gyroscopes, and actuators such as reaction wheels, magnetorquers and thrusters of various powers and controllability. The AOCS operational lifetime is generally limited by consumables, such as hydrazine; {\scshape{\footnotesize see} \gls{Slew}}.
+An Attitude and Orientation Control System (AOCS) is a system in a satellite which controls the satellite pointing direction, the stability of this pointing, and the rotation of the satellite to point in a different direction. The AOCS is critical in ensuring the safety of the satellite consequent to an equipment failure or commanding error. The system contains sensors, such as Sun sensor, star trackers, fine guidance sensors and gyroscopes, and actuators such as reaction wheels, magnetorquers and thrusters of various powers and controllability. The AOCS operational lifetime is generally limited by consumables, such as hydrazine. {\scshape{\footnotesize see} \gls{Slew}}.
 }%
 
 %%%%%%%%%%%%%%%%
@@ -2198,16 +2398,27 @@ Pixel clamping bounce is the difference between the measured and expected signal
 }%
 
 %%%%%%%%%%%%%%%%
+%\dictentry{dictionary}{CCD detector chain}{
+%the chain of CCD analog-to-digital conversion/amplifier as well as the electronics from the card.  The CCD pixel non-linearity is generated at various points in the CCD detector chain: mostly in the amplifier/ADC (~90\%), but some from the card.
+%\textcolor{red}{Mark Cropper: need your help here please.}
+%}%
+
+%%%%%%%%%%%%%%%%
 \dictentry{dictionary}{Cadence}{
 The cadence is the frequency of sampling of the data. In a space-based
 observatory, this is approximately the time interval between spacecraft 
-slews divided by the number of dithers; {\scshape{\footnotesize see} \gls{Slew}}.
+slews divided by the number of dithers. {\scshape{\footnotesize see} \gls{Slew}}.
 }%
 
 %%%%%%%%%%%%%%%%
 \dictentry{dictionary}{Flat-Field (FF)}{
 A flat field (FF) is the response of a telescope to a uniform light across its area. Hence a flat field frame is an image of a field that has a uniform illumination. Flat field correction (flat fielding) is then applied to astronomical images to correct for artefacts in the optical path of the telescopes; these include inter-pixel responsivity in the CCD, vignetting etc. 
 Flat fielding is particularly needed when photometry is required. See e.g. \cite{2013MNRAS.433.2545E} for an application of flat-fielding in a data analysis chain used for weak lensing.
+}%
+
+%%%%%%%%%%%%%%%%
+\dictentry{dictionary}{FoF}{
+Acronym for Friends of Friends; {\scshape{\footnotesize see} \gls{Friends of Friends}}.
 }%
 
 %%%%%%%%%%%%%%%%
@@ -2225,7 +2436,7 @@ This results in chip-position-dependant systematic bias, which need to be correc
 }%
 
 %%%%%%%%%%%%%%%%
-\dictentry{dictionary}{Cross-component Shear}{
+\dictentry{dictionary}{Cross-Component Shear}{
 Cross-component shear (or ellipticity) is the amplitude of 
 the shear which at $45^{\degree}$ to the tangential shear (which is that which is perpendicularly aligned 
 with a lensing source) {\scshape{\footnotesize see} \gls{Tangential Shear}}.}%
@@ -2280,27 +2491,43 @@ Probability distribution or probability distribution function (PDF). Here we lis
 
 This is the most common continuous probability distribution in cosmology. It is very useful because of the central limit theorem; physical quantities that are sum of many independent processes (such as measurement errors) often have nearly normal distributions. For data $x$, normal distribution is defined as 
 \setcounter{equation}{0}
-\renewcommand{\theequation}{PD.\arabic{equation}}
+\renewcommand{\theHequation}{\arabic{equation}}
+%
 \be
 \mathcal{N}\left( x;\mu,\sigma^2 \right)=\left(\frac{1}{2\pi\sigma^{2}}\right)^{1/2}\exp\left[ -\frac{1}{2}\frac{\left(x-\mu\right)^{2}}  {\sigma^{2}}\right] \;,
+\tag{PD.1}
+\label{eq:PD.1}
 \ee
+%
 where `standard' normal distribution has $\mu=0$ and $\sigma^{2}=1$. For a collection of data $\left\{x_{n}\right\} $
+%
 \be
 \mathcal{N}\left(x_n;\mu,\sigma^2 \right)=\left(\frac{1}{2\pi\sigma^{2}}\right)^{N/2}\exp\left[ -\frac{1}{2}\frac{\sum_{i}^{N}\left(x_{i}-\mu\right)^{2}}{\sigma^{2}}\right] \;.
+\tag{PD.2}
+\label{eq:PD.2}
 \ee
+%
 For multi-variate case 
+%
 \be
 \mathcal{N}\left(\mathbf{D}_{n};\mu_n,\mathbf{C} \right)=\left(\frac{1}{\left|2\pi \mathbf{C}\right|}\right)^{1/2}\exp\left[ -\frac{1}{2}\left(\mathbf{D}_{n}-\mu_n\right)\mathbf{C}^{-1}\left(\mathbf{D}_{n}-\mu_n\right)^{T}\right] \;,
+\tag{PD.3}
+\label{eq:PD.3}
 \ee
+%
 where $C=\left\langle \left(\mathbf{D}_{n}-\mu_n\right)\left(\mathbf{D}_{n}-\mu_n\right)^{T}\right\rangle$.
 \\
 %%%%%%%%
 \item Log-normal Distribution
 
 This is a continuous probability distribution of a random variable whose logarithm is normally distributed --- a log-normally distributed random variable can only take positive real values. For data $x$, where $\log(x)$ has normal distribution
+%
 \be
 \ln \mathcal{N} \left(x;\mu,\sigma^2 \right)=\left(\frac{1}{2\pi\sigma^{2}}x^2 \right)^{1/2}\exp\left[ -\frac{1}{2}\frac{\left(\ln x-\mu\right)^{2}}  {\sigma^{2}}\right] \;\;\;\;\;\; {\rm for} \;\; x>0 \;.
+\tag{PD.4}
+\label{eq:PD.4}
 \ee
+%
 This is useful in weak lensing because the matter overdensity field is hypothesised to have an approximately log-normal distribution 
 \citep{1991MNRAS.248....1C,2001ApJ...561...22K,2016MNRAS.459.3693X}.
 \\
@@ -2308,18 +2535,26 @@ This is useful in weak lensing because the matter overdensity field is hypothesi
 \item $\chi^2$ Distribution 
 
 For $x_{n}$ is drawn from `standard' normal distribution, then $X=\sum_{n}^{N}x_{n}^{2}$ has a $\chi^{2}$ distribution with $N$ degrees of freedom
+%
 \be
-\chi_{N}^{2}\left(X\right)=\left(\frac{1}{2^{N}\Gamma^{2}\left(N/2\right)}\right)^{1/2}X^{N/2-1}\exp\left[ -\frac{1}{2}X\right] \ ,\label{eq:chi2_dist}
+\chi_{N}^{2}\left(X\right)=\left(\frac{1}{2^{N}\Gamma^{2}\left(N/2\right)}\right)^{1/2}X^{N/2-1}\exp\left[ -\frac{1}{2}X\right] \ ,
+\tag{PD.5}
+\label{eq:PD.5}
 \ee
+%
 where $\Gamma(N/2)$ is Gamma function. If $x_{n}$ has mean $\mu$ and variance $\sigma^{2}$ then $X=\frac{1}{\sigma^{2}}\sum_{n}^{N}\left(x_{n}-\mu\right)^2$ has a $\chi^{2}$ distribution with $\left(N-1\right)$ degrees of freedom.
 \\
 %%%%%%%%
 \item Poisson Distribution 
 
 This probability distribution describes the distribution of a discrete independent point process
+%
 \be
 \mathcal{P}_n = \frac{\lambda^n}{n} \exp{(-\lambda)} \; ,
+\tag{PD.6}
+\label{eq:PD.6}
 \ee
+%
 where $\lambda$ is the average number of events per interval (e.g. in a volume of space), $n$ is the event (e.g. a galaxy). 
 This is useful in weak lensing and cosmology because many processes have Poisson distribution for example 
 photon noise. 
@@ -2329,12 +2564,15 @@ photon noise.
 
 For $x$ being an $N\times p$ matrix, with each row being independently drawn from a $p$-variate normal distribution with mean $\mu=0$, 
 the $p\times p$ random scatter matrix $\mathbf{S}=X^TX$ has a Wishart distribution with $N$ degrees of freedom and covariance $\mathbf{C}$
+%
 \be
 \mathcal{W}_p \left(\mathbf{C},N\right) = \frac{1}{2^{Np/2} \left|\mathbf{C}\right|^{N/2} \Gamma_p \left(N/2\right)}
 \left|S\right|^{(N-p-1)/2}
 \exp\left[-\frac{1}{2}\textrm{tr}\left(\mathbf{C}^{-1}\mathbf{S}\right)\right]\; ,
-\label{eq:Wishart_dist}
+\tag{PD.7}
+\label{eq:PD.7}
 \ee
+%
 where $\Gamma_p$ is the multivariate Gamma function. 
 In cosmology and weak lensing, this distribution is useful because parameters covariance matrices have Wishart distributions.
  The Wishart distribution is the multivariate extension of the gamma distribution --- in case of integer degrees of freedom, 
@@ -2349,12 +2587,15 @@ weak lensing see \cite{2013MNRAS.432.1928T,2014IAUS..306...99J}.
 
 For $x$ being an $N\times p$ matrix, with each row being independently drawn from a $p$-variate normal distribution with mean $\mu=0$, 
 the $p\times p$ random scatter matrix $\mathbf{S}=X^TX$ (note that this is the inverse of $\mathbf{S}$ in Wishart distribution) has a inverse Wishart distribution with $N$ degrees of freedom and covariance $\mathbf{C}$
+%
 \be
 \mathcal{W}^{-1}_p\left(\mathbf{C},N\right) = \frac{1}{2^{Np/2}\left|\mathbf{S}\right|^{N+p+1/2}\Gamma_p \left(N/2 \right)}
 \left| \mathbf{C} \right|^{N/2}
 \exp \left[-\frac{1}{2}\textrm{tr}\left(\mathbf{C}\mathbf{S}^{-1}\right)\right]\; ,
-\label{eq:Wishart_dist}
+\tag{PD.8}
+\label{eq:PD.8}
 \ee
+%
 where $\Gamma_p$ is the multivariate Gamma function. 
 In cosmology, they are useful as normally parameters precision matrices (inverse of covariance matrices) have inverse Wishart distributions. 
 The Inverse-Wishart distribution is the multivariate extension of the inverse-gamma distribution --- in case of integer degrees of 
@@ -2365,9 +2606,13 @@ weak lensing see \cite{2013MNRAS.432.1928T,2014IAUS..306...99J}
 %%%%%%%%
 \item Cauchy (Lorentz) Distribution
 Far data $x$, Cauchy distribution is defined as 
+%
 \be
 f(x;x_{0},\gamma )={1 \over \pi \gamma }\left[{\gamma ^{2} \over (x-x_{0})^{2}+\gamma ^{2}}\right]\;,
+\tag{PD.9}
+\label{eq:PD.9}
 \ee
+%
 where $x_0$ specifies the location of the peak of the distribution and $\gamma$ is the HWHM (half width half maximum). 
 This distribution describes the resonance behaviour and the distribution of horizontal distances at which a line segment 
 tilted at a random angle cuts the $x$-axis.
@@ -2400,30 +2645,46 @@ ellipticity; {\scshape{\footnotesize see} Quadrupole Moments}.
 Ellipticity defines the 2D shape of an object, hence it is a spin-2 quantity which is usually defined as a complex quantity. The symbol $e$ is generically used, which could be ellipticity, polarisation or shear. In a two-dimensional (flat-sky) Cartesian coordinate system the real (imaginary) part of $e$ can be identified with the first (second) coordinate in that system, usually written as $e=e_1+{\rm i}e_2$; where $e_1$ is called {\it Ellipticity-1} and $e_2$ is called {\it Ellipticity-2}.
 
 \setcounter{equation}{0}
-\renewcommand{\theequation}{EL.\arabic{equation}}
+\renewcommand{\theHequation}{\arabic{equation}}
 The ellipticity of an object in an image can be defined in several ways, which can be based on 
 \begin{enumerate}
 \item Quardrupole moments $Q_{ij}$ ({\scshape{\footnotesize see} Quadrupole Moments});
 \begin{enumerate}
 \item Third Eccentricity \index{Third Eccentricity}
+%
 \be
 \mathbf{\chi} \equiv \chi_1 + i\chi_2 \equiv \frac{Q_{11} - Q_{22} + 2iQ_{12}}{Q_{11} + Q_{22}} \;.
+\tag{EL.1}
+\label{eq:EL.1}
 \ee
+%
 \item Third Flattening \index{Third Flattening}
+%
 \be
 \mathbf{\epsilon} \equiv \epsilon_1 + i\epsilon_2 \equiv \frac{Q_{11} - Q_{22} + 2iQ_{12}}{Q_{11} + Q_{22}+2(Q_{11}Q_{22}-Q_{12}^2)^{1/2}} \;.
+\tag{EL.2}
+\label{eq:EL.2}
 \ee
+%
 \end{enumerate}
 \item Semi-major $a$ and semi-minor $b$ axes of the ellipse; 
 \begin{enumerate}
 \item Third Eccentricity
+%
 \be
 \left| \chi \right| \equiv  \frac{a^2 - b^2}{a^2 + b^2}\;.
+\tag{EL.3}
+\label{eq:EL.3}
 \ee
+%
 \item Third Flattening 
+%
 \be
 \left| \epsilon \right| \equiv \frac{a - b}{a + b}\;.
+\tag{EL.4}
+\label{eq:EL.4}
 \ee
+%
 This definition of the third flattening is sometimes referred to as {\it $\epsilon$-ellipticity}.
 \end{enumerate}
 \end{enumerate}
@@ -2436,39 +2697,59 @@ Please refer to \cite{Viola01042014} for more discussions.
 There are different ways to measure the ellipticity of a galaxy/star in an image. Based on $2^{\rm nd}$ 
 order moments $Q_{ij}$ ({\scshape{\footnotesize see} \gls{Quadrupole Moments}}) we can define 
 \setcounter{equation}{0}
-\renewcommand{\theequation}{EO.\arabic{equation}}
+\renewcommand{\theHequation}{\arabic{equation}}
 \begin{enumerate}
 \item third eccentricity 
+%
 \be
 \mathbf{\chi} \equiv \frac{Q_{11} - Q_{22} + 2iQ_{12}}{Q_{11} + Q_{22}} \;,
+\tag{EO.1}
+\label{eq:EO.1}
 \ee
+%
 {\scshape{\footnotesize see} \gls{Third Eccentricity}} for this definition in terms of semi-major and semi-minor axes. 
 \item third flattening 
+%
 \be
 \mathbf{\epsilon} \equiv \frac{Q_{11} - Q_{22} + 2iQ_{12}}{Q_{11} + Q_{22}+2(Q_{11}Q_{22}-Q_{12}^2)^{1/2}} \;.
+\tag{EO.2}
+\label{eq:EO.2}
 \ee
+%
 {\scshape{\footnotesize see} \gls{Third Flattening}} for this definition in terms of semi-major and semi-minor axes. 
 \end{enumerate}
 Both of these are measurements of ellipticity. 
 In the case of weak lensing, when we compute the average ellipticity over an ensemble of galaxies whose orientations 
 are assumed to be random, we find that:
+%
 \be
 \left\langle\epsilon\right\rangle \simeq \frac{\left\langle\chi\right\rangle}{2}\simeq g \simeq \gamma\;,
+\tag{EO.3}
+\label{eq:EO.3}
 \ee
+%
 where $g=\gamma/(1-\kappa)$ is the reduced shear. Therefore, either definition of ellipticity, 
 under the assumptions outlined above, is taken to be an unbiased noisy estimate 
 of the gravitational shear at the location of the galaxy. 
 In practice, the observed, measured ellipticity will be convolved with a telescope (and possibly atmospheric) 
 point spread function (PSF) which convolves the image and has the effect of smearing the galaxy images. 
 This impacts the measured ellipticity:
+%
 \be
 \chi^{o} = \frac{\chi + T\chi^{\rm PSF}}{1+T}\;,
+\tag{EO.4}
+\label{eq:EO.4}
 \ee
+%
 where $\chi$ is the lensed galaxy ellipticity prior to convolution with the PSF, $\chi^{\rm PSF} $ 
 is the ellipticity of the point spread function, $\chi^{o}$ is the measured, observed ellipticity of the galaxy after convolution with the PSF and 
+%
 \be
 T = \frac{P_{11} + P_{22}}{Q_{11}+Q_{22}}.
+\tag{EO.5}
+\label{eq:EO.5}
 \ee
+%
 In the above equation, $P_{ij}$ refers to the 2nd order moments of the PSF and $Q_{ij}$ refers to 
 the 2nd order moments of the galaxy's brightness distribution, as before.
 }%
@@ -2531,10 +2812,14 @@ Commonly known as ``astronomical seeing''.
 the true shear $\gamma$. To a good approximation biases are expected to be linear
 in $\gamma$ \citep{2013MNRAS.429..661M,2008A&A...484...67P,2009A&A...500..647P}, expressed through the relation
 \setcounter{equation}{0}
-\renewcommand{\theequation}{MC.\arabic{equation}}
+\renewcommand{\theHequation}{\arabic{equation}}
+%
 \be
 \tilde{\gamma} = m\;\gamma + c\;.
+\tag{MABS.1}
+\label{eq:MABS.1}
 \ee
+%
 This was first used in \cite{2006MNRAS.368.1323H}, and has subsequently been extended to more 
 general biases in ellipticity using a similar linear relation. 
 $m$ is referred to as a multiplicative bias and $c$ as an additive bias. Both
@@ -2584,21 +2869,29 @@ is the star-galaxy cross-correlation which is the 2-point configuration space co
 of the derived stellar ellipticity and the galaxy ellipticities. In \cite{2012MNRAS.427..146H} this 
 statistic is described by defining an observed ellipticity $\epsilon^{\rm obs}$ as 
 \setcounter{equation}{0}
-\renewcommand{\theequation}{SG.\arabic{equation}}
-\begin{equation}
+\renewcommand{\theHequation}{\arabic{equation}}
+%
+\be
 \epsilon^{\rm obs}=\epsilon^{\rm int}+\gamma+\eta+A^T_{\rm sys}\epsilon^{\star}\;,
-\end{equation} 
+\tag{SG.1}
+\label{eq:SG.1}
+\ee
+%
 where $\epsilon^{\rm int}$ is the unlensed `intrinsic' ellipticity of a galaxy, $\gamma$ is the 
 weak lensing shear, $\eta$ is a random component caused by noise in the images and $\epsilon^{\star}$ is 
 the ellipticity of the PSF measured using images of stars ($A^T_{\rm sys}$ is an amplitude that 
 characterises the propogation of PSF ellipticity into observed galaxy ellipticity). 
 By taking the 2-point correlation function of this equation with $\epsilon^{\star}$ a statistic can be 
 define 
-\begin{equation}
+%
+\be
 \langle\xi_{\rm sg}\rangle=\langle\epsilon^{\rm int}\epsilon^{\star}\rangle
 +\langle\gamma\epsilon^{\star}\rangle+\langle\eta\epsilon^{\star}\rangle
 +CA^T_{\rm sys}\;,
-\end{equation}
+\tag{SG.2}
+\label{eq:SG.2}
+\ee
+%
 where $C_{ij}=\langle\epsilon^{\star}_i\epsilon^{\star}_j\rangle$ is the correlation of the PSF ellipticity 
 between several exposures ($i$ and $j$). In the absence of systematic effects caused by the PSF this quantity 
 should have a mean of zero and a distribution characterised by intrinsic ellipticity and shear distributions, 
@@ -2612,10 +2905,14 @@ The ranking was done using their defined Figure of Merit (FoM) which is the inve
 $68\%$ confidence region for an experiment in the $(w_0,w_a)$ plane. This is commonly approximated in the 
 majority of the literature by using a Fisher matrix where 
 \setcounter{equation}{0}
-\renewcommand{\theequation}{SDE.\arabic{equation}}
-\begin{equation}
+\renewcommand{\theHequation}{\arabic{equation}}
+%
+\be
 {\rm FoM}=\frac{1}{{\rm det}(S_{w_0w_a}[F])}\;,
-\end{equation} 
+\tag{SDE.1}
+\label{eq:SDE.1}
+\ee
+%
 where the denominator is the determinant of the $(w_0, w_a)$ Schur compliment of a Fisher matrix containing 
 cosmological parameters. 
 The dark energy stages were divided into four categories, where a Stage I experiment 
@@ -2668,21 +2965,29 @@ referred to as the `mode-mode coupling matrix'.
 Referring to \cite{2011MNRAS.412...65H} the harmonic transform of an angular mask $K(\hat n)$ as a function of angle $\hat n$ is 
 \setcounter{equation}{0}
 \renewcommand{\theequation}{MM.\arabic{equation}}
-\begin{equation}
+%
+\be
 K_{\ell m}=\int {\rm d}\Omega_{\hat n} K(\hat n)Y^*_{\ell m}(\hat n) \;,
-\end{equation} 
+%\tag{MM.1}
+\label{eq:MM.1}
+\ee
+%
 where $Y_{\ell m}$ are spherical harmonic transforms and the integral is over angle, $m$ and $\ell$ are angular wavenumbers 
 in latitude and longitude projected onto the sky. The covariance, or correlation, of the mask is given by 
 ${\mathcal K}_{\ell\ell'}\equiv [1/(2\ell+1)]\sum_m K_{\ell m}K^*_{\ell m}$. For an isotropic spin-2 field the 
 spherical harmonic transforms are spin-2 functions and $m$ is integrated over. 
 In this case aliasing of the E-mode and B-mode correlation functions are 
 both affected by an angular mask, and the resulting $E$-mode mixing matrix is defined as 
+%
 \begin{eqnarray}
 M^{EE, EE}_{\ell\ell'}&=&\frac{2\ell'+1}{8\pi}\sum_{\ell''}(2\ell''+1){\mathcal K}_{\ell\ell'}[1+(-1)^{\ell+\ell'+\ell''}
 \left( \begin{array}{ccc}
 \ell & \ell' & \ell'' \\
 2 & -2 & 0 \end{array} \right)^2.
+%\tag{MM.2}
+\label{eq:MM.2}
 \end{eqnarray}
+%
 In the case that a flat-sky approximation is chosen, or in the case of a three dimensional spherical-Bessel 
 representation of the data, this definition changes as described in e.g. \cite{2014MNRAS.442.1326K}.
 }%
@@ -2725,10 +3030,14 @@ In gravitational lensing, this is used in field equations describing the light d
 \dictentry{dictionary}{Einstein Radius}{
 The angular radius of an Einstein ring. For a point mass lens, this is given by 
 \setcounter{equation}{0}
-\renewcommand{\theequation}{ER.\arabic{equation}}
-\begin{equation}
+\renewcommand{\theHequation}{\arabic{equation}}
+%
+\be
 \theta_E = \sqrt{\frac{4G_{\rm N}M}{c^2}\frac{D_{ls}}{D_lD_s}}\;,
-\end{equation} 
+\tag{ER.1}
+\label{eq:ER.1}
+\ee
+%
 where $M$ is the mass of the lens, $D_l$, $D_s$ and $D_{ls}$ are the observer-to-lens, observer-to-source and lens-to-source 
 angular diameter distances respectively, and $G_{\rm N}$ and $c$ are
 Newton's gravitational constant and the speed of light in a vacuum. 
@@ -2742,19 +3051,19 @@ Newton's gravitational constant and the speed of light in a vacuum.
   distribution of the lens needs to be axially symmetric, as seen from
   the observer, and the source must lie on top of the
   resulting (point-like) caustic. However, note that none of the lenses that
-    produce observed Einstein rings are axi-symmetric, nor ar the       
+    produce observed Einstein rings are axi-symmetric, nor are the       
     sources {\it exactly} aligned; such an explanation only applies to
     infinitesimally small sources. Such images can be used to
   determine cosmological parameters through measurement of the angular
   diameter distances, if one has an independent
-    determination of the mass (and note that in general angular diamter distances are known to 
+    determination of the mass (and note that in general angular diameter distances are known to 
     better precision than galaxy masses). Several such objects have
-  been studied to date e.g.  \cite{1989AJ.....97.1283L},
+  been studied to date, see e.g. \cite{1989AJ.....97.1283L},
   \cite{2002ApJ...575...95C}, \cite{2008ApJ...677.1046G}.
   }%
 
 %%%%%%%%%%%%%%%%
-\dictentry{dictionary}{EB-mode Decomposition}{\EBmodedecomposition}
+\dictentry{dictionary}{E/B-mode Decomposition}{\EBmodedecomposition}
 \newcommand\EBmodedecomposition{ Any spin-2 field (such as
   gravitational shear) can be decomposed into curl-free modes (called
   E-modes) and divergence-free modes (called B-modes). However such a 
@@ -2768,9 +3077,9 @@ Newton's gravitational constant and the speed of light in a vacuum.
   good approximation, the analysis of B-modes is considered a valuable
   test for systematic effects, such as intrinsic galaxy alignments or
   errors in the modelling of PSFs. Note that some ambiguous
-  modes exist and are usually discarded after an EB-mode decomposition
-  (see e.g.  \cite{2016arXiv160501414L}). For quantitative details on
-  the EB-mode decomposition \cite{2002A&A...389..729S} presented a
+  modes exist and are usually discarded after an E/B-mode decomposition
+  (see e.g. \cite{2016arXiv160501414L}). For quantitative details on
+  the E/B-mode decomposition \cite{2002A&A...389..729S} presented a
   flat-sky approach and \cite{2005PhRvD..72b3516C} for a curved-sky
   approach. 
   }%
@@ -2815,14 +3124,14 @@ high-$z$ QSOs are affected by the the Cosmic Infrared Background (CIB), that ori
 \item
 Used to refer to approximately isotropic sources of radiation. For example the Cosmic Microwave Background. 
 \item  
-A synonym for `noise' in an image
-\end{enumerate}.
+A synonym for `noise' in an image.
+\end{enumerate}
 }%
 
 %%%%%%%%%%%%%%%%
 \dictentry{dictionary}{B-mode}{
 The ``magnetic'' or odd-parity component of a spin-2 field, such as the weak
-lensing shear field {\scshape{\footnotesize see} EB-mode Decomposition}
+lensing shear field. {\scshape{\footnotesize see} \gls{E/B-mode Decomposition}}.
 }%
 
 %%%%%%%%%%%%%%%%
@@ -2854,10 +3163,14 @@ aligned tangentially about the cluster. If $\phi_C$ specifies the angular positi
 coordinate frame then the tangential and cross-component shears (aligned respectively 
 perpendicular and parallel to the radius vector) are:
 \setcounter{equation}{0}
-\renewcommand{\theequation}{TS.\arabic{equation}}
-\begin{equation}
-\gamma_t = -{\rm Re}[\gamma {\rm e}^{-2{\rm i}\phi_C}]
-\end{equation}
+\renewcommand{\theHequation}{\arabic{equation}}
+%
+\be
+\gamma_t = -{\rm Re}[\gamma {\rm e}^{-2{\rm i}\phi_C}] \;,
+\tag{TS.1}
+\label{eq:TS.1}
+\ee
+%
 and $\gamma_x = {\rm Im}[\gamma {\rm e}^{-2{\rm i}\phi_C}]$; where $\gamma=\gamma_1+{\rm i}\gamma_2$. 
 An axisymmetric lensing mass should only produce a tangential signal in the shear so the cross-component shear 
 (which should be $\gamma_x = 0$) can be used to estimate the noise on the measurement of the tangential shear.}%
@@ -2873,21 +3186,33 @@ The three dimensional density $\rho(\bar{r})$ of an extended lensing mass can be
 a 2D plane, known as the `lens plane' ({\scshape{\footnotesize see} Born Approximation}), 
 to obtain a surface mass density distribution defined as 
 \setcounter{equation}{0}
-\renewcommand{\theequation}{SD.\arabic{equation}}
-\begin{equation}
+\renewcommand{\theHequation}{\arabic{equation}}
+%
+\be
 \Sigma(\bar{\xi}) = \int_0^{D_\text{S}} \rho(\bar{r}) \text{d}r_z \; ,
-\end{equation}
+\tag{SD.1}
+\label{eq:SD.1}
+\ee
+%
 with $\bar{r}$ being a 3D vector in space and $\bar{\xi}$ a 2D vector on the lens plane. The 
 surface density can then be related to the deflection angle for constant surface mass density within a finite azimuthal aperture
-\begin{equation}
+%
+\be
 \alpha(\theta) = \frac{D_\text{LS} D_\text{L}}{D_\text{S}} \frac{4 \pi G \Sigma}{c^2}\theta \; , 
-\end{equation}
+\tag{SD.2}
+\label{eq:SD.2}
+\ee
+%
 where $D_\text{L}$ is the distance to the lens, $D_\text{S}$ is the distance to the source and $D_\text{LS}$ 
 is the lens-source distance. Also, $\xi = D_\text{L} \theta$, and $\theta$ is the angle of 
 deflection seen by the observer. The critical surface mass density can then be defined as 
-\begin{equation}
+%
+\be
 \Sigma_\text{critical} = \frac{D_\text{S}}{D_\text{LS} D_\text{L}} \frac{c^2}{4 \pi G \Sigma} \; .
-\end{equation}
+\tag{SD.3}
+\label{eq:SD.3}
+\ee
+%
 When the condition $\Sigma > \Sigma_\text{critical}$ is satisfied multiple images are produced (i.e. strong lensing).
 }%
 
@@ -2900,26 +3225,38 @@ caused by effects other than gravitational lensing.
 \\
 An observed ellipticity for an individual galaxy is written like 
 \setcounter{equation}{0}
-\renewcommand{\theequation}{IA.\arabic{equation}}
-\begin{equation}
+\renewcommand{\theHequation}{\arabic{equation}}
+%
+\be
 \epsilon^{\rm obs}=\epsilon^{\rm int}+\gamma \;,
-\end{equation}
+\tag{IA.1}
+\label{eq:IA.1}
+\ee
+%
 where $\epsilon^{\rm int}$ is the unlensed `intrinsic' ellipticity of a galaxy, $\gamma$ is the
 weak lensing shear. The intrinsic part is labelled $I$ and the shear part is labelled $G$. 
 Assuming that the intrinsic ellipticities of galaxies do not have a random orientation or phase, one can take the correlation 
 function of the observed ellipticity 
-\begin{equation}
+%
+\be
 \langle \epsilon^{\rm obs}_i\epsilon^{*,\rm obs}_j\rangle=
 \langle \epsilon^{\rm int}_i\epsilon^{*, \rm int}_j\rangle+
 \langle\epsilon^{\rm int}_i\gamma^*_j\rangle+
 \langle\gamma_i\epsilon^{*, \rm int}_j\rangle+
 \langle\gamma_i\gamma^*_j\rangle \;,
-\end{equation}
+\tag{IA.2}
+\label{eq:IA.2}
+\ee
+%
 where $i$ and $j$ label different redshifts. The four terms on the right hand side are given the abbreviations 
 II, IG, GI, and GG. In the context of power spectrum this can be written as
-\begin{equation}
+%
+\be
 C_{\ell,ij} = C_{\ell,ij}^\textrm{II} + C_{\ell_ij}^\textrm{IG} + C_{\ell_ij}^\textrm{GI}+ C_{\ell_ij}^\textrm{GG}\;.
-\end{equation}
+\tag{IA.3}
+\label{eq:IA.3}
+\ee
+%
 Assuming that the $j$ redshift bin is more distant that the $i$ redshift bin the correlation IG should be zero, except in 
 the case that galaxy redshifts are incorrect or there are systematic effects in the data. The remaining three terms are described as follows 
 \begin{enumerate}
@@ -2949,9 +3286,13 @@ There are various models for the intrinsic alignment:
 galaxy is a linear function of the tidal quadrupole. This is normally applied to elliptical galaxies. 
 The model is applicable on large scales (i.e. $\gtrsim 30$ Mpc). 
 In the model the intrinsic ellipticity of a galaxy is assumed to follow the linear relation
-\begin{equation}
+%
+\be
 e = \frac{C_1}{4\pi G}\left( \nabla^2_x - \nabla^2_y \; , \; 2\nabla_x \nabla_y \right) \; \mathcal{S}[\Psi_P] \; ,
-\end{equation}
+\tag{IA.4}
+\label{eq:IA.4}
+\ee
+%
 where $\Psi_P$ is the Newtonian potential at the time of galaxy formation, $\mathcal{S}$ is a smoothing filter that cuts off fluctuations on galactic scales, $\nabla$ is a comoving derivative and $C_1$ is a normalisation constant. The model is described in \cite{2001MNRAS.320L...7C,2004PhRvD..70f3526H,2010PhRvD..82d9901H} 
 \item Quadratic alignment model describes the local alignment of galaxies, or orientation of their semi-major axis, due to interactions with their local tidal gravitational field. The model predicts that the 
 ellipticity of a galaxy is a quadratic function of the tidal field. This is normally applied to spiral 
@@ -2965,7 +3306,7 @@ For a review of {\it intrinsic alignments} see e.g. \cite{2015PhR...558....1T}.
 %%%%%%%%%%%%%%%%
 \dictentry{dictionary}{3D Mass Map}{
 Reconstruction of the total matter
-distribution in 3D i.e. celestial angle and redshift, or comoving distance (assumming a cosmology). 
+distribution in 3D, i.e. celestial angle and redshift, or comoving distance (assuming a cosmology). 
 {\scshape{\footnotesize see} \gls{Mass Map}; \gls{Kappa}; \gls{Potential Map}}.
 }%
 
@@ -2980,7 +3321,7 @@ employing individual redshift information of the lensed source galaxies.
 The large-scale shear lensing signal, using the photometric redshift
 positions of source galaxies as radial information,  
 either per galaxy or in fine radial bins. Also refers to a spherical-Bessel transform of a photometric weak lensing 
-data set see e.g. \cite{2014MNRAS.442.1326K}.
+data set, see e.g. \cite{2014MNRAS.442.1326K}.
 }%
 
 %%%%%%%%%%%%%%%%
@@ -2994,12 +3335,16 @@ isotropic focussing by $\kappa$ and anisotropic
 focussing by $\gamma$. Due to the focussing the observed flux of a source
 changes relative to the flux of the unlensed source by
 \setcounter{equation}{0}
-\renewcommand{\theequation}{MG.\arabic{equation}}
-\begin{equation}
+\renewcommand{\theHequation}{\arabic{equation}}
+%
+\be
 \mu = 
 \frac{1}{\abs{\det {\mathcal{A}}}} = 
 \frac{1}{(1-\kappa)^2-|\gamma|^2}\;,
-\end{equation}
+\tag{MG.1}
+\label{eq:MG.1}
+\ee
+%
 where $|\gamma|^2=\gamma_1^2+\gamma_2^2$. 
 
 In addition, this so-called
@@ -3007,9 +3352,13 @@ magnification changes the observed local number density of sources on the
 sky. If $n_0(> S,z){\rm d}z$ is the unlensed number density of galaxies within ${\rm d}z$, 
 and flux larger than $S$, then at an angular position $\theta$, where the 
 magnification is $\mu(\theta,z)$, the observed number counts are modified as
-\begin{equation}
+%
+\be
 n(> S,z) {\rm d}z = \frac{1}{\mu(\theta,z)} n_0 \left( >\frac{S}{\mu(\theta,z)} \right) \;.
-\end{equation}
+\tag{MG.2}
+\label{eq:MG.2}
+\ee
+%
 This effect is prominent for large, extended lenses such as galaxy
 clusters but can also be studied for galactic lenses by devising
 cross-correlation techniques \citep{2001PhR...340..291B}.
@@ -3027,27 +3376,38 @@ $\kappa(\vec\theta)$ after application of a smoothing kernel
 $u(x)$. The aperture mass at $\vec\theta_0$ for an aperture with
 smoothing scale $\Theta$ is
 \setcounter{equation}{0}
-\renewcommand{\theequation}{AM.\arabic{equation}}
-\begin{equation}
+\renewcommand{\theHequation}{\arabic{equation}}
+%
+\be
 M_{\rm ap}(\vec\theta_0;\Theta):=
 \int\frac{{\rm d}\vec\vartheta}{\Theta^2}\; 
 u(|\vec\vartheta-\vec\theta_0|\;\Theta^{-1})\;\kappa(\vec\vartheta). 
-\end{equation}
+\tag{AM.1}
+\label{eq:AM.1}
+\ee
 In the case that a compensated filter with $\int_0^\infty{\rm
   d}x\;x\;u(x)=0$ is chosen, we equivalently find 
-\begin{equation}
+ % 
+\be
 M_{\rm ap}(\vec\theta_0;\Theta):=
 \int\frac{{\rm d}\vec\vartheta}{\Theta^2}\;
 q(|\vec\vartheta-\vec\theta_0|\;\Theta^{-1})\;
 \gamma_{\rm t}(\vec\vartheta;\vec\theta_0)\;,
-\end{equation}
+\tag{AM.2}
+\label{eq:AM.2}
+\ee
+%
 where $\gamma_{\rm t}(\vec\vartheta;\vec\theta_0)$ denotes the
 tangential shear component of $\gamma(\vec\vartheta)$ relative to the
 direction of $\vec\vartheta-\vec\theta_0$, and
-\begin{equation}
+%
+\be
 q(x)=
 \left(\frac{2}{x^2}\int_0^x{\rm d}y\;y\;(y)\right)-u(x)\;,
-\end{equation}
+\tag{AM.3}
+\label{eq:AM.3}
+\ee
+%
 is the corresponding smoothing filter of the shear field. As galaxy
 ellipticities are estimators of shear, $M_{\rm ap}$ can be directly
 estimated from source ellipticities; up to shot noise and possibly a
@@ -3058,7 +3418,7 @@ studies of galaxy bias. A transformation of the shear field
 on the sky with a compensated filter, which corresponds to a weighting 
 of the lensing convergence field on the same patch of sky
 }%
- 
+
 %%%%%%%%%%%%%%%%
 \dictentry{dictionary}{Lensing Potential}{\LensingPotential}
 \newcommand\LensingPotential{
@@ -3068,7 +3428,7 @@ If $\vec\beta$ is the arrival direction of a light ray on the sky in a perfectly
 this defines the position of the light ray in the source plane. 
 Gravitational lensing by fluctuations in the matter or energy density shifts $\vec\beta$ to a new direction 
 $\vec\theta$, which is the position of the deflected light ray in the lens plane. 
-We denote by $\vec\alpha(\vec\theta):=\vec\theta-\vec\beta(\vec\theta)$ ({\scshape{\footnotesize see} Lens Equation \ref{eq:LE3}}) as the deflection angle of a 
+We denote by $\vec\alpha(\vec\theta):=\vec\theta-\vec\beta(\vec\theta)$ as the deflection angle of a 
 light ray observed in the direction of $\vec\theta$. 
 The vector field $\vec\alpha(\vec\theta)$ is 
 curl-free so that it can be expressed as gradient field of a scalar 
@@ -3077,16 +3437,21 @@ In the flat-field approximation,
 a possible choice is $\alpha(\vec\theta)=\nabla\psi(\vec\theta)=(\partial_1+{\rm
   i}\partial_2)\;\psi(\vec\theta)$ with
 \setcounter{equation}{0}
-\renewcommand{\theequation}{LP.\arabic{equation}}
-\begin{equation}
+\renewcommand{\theHequation}{\arabic{equation}}
+%
+\be
 \psi(\vec\theta) = 
 \frac{1}{\pi}
 \;\int_{{\mathcal R}^2} {\rm d}^2\theta \;\kappa(\vec\theta)\;\ln{|\vec\theta - \vec\theta’|}\;,
-\end{equation}
+\tag{LeP.1}
+\label{eq:LeP.1}
+\ee
+%
 where $\kappa(\vec\theta)$ is the convergence in direction of $\vec\theta$. From the 
 previous relation follows the two-dimensional Poisson equation $\nabla\nabla^\ast\psi(\vec\theta)=2\kappa(\vec\theta)$. 
 In addition, the local shear $\gamma=\gamma_1+{\rm i}\;\gamma_2$ derives 
 from $\psi(\vec\theta)$ through $\gamma=(1/2)\;\nabla\nabla\psi(\vec\theta)$.
+{\scshape{\footnotesize see} \gls{Lens Equation}; \gls{Weak Lensing Equations}}.
 }%
 
 %%%%%%%%%%%%%%%%
@@ -3099,8 +3464,9 @@ be approximated by the observation of a single light bundle.
 This means that  
 the convergence $\kappa(\vec\theta)$ and shear $\gamma(\vec\theta)$ are normally assumed to be constant over the angular 
 extend of a source (also known as a linear distortion approximation); 
-however in stronger field regions higher-order image distortions can also occur 
-{\scshape{\footnotesize see} \gls{Flexion}}.}%
+however in stronger field regions higher-order image distortions can also occur.
+{\scshape{\footnotesize see} \gls{Flexion}}.
+}%
 
 %%%%%%%%%%%%%%%%
 \dictentry{dictionary}{Strong Gravitational Lensing}{ 
@@ -3170,8 +3536,8 @@ in the galaxy images, see e.g. \cite{2004MNRAS.353..529H}, \cite{2012MNRAS.425.1
 \item 
 Noise bias can also, much less commonly in the weak lensing literature, but a standard usage in CMB literature, 
 refer to the bias in a power spectrum measured away from what would have been measured in the absence of shot (Poisson) noise. See
-e.g. \cite{2013MNRAS.431..609N}
-\end{enumerate}.
+e.g. \cite{2013MNRAS.431..609N}.
+\end{enumerate}
 {\scshape{\footnotesize see} \gls{Bias}; \gls{Accuracy}}.
 }%
 
@@ -3234,15 +3600,23 @@ CCD to photons with wavelengths outside of this range would be referred to as ou
 \dictentry{dictionary}{Over-density}{\ovd}
 \newcommand\ovd{This refers in general to an excess over the mean density of a general quantity $\alpha$ and can be defined as 
 \setcounter{equation}{0}
-\renewcommand{\theequation}{OD.\arabic{equation}}
-\begin{equation} 
+\renewcommand{\theHequation}{\arabic{equation}}
+%
+\be
 \delta_{\alpha}= \frac{\alpha - \bar\alpha}{\bar\alpha} \;,
-\end{equation} 
+\tag{OD.1}
+\label{eq:OD.1}
+\ee
+%
 where $\delta_{\alpha}$ is the over-density, and $\bar\alpha$ is the mean of some quantity $\alpha$. 
 Over-density functions appear in the description of the distribution of the matter field in weak lensing, 
+%
 \be 
 \delta_{\rho}(x) = \frac{\rho(x) - \bar\rho }{\bar\rho} \;,
+\tag{OD.2}
+\label{eq:OD.2}
 \ee
+%
 where $\rho$ is the matter density at coordinate $x$; 
 the covariance of which leads to the matter power spectrum. However, it can also be used in the 
 context of galaxies or stars, as in ``there is a over-density in that part of the image'', 
@@ -3366,7 +3740,7 @@ shorthand for ``The ABC survey (circa 2015)...''.}%
 %%%%%%%%%%%%%%%%
 \dictentry{dictionary}{Curved Sky}{ 
 In opposition to flat sky
-  ({\scshape{\footnotesize see} Flat Sky}). If an operation, or
+  ({\scshape{\footnotesize see} \gls{Flat Sky}}). If an operation, or
   statistic, can work in the `curved sky' regime this refers to the
   operation in question being able to correctly work in the spherical
   coordinate system relevant for the celestial sphere. An example of
@@ -3391,18 +3765,26 @@ In opposition to flat sky
   between the source and image planes. The Jacobian matrix of
   a lens is defined as
 \setcounter{equation}{0}
-\renewcommand{\theequation}{DM.\arabic{equation}}
-\begin{equation} 
+\renewcommand{\theHequation}{\arabic{equation}}
+%
+\be
 {\cal A}_{ij}=\frac{\partial\beta_i}{\partial\theta_j}=\frac{\partial}{\partial\theta_j}(\theta_i-\alpha_i)\;,
-\end{equation}
+\tag{DM.1}
+\label{eq:DM.1}
+\ee
+%
 or related to the Hessian matrix $\psi_{ij}$ of the 
 deflection potential $\psi$ using the relation  
 between the deflection angle and the deflection
-potential ({\scshape{\footnotesize see} Deflection Angle}) 
-\begin{equation}
+potential ({\scshape{\footnotesize see} \gls{Deflection Angle}}) 
+%
+\be
 A_{ij}=\delta_{ij}-\frac{\partial\alpha_i}{\partial\theta_j}=\delta_{ij}-\frac{\partial^2\psi}{\partial\theta_i\partial\theta_j}=[M^{-1}]_{ij}\;,
-\end{equation}
-where $M_{ij}$  is the magnification matrix, and the Hessian 
+\tag{DM.2}
+\label{eq:DM.2}
+\ee
+%
+where $M_{ij}$ is the magnification matrix. The Hessian 
 matrix $\psi_{ij}=\partial^2\psi/\partial\theta_i\partial\theta_j$ represents the deviation 
 of the lens mapping from the identity mapping (that which describes no
 distortion). {\scshape{\footnotesize see} \gls{Weak Lensing Equations}}.}%
@@ -3416,12 +3798,13 @@ In any metric theory of
     \index{Geodesic deviation equation}{\it
       equation of geodesic deviation}, 
 \setcounter{equation}{0}
-\renewcommand{\theequation}{GDE.\arabic{equation}}
+\renewcommand{\theHequation}{\arabic{equation}}
 % 
-\begin{equation}
+\be
   \frac{\d^2\vec\xi}{\d\lambda^2} = {\mathcal T}\,\vec\xi\;,
-\label{eq:GDE1}
-\end{equation}
+\tag{GDE.1}
+\label{eq:GDE.1}
+\ee
 %
 %\citep[see, e.g., Chap.\,3 of][]{1992grle.book.....S}, 
 where $\lambda$ is the affine parameter
@@ -3433,14 +3816,15 @@ wave-vector of the rays.
 We consider a light bundle with vertex at $\lambda_0$ around a
 fiducial ray. Each ray of the bundle is specified by the angle
 $\vec\theta$ it encloses with the fiducial ray at the vertex. The
-linearity of (\ref{eq:GDE1}) allows us to write $\vec\xi={\cal
+linearity of (\ref{eq:GDE.1}) allows us to write $\vec\xi={\cal
   D}\vec\theta$, where the \index{Distance matrix}distance matrix
 ${\cal D}(\lambda)$ obeys 
 % 
-\begin{equation}
+\be
   \frac{\d^2 {\cal D}}{\d\lambda^2} = {\mathcal T}\,{\cal D}\;,
-\label{eq:GDE2}
-\end{equation}
+\tag{GDE.2}
+\label{eq:GDE.2}
+\ee
 %
 with ${\cal D}(\lambda_0)=0$ and $(\d{\cal
   D}/\d\lambda)(\lambda_0)={\cal I}$, with ${\cal I}$ being the
@@ -3453,7 +3837,7 @@ of the ratio of the cross-sectional area of the light bundle and its
 solid opening angle; hence, $D_{\rm A}(\lambda)=\sqrt{\det{\cal
  D}(\lambda)}$. For an isotropic space-time, such as the
 Friedman--Robertson--Walker model, the tidal matrix is proportional to
-the unit matrix, and the matrix equation (\ref{eq:GDE2}) reduces to a
+the unit matrix, and the matrix equation (\ref{eq:GDE.2}) reduces to a
 scalar equation. In this case, the angular-diameter as defined here
 reduces to the one given in \gls{Friedman--Robertson--Walker Models}.
 A point along the light bundle where $\det{\cal
@@ -3472,13 +3856,13 @@ A\index{E- and B-modes of a shear
     B-modes, and ambiguous modes. If the shear field is caused by a
     (geometrically-thin) gravitational lens, its two Cartesian
     components are given as second-order partial derivatives of the
-    deflection potential $\psi$ -- see Eq.\,(\ref{eq:LE10}); hence,
+    deflection potential $\psi$ -- see Eq.\,(\ref{eq:WLE.10}); hence,
     these two components are mutually related. Introducing the complex
     nabla operator $\nabla_{\rm c}:=\partial/\partial\theta_1 + {\rm i}
 \partial/\partial\theta_2$, the shear produced by a lens can be
 written as $\gamma=\nabla_{\rm c}\nabla_{\rm c}\psi/2$, and the
-Poisson equation (\ref{eq:LE6}) becomes $\kappa=\nabla^*_{\rm
-  c}\nabla_{\rm c}\psi/2$. The local relation (\ref{eq:LE18}) between
+Poisson equation (\ref{eq:WLE.6}) becomes $\kappa=\nabla^*_{\rm
+  c}\nabla_{\rm c}\psi/2$. The local relation (\ref{eq:WLE.18}) between
 the gradient of $\kappa$ and the derivatives of the shear reads
 $\nabla_{\rm c}\kappa=\nabla_{\rm c}^*\gamma$. Taking another
 derivative, we find $\nabla_{\rm c}^*\nabla_{\rm c}\kappa
@@ -3505,7 +3889,7 @@ There also exist ambiguous modes: For a shear field which is a linear
 function of position, $\nabla_{\rm c}^*\nabla_{\rm c}^*\gamma\equiv
 0$; hence, such a linear shear field can be either attributed to
 E-modes or to B-modes. If a shear field has a B-mode contribution, the
-result of the mass reconstruction relation (\ref{eq:LE17}) yields an
+result of the mass reconstruction relation (\ref{eq:WLE.17}) yields an
 imaginary component for $\kappa$.
 \\
 \\
@@ -3533,12 +3917,13 @@ The lensing properties of such a deflector is
       mass density $\Sigma$} 
     $\Sigma(\vec\xi)$
 \setcounter{equation}{0}
-\renewcommand{\theequation}{LE.\arabic{equation}}
+\renewcommand{\theHequation}{\arabic{equation}}
 %
-\begin{equation}
-  \Sigma(\vec\xi) \equiv \int\d r_3\,\rho(\xi_1,\xi_2,r_3)\;,
-\label{eq:LE1}
-\end{equation}
+\be
+\Sigma(\vec\xi) \equiv \int\d r_3\,\rho(\xi_1,\xi_2,r_3)\;,
+\tag{WLE.1}
+\label{eq:WLE.1}
+\ee
 %
 the projection of its volume density $\rho$ along the line-of-sight,
 where $\xi$ is a two-dimensional vector perpendicular to the 
@@ -3551,12 +3936,13 @@ distribution is deflected, where the \index{Deflection angle $\hat{\vec\alpha}$}
 $\hat{\vec\alpha(\vec \xi)}$, the angle between the incoming and
 outgoing light ray at the lens plane, is given by
 %
-\begin{equation}
+\be
   \hat{\vec\alpha}(\vec\xi) = \frac{4G_{\rm N}}{c^2}\,
   \int\d^2\xi'\,\Sigma(\vec\xi')\,
   \frac{\vec\xi-\vec\xi'}{|\vec\xi-\vec\xi'|^2}\;,
-\label{eq:LE2}
-\end{equation}
+\tag{WLE.2}
+\label{eq:WLE.2}
+\ee
 %
 provided that the gravitational potential of the deflector is small
 everywhere, $\abs{\phi_{\rm N}\,c^{-2}}\ll 1$\footnote{This condition
@@ -3580,17 +3966,18 @@ the observer's sky, measured relative to a conveniently chosen origin,
 to the angular position $\vec\beta$ the
 corresponding source would have in the absence of lensing, 
 %
-\begin{equation}
+\be
   \vec\beta = \vec\theta-\frac{D_\mathrm{ds}}{D_\mathrm{s}}\,
   \hat{\vec\alpha}(D_\mathrm{d}\vec\theta) =:
   \vec\theta-\vec\alpha(\vec\theta)\;,
-\label{eq:LE3}
-\end{equation}
+\tag{WLE.3}
+\label{eq:WLE.3}
+\ee
 %
 where in the final step the {\it scaled deflection angle}\index{Scaled
   deflection angle $\vec\alpha$}\index{Deflection angle
   $\hat{\vec\alpha}$!Scaled deflection angle $\vec\alpha$}
-$\vec\alpha(\vec\theta)$ was defined. Equation (\ref{eq:LE3}) is
+$\vec\alpha(\vec\theta)$ was defined. Equation (\ref{eq:WLE.3}) is
 called the {\it lens equation};\footnote{Note that, strictly speaking,
   the lens equation is specified only up to an irrelevant (since
   unobservable) translation in the source plane.} it yields a mapping
@@ -3598,25 +3985,27 @@ of the lens plane onto the source plane. Defining the {\it
   convergence}\index{Convergence $\kappa$} or dimensionless surface
 mass density\index{Surface mass density!dimensionless $\kappa$}
 %
-\begin{equation}
+\be
   \kappa(\vec\theta) := 
   \frac{\Sigma(D_\mathrm{d}\vec\theta)}{\Sigma_\mathrm{cr}}
   \quad\hbox{with}\quad
   \Sigma_\mathrm{cr} = \frac{c^2}{4\pi G_{\rm N}}\,
   \frac{D_\mathrm{s}}{D_\mathrm{d}\,D_\mathrm{ds}}\;,
-\label{eq:LE4}
-\end{equation}
+\tag{WLE.4}
+\label{eq:WLE.4}
+\ee
 %
 where $\Sigma_\mathrm{cr}$ is the \index{Critical surface mass density
 $\Sigma_{\rm cr}$}{\it critical surface mass density},
 the scaled deflection angle can be expressed as 
 %
-\begin{equation}
+\be
   \vec\alpha(\vec\theta) = \frac{1}{\pi}\,
   \int_{\mathbb{R}^n}\d^2\theta'\,\kappa(\vec\theta')\,
   \frac{\vec\theta-\vec\theta'}{|\vec\theta-\vec\theta'|^2}\;.
-\label{eq:LE5}
-\end{equation}
+\tag{WLE.5}
+\label{eq:WLE.5}
+\ee
 %
 A mass distribution which has $\kappa\ge1$ somewhere, 
 i.e.~$\Sigma\ge\Sigma_\mathrm{cr}$, produces multiple images for some
@@ -3637,7 +4026,8 @@ write the scaled deflection angle as the gradient of the {\it
 \nabla^2\psi =2\kappa\;, \quad
 \hbox{as}\quad
 \vec \alpha =\nabla\psi(\vec\theta)\;.
-\label{eq:LE6}
+\tag{WLE.6}
+\label{eq:WLE.6}
 \ee
 %
 Hence, $\psi(\vec\theta)$ satisfies the two-dimensional Poisson
@@ -3648,7 +4038,8 @@ source $\kappa(\vec\theta)$. The \index{Fermat potential $\tau_{\rm
 \be
 \tau_{\rm F}(\vec\theta;\vec\beta) ={1\over
 2}\rund{\vec\theta-\vec\beta}^2-\psi(\vec\theta)\; , 
-\label{eq:LE7}
+\tag{WLE.7}
+\label{eq:WLE.7}
 \ee
 %
 is proportional to the difference of the light travel times of a light ray
@@ -3659,7 +4050,7 @@ absence of a deflector. \index{Fermat's principle in gravitational
 space-times, specialised to the Friedman--Robertson--Walker
 model, states that actual light rays are those with stationary light
 travel times. Indeed, $\nabla\tau_{\rm F}(\vec\theta;\vec\beta)=0$ is
-equivalent to the lens equation (\ref{eq:LE3}).
+equivalent to the lens equation (\ref{eq:WLE.3}).
 \\
 \\
 Gravitational light deflection preserves the \index{Surface brightness
@@ -3668,10 +4059,11 @@ hence, the surface brightness of an image $I(\vec\theta)$ is given by
 the surface brightness $I^{\rm s}$ at the corresponding source
 position,
 %
-\begin{equation}
+\be
   I(\vec\theta) = I^{\rm s}[\vec\beta(\vec\theta)]\;.
-\label{eq:LE8}
-\end{equation}
+\tag{WLE.8}
+\label{eq:WLE.8}
+\ee
 %
 For lensed images that are much smaller than the angular scale on
 which the lens properties change, the lens mapping can be
@@ -3679,7 +4071,7 @@ which the lens properties change, the lens mapping can be
 locally. The distortion of images is then described by the {\it Jacobi
 matrix of the lens equation}\index{Distortion matrix ${\cal A}$}\index{Jacobi
 matrix of the lens equation} (or {\it lens distortion matrix}) 
-\begin{equation}
+\be
   \mathcal{A}(\vec\theta) =
   \frac{\partial\vec\beta}{\partial\vec\theta} =
   \left(\delta_{ij} -
@@ -3697,8 +4089,9 @@ matrix of the lens equation} (or {\it lens distortion matrix})
       -g_2 & 1+g_1 \\
     \end{array}
   \right)\;,
-\label{eq:LE9}
-\end{equation}
+\tag{WLE.9}
+\label{eq:WLE.9}
+\ee
 %
 where the (Cartesian) components of the {\it shear}\index{Shear
   $\gamma$}\index{Shear $\gamma$!Cartesian components}
@@ -3707,7 +4100,8 @@ where the (Cartesian) components of the {\it shear}\index{Shear
 \gamma\equiv\gamma_1+\mathrm{i}\gamma_2 =
 \frac{1}{2}(\psi_{,11}-\psi_{,22})+\mathrm{i}\psi_{,12}=
 |\gamma|\mathrm{e}^{2\mathrm{i}\varphi}
-\label{eq:LE10}
+\tag{WLE.10}
+\label{eq:WLE.10}
 \ee
 %
 have been defined, where indices separated by a comma denote partial
@@ -3719,15 +4113,16 @@ angle $\phi$ transforms the shear\index{Shear $\gamma$!transformation
 $\gamma\to\gamma{\rm e}^{-2{\rm i}\phi}$. Since the shear represents
 the traceless part of ${\cal A}$, this transformation behaviour follows
 from that of matrices under the action of rotations. In the final
-expression of Eq.\,(\ref{eq:LE10}), the shear is written as product of
+expression of Eq.\,(\ref{eq:WLE.10}), the shear is written as product of
 its magnitude $|\gamma|=\sqrt{\gamma_1^2+\gamma_2^2}$ and its phase
 factor $\mathrm{e}^{2\mathrm{i}\varphi}$. The final expression in
-Eq.\,(\ref{eq:LE9}) defines the {\it reduced shear}\index{Reduced
+Eq.\,(\ref{eq:WLE.9}) defines the {\it reduced shear}\index{Reduced
   shear $g$}
 %
 \be
 g=g_1+{\rm i}g_2=\gamma\,(1-\kappa)^{-1}\;,
-\label{eq:LE11}
+\tag{WLE.11}
+\label{eq:WLE.11}
 \ee
 %
 which describes the deviation of ${\cal A}$ from an isotropic matrix,
@@ -3751,7 +4146,8 @@ at $\vec\theta$ relative to the given orientation $\vp$ as
 :=-{\rm e}^{-2{\rm i}\vp}\,\gamma(\vec\theta)\;; \quad
 g_{\rm t}(\vec\theta,\vp)+{\rm i}g_\times(\vec\theta,\vp)
 :=-{\rm e}^{-2{\rm i}\vp}\,g(\vec\theta)\;,
-\label{eq:LE12}
+\tag{WLE.12}
+\label{eq:WLE.12}
 \ee
 %
 where the corresponding definition is also applied to the reduced
@@ -3766,7 +4162,8 @@ around the centre, given by
 \;,\quad \hbox{where}\quad
 \bar\kappa(\theta)={2\over\theta^2}\int_0^\theta \d\theta'\;\theta'
 \kappa(|\vec\theta'|) 
-\label{eq:LE13}
+\tag{WLE.13}
+\label{eq:WLE.13}
 \ee
 %
 is the mean convergence inside radius $\theta$, and the cross shear
@@ -3781,7 +4178,8 @@ expressed as
   t}(\vec\theta_0+\vec\theta,\vp) 
 =\bar\kappa(\theta;\vec\theta_0) - \ave{\kappa}(\theta;\vec\theta_0)
 \;,
-\label{eq:LE14}
+\tag{WLE.14}
+\label{eq:WLE.14}
 \ee
 %
 where $\vp$ is the polar angle of $\vec\theta$, and we defined
@@ -3792,17 +4190,18 @@ where $\vp$ is the polar angle of $\vec\theta$, and we defined
 \bar\kappa(\theta;\vec\theta_0)
 :={2\over\theta^2}\int_0^\theta \d\theta'\;\theta'\,
 \ave{\kappa}(\theta';\vec\theta_0)\;,
-\label{eq:LE15}
+\tag{WLE.15}
+\label{eq:WLE.15}
 \ee
 %
 i.e., the {\it mean convergence on a circle} and the {\it mean
   convergence inside a circle} of radius $\theta$ around
 $\vec\theta_0$. Correspondingly, mean cross component of the shear on
-a circle vanishes identically. The relation (\ref{eq:LE14}) forms the
+a circle vanishes identically. The relation (\ref{eq:WLE.14}) forms the
 basis of galaxy-galaxy lensing ({\scshape{\footnotesize see} \gls{Galaxy-Galaxy Lensing}}).
 %
 The shear is linearly related to the surface mass density;
-combining Eqs.\, (\ref{eq:LE9}) and (\ref{eq:LE6}), one
+combining Eqs.\, (\ref{eq:WLE.9}) and (\ref{eq:WLE.6}), one
 finds\index{Shear $\gamma$!relation to convergence $\kappa$}
 %
 \be
@@ -3813,7 +4212,8 @@ finds\index{Shear $\gamma$!relation to convergence $\kappa$}
   \frac{\theta_2^2-\theta_1^2-2\mathrm{i}\theta_1\theta_2}
   {|\vec\theta|^4}
   = \frac{-1}{(\theta_1-\mathrm{i}\theta_2)^2}\;.
-\label{eq:LE16}
+\tag{WLE.16}
+\label{eq:WLE.16}
 \ee
 %
 In Fourier space, the relation between shear and convergence
@@ -3831,13 +4231,14 @@ $\tilde\kappa(\vec\ell)=\tilde\gamma(\vec\ell){\rm e}^{-2{\rm
 \be
 \kappa(\vec\theta)=\kappa_0+\int_{\mathbb{R}^2}\d^2\theta'\,
 \mathcal{D}^*(\vec\theta-\vec\theta')\,\gamma(\vec\theta')\;,
-\label{eq:LE17}
+\tag{WLE.17}
+\label{eq:WLE.17}
 \ee
 %
 which forms the basis of mass reconstructions from weak lensing data;
 here, $\kappa_0$ is an undetermined additive constant. 
 For a general shear field, e.g., if the shear field is estimated from
-noisy data, the result of the integral in (\ref{eq:LE17}) may have an
+noisy data, the result of the integral in (\ref{eq:WLE.17}) may have an
 imaginary component. This is related to the E/B-modes of a general
 shear field ({\scshape{\footnotesize see} \gls{E/B-mode Shear}}).
 Therefore, for practical purposes, one takes the
@@ -3848,7 +4249,7 @@ convergence\index{Convergence $\kappa$!local relation to shear
   $\gamma$ and reduced shear $g$} is
 provided by 
 %
- \begin{equation}
+ \be
   \nabla\kappa = \left(\begin{array}{c}
     \gamma_{1,1}+\gamma_{2,2} \\
     \gamma_{2,1}-\gamma_{1,2} \\
@@ -3862,23 +4263,25 @@ provided by
     g_{1,1}+g_{2,2} \\
     g_{2,1}-g_{1,2} \\
   \end{array}\right) \equiv\vec u_g(\vec\theta)\;,
-\label{eq:LE18}
-\end{equation}
+\tag{WLE.18}
+\label{eq:WLE.18}
+\ee
 where $K(\vec\theta)=-\ln[1-\kappa(\vec\theta)]$. The latter
 equation shows that from an estimate of the reduced shear, $(1-\kappa)$
 can be determined only up to a multiplicative constant.
 \\
 \\
 Assuming the applicability of the linearised lens equation,
-the surface brightness of the image follows from (\ref{eq:LE8}),
+the surface brightness of the image follows from (\ref{eq:WLE.8}),
 %
-\begin{equation}
+\be
   I(\vec\theta) = I^{(\rm s)}\left[
     \vec\beta_0+\mathcal{A}(\vec\theta_0)
     \cdot(\vec\theta-\vec\theta_0)
   \right]\;.
-\label{eq:LE19}
-\end{equation}
+\tag{WLE.19}
+\label{eq:WLE.19}
+\ee
 %
 For larger images for which the linearised lens equation no longer
 provides an accurate approximation, higher-order expansions of the
@@ -3889,12 +4292,13 @@ to the flux $S_0$ of the unlensed source through $S=|\mu|S_0$. The
 {\it magnification}\index{Magnification} (for an infinitesimally small
 source) $\mu_{\rm p}$ is 
 obtained from the distortion matrix 
-(\ref{eq:LE9}), 
+(\ref{eq:WLE.9}), 
 %
 \be
 \mu_{\rm p}={1\over \det{\cal A}}={1\over (1-\kappa)^2-|\gamma|^2}
 ={1\over (1-\kappa)^2(1-|g|^2)}\;.
-\label{eq:LE20}
+\tag{WLE.20}
+\label{eq:WLE.20}
 \ee
 %
 The sign of $\mu_{\rm p}$ is called the \index{Parity of lensed
@@ -3920,17 +4324,18 @@ distribution in the Universe -- {\scshape{\footnotesize see} \gls{Cosmic
   Shear}}), one needs to refer to the laws of light propagation in a
 curved space-time. This is governed by the {\it equation of geodesic
 deviation} ({\scshape{\footnotesize see} \gls{Geodesic Deviation Equation}}).
-We now specialize Eq.\,(\ref{eq:GDE2}) to a
+We now specialize Eq.\,(\ref{eq:GDE.2}) to a
 perturbed \index{Metric of a perturbed Friedman--Robertson--Walker model}Friedman--Robertson--Walker metric of the form
 %
-\begin{equation}
+\be
   \d s^2 = a^2(\tau)\left[
     \left(1+\frac{2\Phi_{\rm N}}{c^2}\right)\,c^2\d\tau^2-
     \left(1-\frac{2\Phi_{\rm N}}{c^2}\right)
     \left(\d \chi^2+f_K^2(\chi)\d\omega^2\right)
   \right]\;,
-\label{eq:LE22}
-\end{equation}
+\tag{WLE.21}
+\label{eq:WLE.21}
+\ee
 %
 where $\chi$ is the comoving radial distance ({\scshape{\footnotesize
     see} \gls{Friedman--Robertson--Walker Models}}), $a=(1+z)^{-1}$ the
@@ -3943,18 +4348,19 @@ denotes the Newtonian peculiar gravitational potential which depends on the
 comoving position $\vec x$ and cosmic time (or comoving distance $\chi$).
 In this metric, the tidal matrix ${\cal T}$ can be calculated in terms of the
 Newtonian potential $\Phi_{\rm N}$, and correspondingly,
-the equation of geodesic deviation (\ref{eq:GDE1})
+the equation of geodesic deviation (\ref{eq:GDE.1})
 yields the evolution equation for the comoving separation vector $\vec
 x(\vec\theta,\chi)$ of a ray in a ray bundle, specified by the angle
 $\vec\theta$ from the fiducial ray at the vertex, located at the 
 observer, 
 %
-\begin{equation} 
+\be
 \frac{\d^2\vec x}{\d \chi^2} +
 K\,\vec x = -\frac{2}{c^2} \eck{ \nabla_\perp\Phi_{\rm N}\rund{\vec
 x(\vec\theta,\chi),\chi} -\nabla_\perp\Phi_{\rm N}^{(0)}\rund{\chi}} \;,
-\label{eq:LE23}
-\end{equation}
+\tag{WLE.22}
+\label{eq:WLE.22}
+\ee
 %
 with $\vec x(\vec\theta,0)=\vec 0$ and $(\d\vec
 x/\d\chi)(\vec\theta,0)=\vec\theta$,  
@@ -3962,19 +4368,20 @@ where $K=(H_0/c)^2\,(\Omega_{\rm tot}-1)$ is the spatial curvature of
 the Universe, $\nabla_\perp=(\partial/\partial x_1,\partial/\partial
 x_2)$ is the transverse {\it comoving} gradient operator, and
 $\Phi^{(0)}_{\rm N}(\chi)$ is the potential along the fiducial ray.
-The solution of the homogeneous version of Eq.\, (\ref{eq:LE23})
+The solution of the homogeneous version of Eq.\, (\ref{eq:WLE.22})
 yields the comoving angular-diameter distance $f_K(\chi)$ (see
-Eq.\,\ref{eq:FRW2}). The
-formal solution of Eq.\,(\ref{eq:LE23}) is obtained by the method of Green's
+Eq.\,\ref{eq:FRW.2}). The
+formal solution of Eq.\,(\ref{eq:WLE.22}) is obtained by the method of Green's
 function, to yield
 %
-\begin{equation}
+\be
   \vec x(\vec\theta,\chi) = f_K(\chi)\vec\theta - 
   \frac{2}{c^2}\!\int_0^\chi\!\!\! \d \chi'\,f_K(\chi-\chi')\! 
   \eck{ \nabla_\perp\Phi_{\rm N}\rund{\vec
 x(\vec\theta,\chi'),\chi'} -\nabla_\perp\Phi_{\rm N}^{(0)}\rund{\chi'}} .
-\label{eq:LE24}
-\end{equation} 
+\tag{WLE.23}
+\label{eq:WLE.23}
+\ee
 %
 A source at comoving distance $\chi$ with comoving separation $\vec x$
 from the fiducial light ray would be seen, in the absence of light
@@ -3991,22 +4398,24 @@ standard lens theory, we define the Jacobi matrix\index{Distortion
 \be
 {\cal A}(\vec\theta,\chi)={\partial\vec \beta\over\partial\vec\theta}
 ={1\over f_K(\chi)}{\partial\vec x\over\partial\vec\theta}\;,
-\label{eq:LE25}
+\tag{WLE.24}
+\label{eq:WLE.24}
 \ee
 %
-and obtain from (\ref{eq:LE24})
+and obtain from (\ref{eq:WLE.23})
 %
 \be
 {\cal A}_{ij}(\vec\theta,\chi)=\delta_{ij}-\frac{2}{c^2}\int_0^\chi \!\! \d\chi'\,
 {f_K(\chi-\chi') f_K(\chi')\over f_K(\chi)}\,\Phi_{{\rm N},ik}\rund{\vec
 x(\vec\theta,\chi'),\chi'}\,{\cal A}_{kj}(\vec\theta,\chi') \;,
-\label{eq:LE26}
+\tag{WLE.25}
+\label{eq:WLE.25}
 \ee
 %
 which describes the locally linearised mapping introduced by LSS
 lensing. This equation still is exact in the limit of validity of the
-weak-field metric, and the pair of Eqs.\, (\ref{eq:LE24}) and
-(\ref{eq:LE26}) are followed typically in ray-tracing
+weak-field metric, and the pair of Eqs.\, (\ref{eq:WLE.23}) and
+(\ref{eq:WLE.25}) are followed typically in ray-tracing
 simulations\index{Ray-tracingsimulations} 
 \citep[e.g.,][and references
 therein]{2000ApJ...530..547J,2009A&A...499...31H}.
@@ -4020,16 +4429,17 @@ series after the linear term yields
 =\delta_{ij}-\frac{2}{c^2}\int_0^\chi \!\! \d \chi'\,
 {f_K(\chi-\chi') f_K(\chi')\over f_K(\chi)}\,
 \Phi_{{\rm N},ij}\rund{f_K(\chi')\vec\theta,\chi'} \;,
-\label{eq:LE27}
+\tag{WLE.26}
+\label{eq:WLE.26}
 \ee
 %
 and provides two essential simplification compared to
-Eq.\,(\ref{eq:LE26}): First, the distortion is obtained by integrating
+Eq.\,(\ref{eq:WLE.25}): First, the distortion is obtained by integrating
 along the unperturbed ray $\vec x=f_K(\chi)\,\vec\theta$; this is also
-called the \index{Born approximation}{\it Born approximation}. Second, in (\ref{eq:LE26}), the
+called the \index{Born approximation}{\it Born approximation}. Second, in (\ref{eq:WLE.25}), the
 matrix product in the integrand yields a coupling of tidal field
 matrices $\Phi_{{\rm N},ij}$ at different distances $\chi'$, which
-disappears in the linear version (\ref{eq:LE27}), rendering ${\cal A}$
+disappears in the linear version (\ref{eq:WLE.26}), rendering ${\cal A}$
 symmetric. This approximation is frequently referred to as
 \index{Lens-lens coupling}`neglecting
 lens-lens coupling'. In the literature, one often sees both
@@ -4046,7 +4456,8 @@ deflection potential
 \psi(\vec\theta,\chi):=\frac{2}{c^2}\int_0^\chi \!\! \d \chi'\,
 {f_K(\chi-\chi') \over f_K(\chi)\;f_K(\chi')}\,
 \Phi_{\rm N}\rund{f_K(\chi')\vec\theta,\chi'} \;,
-\label{eq:LE28}
+\tag{WLE.27}
+\label{eq:WLE.27}
 \ee
 %
 yielding ${\cal A}_{ij}=\delta_{ij}-\psi_{,ij}$, just as in
@@ -4066,8 +4477,9 @@ to yield\index{Convergence $\kappa$!for 3-D lensing}
 \kappa(\vec\theta,\chi)=\frac{3H_0^2\Omega_{\rm m}}{2c^2}\,
   \int_0^\chi\,\d \chi'\,\frac{f_K(\chi')f_K(\chi-\chi')}{f_K(\chi)}\,
   \frac{\delta\rund{f_K(\chi')\vec\theta,\chi'}}{a(\chi')}\;.
-\label{eq:LE29}
-\end{equation}
+\tag{WLE.28}
+\label{eq:WLE.28}
+\ee
 %
 Note that $\kappa$ is proportional to $\Omega_{\rm m}$, since lensing is
 sensitive to $\Delta\rho\propto \Omega_{\rm m}\,\delta$, not just to
@@ -4081,7 +4493,8 @@ An equivalent expression for the convergence reads\index{Convergence
 {4\pi G\over c^2}\,
 {D_{\rm A}(z) D_{\rm A}(z,z_{\rm s})\over D_{\rm A}(z_{\rm s})}\,
 \Delta\rho(D_{\rm A}(z)\vec\theta,z)\;,
-\label{eq:LE30}
+\tag{WLE.29}
+\label{eq:WLE.29}
 \ee
 %
 which has an immediate intuitive interpretation: the density contrast
@@ -4095,7 +4508,7 @@ resulting in an infinitesimal convergence $\d\kappa$ at redshift
 $z$. The convergence is then obtained by line-of-sight integration
 of this infinitesimal convergence. If $\delta\rho$ is assumed to be
 non-zero only on a small redshift interval centred on $z_{\rm d}$,
-the convergence of the geometrically-thin lens equation (\ref{eq:LE4})
+the convergence of the geometrically-thin lens equation (\ref{eq:WLE.4})
 is reobtained.
 \\
 \\
@@ -4107,7 +4520,8 @@ the effective surface mass density becomes
 = \frac{3H_0^2\Omega_{\rm m}}{2c^2}\,
   \int_0^{\chi_{\rm h}}\d \chi\;g_{\rm LE}(\chi)\,f_K(\chi)\,
 \frac{\delta\rund{f_K(\chi)\vec\theta,\chi}}{a(\chi)} \;,
-\label{eq:LE31}
+\tag{WLE.30}
+\label{eq:WLE.30}
 \ee
 %
 with
@@ -4115,7 +4529,8 @@ with
 \be
 g_{\rm LE}(\chi)=\int_\chi^{\chi_{\rm h}}\d \chi'\;p_\chi(\chi')
 {f_K(\chi'-\chi)\over f_K(\chi')}\;,
-\label{eq:LE32}
+\tag{WLE.31}
+\label{eq:WLE.31}
 \ee
 %
 which is the source-redshift weighted lens efficiency factor
@@ -4130,12 +4545,13 @@ distance, obtained from $\chi(a)$ by letting $a\to 0$.
 Let $f(\vec x)$ be a function on
 $\mathbb{R}^n$. We define its Fourier transform\index{Fourier transform} as
 \setcounter{equation}{0}
-\renewcommand{\theequation}{FT.\arabic{equation}}
+\renewcommand{\theHequation}{\arabic{equation}}
 %
 \be
 \tilde f(\vec k):=\int_{\mathbb{R}^n}\d^n x\;f(\vec x)\,
 \exp\rund{{\rm i}\,\vec x\cdot \vec k} \;.
-\label{eq:FT1}
+\tag{FT.1}
+\label{eq:FT.1}
 \ee
 %
 The inverse Fourier transform then reads
@@ -4143,7 +4559,8 @@ The inverse Fourier transform then reads
 \be
 f(\vec x)={1\over (2\pi)^n} \int_{\mathbb{R}^n}{\d^n k}\;
 \tilde f(\vec k)\,\exp\rund{-{\rm i}\,\vec x\cdot \vec k} \;.
-\label{eq:FT2}
+\tag{FT.2}
+\label{eq:FT.2}
 \ee
 %
 The Fourier transform of a function yields a decomposition of this
@@ -4157,26 +4574,27 @@ homogeneous and isotropic random fields defined on
 $\mathbb{R}^n$. We assume that the expection value of the fields
 vanishes, $\ave{f_i(\vec x)}=0$ for all $\vec x$.\footnote{This is not a
   strong restiction, as one can consider the modified field $f'(\vec
-  x)=f(\vec x)-\ave{f(\vec x)}$, whose expection value vanishes at each
-  point be construction.}
+  x)=f(\vec x)-\ave{f(\vec x)}$, whose expectation value vanishes at each
+  point by construction.}
 \\
 \\
 The {\it two-point correlation function} $\xi$ of $f_i$ (often simply
 called `correlation function') is defined through
 \setcounter{equation}{0}
-\renewcommand{\theequation}{CFS.\arabic{equation}}
+\renewcommand{\theHequation}{\arabic{equation}}
 %
 \be
 \ave{f_i(\vec x)\,f_j(\vec y)}=:\xi_{ij}\rund{\abs{\vec x-\vec y}}\;,
-\label{eq:CFS1}
+\tag{CFPS.1}
+\label{eq:CFPS.1}
 \ee
 %
-where the angular brackets denote the enseble average (or expectation
+where the angular brackets denote the ensemble average (or expectation
 value). Statistical
 homogeneity ensures that the correlator depends only on the separation
 vector $\vec x-\vec y$, statistical isotropy yields a dependence only
 on the absolute value of this separation vector. If $i=j$ in
-(\ref{eq:CFS1}), $\xi$ is called the {\it auto-correlation function},
+(\ref{eq:CFPS.1}), $\xi$ is called the {\it auto-correlation function},
 for $i\ne j$ it is the {\it cross-correlation function} of the two
 fields. 
 \\
@@ -4188,7 +4606,8 @@ Fourier space ({\scshape{\footnotesize see} \gls{Fourier Transform}}),
 \ave{\tilde f_i(\vec k) \,\tilde f_j(\vec k')}
 =(2\pi)^n\,\delta_{\rm D}\rund{\vec k+\vec k'}\,P_{ij}\rund{\abs{\vec
     k}}\;.
-\label{eq:CFS2}
+\tag{CFPS.2}
+\label{eq:CFPS.2}
 \ee
 %
 The Dirac delta `function' is a consequence of the statistical
@@ -4202,7 +4621,8 @@ Fourier transform pairs, i.e.,
 \be
 P_{ij}\rund{\abs{\vec k}}=\int_{\mathbb{R}^n}\d^n x\;\xi_{ij}\rund{\abs{\vec
     x}}\, \exp\rund{{\rm i}\,\vec x\cdot\vec k}\;.
-\label{eq:CFS3}
+\tag{CFPS.3}
+\label{eq:CFS.3}
 \ee
 Higher-order correlation functions and spectra are defined
 analogously. The general $m$-point correlation function $\xi^{(m)}$ of 
@@ -4212,7 +4632,8 @@ defined through
 \be
 \ave{f_i(\vec x_1)\,f_j(\vec x_2)\dots f_p(\vec
   x_m)}=:\xi^{(m)}_{ij\dots p} \;.
-\label{eq:CFS4}
+\tag{CFPS.4}
+\label{eq:CFPS.4}
 \ee
 %
 Due to statistical homogeneity, $\xi^{(m)}$ depends only on the
@@ -4229,7 +4650,8 @@ Fourier transforms of the fields,
 \ave{\tilde f_i(\vec k_1)\,\tilde f_j(\vec k_2)\dots \tilde f_p(\vec
   k_m)}=:(2\pi)^n\,\delta_{\rm D}\rund{\sum_{i=1}^m \vec k_i}\,
 P^{(m)}_{ij\dots p} \;,
-\label{eq:CFS5}
+\tag{CFPS.5}
+\label{eq:CFPS.5}
 \ee
 %
 where again the Dirac delta `function' appears due to homogeneity, and
@@ -4244,12 +4666,13 @@ rotations of the $\vec k_j$.
     metric\index{Friedman--Robertson--Walker
       models!metric}\index{Metric of homogeneous and isotropic universes} 
 \setcounter{equation}{0}
-\renewcommand{\theequation}{FRW.\arabic{equation}}
+\renewcommand{\theHequation}{\arabic{equation}}
 %
 \be
 \d s^2=c^2\,\d t^2 - a^2(t)\eck{\d \chi^2
 +f_K^2(\chi)\rund{\d\theta^2+\sin^2\theta\, \d\vp^2}}\; ,
-\label{eq:FRW1}
+\tag{FRW.1}
+\label{eq:FRW.1}
 \ee
 %
 where $t$ is the \index{Cosmic time}cosmic time, $a(t)$ the
@@ -4272,12 +4695,13 @@ $K$}curvature parameter $K$ in the following way:
     \chi & (K=0) \\
     (-K)^{-1/2}\sinh[(-K)^{1/2}\chi] & (K<0) \\
   \end{array}\right.\;.
-\label{eq:FRW2}
+\tag{FRW.2}
+\label{eq:FRW.2}
 \ee
 %
-The term in brackets in Eq.\,(\ref{eq:FRW1}) describes a homogeneous,
+The term in brackets in Eq.\,(\ref{eq:FRW.1}) describes a homogeneous,
 isotropic three-dimensional space of constant curvature $K$. The
-spatial coordinates $\chi,\theta,\vp$ in Eq.\,(\ref{eq:FRW1}) are
+spatial coordinates $\chi,\theta,\vp$ in Eq.\,(\ref{eq:FRW.1}) are
 called \index{Comovingcoordinates}{\it comoving coordinates}. Object
 or observers whose worldlines are characterized by constant values of
 $\chi$, $\theta$ and $\vp$ are called \index{Comoving observers}{\it
@@ -4290,7 +4714,8 @@ yielding
 %
 \be
 \chi=\int_t^{t_0}{c\,\d t'\over a(t')}\;.
-\label{eq:FRW3}
+\tag{FRW.3}
+\label{eq:FRW.3}
 \ee
 %
 Hence, the light from a source at comoving distance $\chi$ that we
@@ -4312,7 +4737,8 @@ H^2(a) := \rund{\dot a\over a}^2={8\pi G_{\rm N}\over
   3}\rho(a)-{K\,c^2\over a^2}\; ;\quad
  {\ddot a \over a} = - {4 \pi G_{\rm N} \over 3} \rund{\rho + {3 p \over
  c^2}} \;,
-\label{eq:FRW4}
+\tag{FRW.4}
+\label{eq:FRW.4}
 \ee
 %
 with the {\it Hubble function}\index{Hubble function $H$} $H(a)$,
@@ -4326,7 +4752,8 @@ value of the Hubble constant is typically parametrized by writing
 %
 \be
 H_0=h_x\, x\,{\rm km\,s^{-1}\,Mpc^{-1}}\;,
-\label{eq:FRW4.1}
+\tag{FRW.5}
+\label{eq:FRW.5}
 \ee
 %
 where $x$ is a number. For example, traditionally one used $h_{100}$, 
@@ -4349,7 +4776,8 @@ $p_\Lambda=-\rho_\Lambda\,c^2$. The \index{Friedman--Robertson--Walker
 %
 \be
 \d(\rho c^2 a^3) = -p\, \d(a^3) \;,
-\label{eq:FRW5}
+\tag{FRW.6}
+\label{eq:FRW.6}
 \ee
 %
 then yields for non-interacting energy components
@@ -4359,7 +4787,8 @@ then yields for non-interacting energy components
 \rho_{\rm r}(a)=\rho_{\rm r, 0}\,a^{-4}\; ,\quad
 \rho_{\rm DE}(a)=\rho_{\rm DE, 0}\,\exp\rund{-3\int_1^a\d
   a'\;{1+w(a')\over a'}}\;,
-\label{eq:FRW6}
+\tag{FRW.7}
+\label{eq:FRW.7}
 \ee
 %
 where the additional subscript `0' indicates densities taken at the
@@ -4370,16 +4799,20 @@ $\rho_{\rm cr}$}{\it critical density}
 %
 \be
 \rho_{\rm cr}={3 H_0^2\over 8 \pi G_{\rm N}} \;,
-\label{eq:FRW7}
+\tag{FRW.8}
+\label{eq:FRW.8}
 \ee
 %
 to obtain
-\begin{equation}
+%
+\be
   \Omega_{\rm r}={\rho_{\rm r, 0}\over \rho_{\rm cr}}\;,\quad
   \Omega_{\rm m}={\rho_{\rm m, 0}\over \rho_{\rm cr}}\;,\quad
   \Omega_{\rm DE}={\rho_{\rm DE, 0}\over \rho_{\rm cr}}\;.
-\label{eq:FRW8}
-\end{equation}
+\tag{FRW.9}
+\label{eq:FRW.9}
+\ee
+%
 Analogous expressions hold for baryons (subscript `b'), cold dark
 matter (subscript `c'), hot dark matter (subscript `HDM' or `$\nu$',
 if it refers to neutrinos only), etc. The \index{Density parameters
@@ -4395,10 +4828,11 @@ E^2(a)\equiv \rund{H(a)\over H_0}^2
 ={\Omega_{\rm r}\over a^{4}}+{\Omega_{\rm m}\over a^{3}}
 +{(1-\Omega_{\rm tot})\over a^{2}} +\Omega_{\rm DE} \,
 \exp\rund{-3\int_1^a \d a'\;{1+w(a')\over a'}} \;,
-\label{eq:FRW9}
+\tag{FRW.10}
+\label{eq:FRW.10}
 \ee
 %
-The Friedman equation (\ref{eq:FRW9}) is a first-order differential
+The Friedman equation (\ref{eq:FRW.10}) is a first-order differential
 equation for $a(t)$, and its solution is specified by the current
 expansion rate $H_0$. Classifying the general properties of its
 solutions in terms of the density parameters, together with
@@ -4421,13 +4855,13 @@ and radiation are equal is $a_{\rm eq}={\Omega_{\rm r} / \Omega_{\rm
   equality} $z_{\rm eq}=a_{\rm eq}^{-1}-1$.\footnote{Health warning: Cosmologists
   often use the same symbol for meaning totally different mathematical
   functions. For example, they write $H(a)$ to mean the function given
-  in (\ref{eq:FRW9}), but also write $H(z)$ to imply the function
+  in (\ref{eq:FRW.10}), but also write $H(z)$ to imply the function
   obtained from $H(a)$ by replacing $a$ by $(1+z)^{-1}$. of course,
   this yields a {\it mathematically} very different function, but
   usually no confusion arises by this practice.}
 \\
 \\
-From the metric (\ref{eq:FRW1}) we see that the comoving
+From the metric (\ref{eq:FRW.1}) we see that the comoving
 angular-diameter distance $f_K$ is the ratio of the comoving
 transverse extent of an object, $f_K(\chi)\,\d\theta$ and the angle
 $\d\theta$ as observed by an observer at $\chi=0$.  The {\it angular
@@ -4445,7 +4879,8 @@ as
 %
 \be
 D_{\rm A}(z_1,z_2)={1\over 1+z_2}\,f_k(\chi_2-\chi_1) \;,
-\label{eq:FRW10}
+\tag{FRW.11}
+\label{eq:FRW.11}
 \ee
 %
 where $\chi_i$ is the comoving distance out to redshift $z_i$.
@@ -4458,18 +4893,20 @@ the observed bolometric flux $S$,
 %
 \be
 D_{\rm L}(z)\equiv \sqrt{L\over 4\pi S}\;.
-\label{eq:FRW11}
+\tag{FRW.12}
+\label{eq:FRW.12}
 \ee
 %
 For any metric theory of gravity, $D_{\rm L}(z)=(1+z)^2 D_{\rm
   A}(z)$, sometimes called the `duality relation' of distances.
 The comoving distance $\chi$ of a source as a function of
-its cosmological redshift is obtained from (\ref{eq:FRW3}) and
-(\ref{eq:FRW4}),\index{Comoving distance!asfunction of redshift}
+its cosmological redshift is obtained from (\ref{eq:FRW.3}) and
+(\ref{eq:FRW.4}),\index{Comoving distance!asfunction of redshift}
 %
 \be
 \chi=\int_{(1+z)^{-1}}^1{c\;\d a\over H(a)\,a^2}\;.
-\label{eq:FRW12}
+\tag{FRW.13}
+\label{eq:FRW.13}
 \ee
 %
 The proper and comoving volume elements corresponding to a
@@ -4481,7 +4918,8 @@ are
   z}\,\d z \; ;\quad
 \d V_{\rm com}=a^{-3}\,\d V_{\rm prop} =
 f_K^2(\chi(z))\,\d\omega\,{\d\chi\over\d z}\,\d z \;,
-\label{eq:FRW13}
+\tag{FRW.14}
+\label{eq:FRW.14}
 \ee
 %
 where $\d D_{\rm prop}=c\,\d t=a(z)\,\d\chi$. Finite volumes are
@@ -4495,7 +4933,8 @@ given as
 %
 \be
 r_{\rm H,com}(z)=\int_0^{(1+z)^{-1}}{c\;\d a\over a^2\,H(a)}\;.
-\label{eq:FRW14}
+\tag{FRW.15}
+\label{eq:FRW.15}
 \ee
 }
 
@@ -4516,12 +4955,13 @@ scale factor $a$, redshift $z$, or comoving distance $\chi$ as
 argument). The \index{Fractional matter density contrast $\delta_{\rm
     m}$}fractional matter density contrast is defined as  
 \setcounter{equation}{0}
-\renewcommand{\theequation}{LSS.\arabic{equation}}
+\renewcommand{\theHequation}{\arabic{equation}}
 %
 \be
 \delta_{\rm m}(\vec x,t):={\rho_{\rm m}(\vec x,t)-\bar{\rho}_{\rm m}(t)\over
 \bar{\rho}_{\rm m}(t)}\;,
-\label{eq:LSS1}
+\tag{LSS.1}
+\label{eq:LSS.1}
 \ee
 %
 where $\vec x$ is the comoving spatial position, and the
@@ -4541,7 +4981,8 @@ and Poisson equation,
 {\partial \vec v\over \partial t}+{\dot a\over a}\vec v+{1\over a}\rund{\vec
 v\cdot \nabla} \vec v=-{1\over a}\nabla \Phi_{\rm N} \; ; \quad
 \nabla^2\Phi_{\rm N} ={3 H_0^2 \Omega_{\rm m} \over 2 a}\delta_{\rm m} \;,
-\label{eq:LSS2}
+\tag{LSS.2}
+\label{eq:LSS.2}
 \ee
 %
 where the spatial derivatives are with respect to comoving coordinates
@@ -4554,7 +4995,8 @@ combined into a single equation,
 \frac{\partial^2{\delta_{\rm m}}}{\partial t^2}
 +{2\dot a\over a}{\partial \delta_{\rm m}\over \partial t}-{3 H_0^2 \Omega_{\rm
 m} \over 2 a^3 } \delta_{\rm m} = 0\;.
-\label{eq:LSS3}
+\tag{LSS.3}
+\label{eq:LSS.3}
 \ee
 %
 Since the coefficients of this partial differential equation have no
@@ -4567,7 +5009,8 @@ $D_\pm(t)$ satisfy the ordinary differential equation
 \be
 \ddot{D} + \frac{2 \dot{a}}{a} \dot{D} = \frac{3 H_0^2 \Omega_{\rm
 m}}{2 a^3}\, D \;.
-\label{eq:LSS4}
+\tag{LSS.4}
+\label{eq:LSS.4}
 \ee
 %
 $D_-$ is a decreasing function of time, thus these modes decay during
@@ -4583,18 +5026,19 @@ D_+(t)\propto{H(t)  H_0^2}\int^t_0 {\d t'\over a^2(t') H^2(t')} \;,\quad
 \hbox{or}\quad
 D_+(a)\propto {H(a)\over H_0}\int_0^a {\d a' \over \eck{\Omega_{\rm m}/a'
 +\Omega_\Lambda a'^2-(\Omega_{\rm m}+\Omega_\Lambda-1)}^{3/2}}\;.
-\label{eq:LSS5}
+\tag{LSS.5}
+\label{eq:LSS.5}
 \ee
 %
 The solution $\delta_{\rm m}(\vec x,t)=D_+(t)\delta_{\rm m,0}(\vec
 x)$, where $\delta_{\rm m,0}(\vec x)$ is the {\it linearly
   extrapolated density contrast today}, with the function $D_+(t)$
-being the growing solution of Eq.\,(\ref{eq:LSS4}), is valid only for
+being the growing solution of Eq.\,(\ref{eq:LSS.4}), is valid only for
 subhorizon perturbations in
 the matter-dominated epoch ($a\gg a_{\rm eq}$). Superhorizon
 perturbations grow $\propto a$ for $a\gg a_{\rm eq}$, which is the same
 behavior as $D_+$ for epochs where matter dominates over the dark
-energy and the curvature term in the Friedman eqation (\ref{eq:FRW9}).
+energy and the curvature term in the Friedman eqation (\ref{eq:FRW.10}).
 In the radiation-dominated epoch ($a\ll a_{\rm eq}$), superhorizon
 fluctuations grow $\propto a^2$, whereas subhorizon matter
 fluctuations are stalled: their amplitude stays constant. In fact, for
@@ -4603,7 +5047,7 @@ sub-horizon fluctuations one finds $\delta_{\rm m}\propto
 and subhorizon scale fluctuations in the radiation-dominated epoch
 suppresses density fluctuations on scales smaller than  the comoving
 horizon scale at matter-radiation 
-equality, $r_{\rm H,com}(a_{\rm eq})$ (see Eq.\,\ref{eq:FRW14}), called
+equality, $r_{\rm H,com}(a_{\rm eq})$ (see Eq.\,\ref{eq:FRW.15}), called
 \index{M\'esz\'aros effect}M\'esz\'aros effect. Furthermore, the
 growth of structure is affected by the presence of baryons in the epoch
 before recombination ($z\gtrsim 1000$), since the ionized baryon fluid
@@ -4622,7 +5066,8 @@ vector, then
 \be
 \ave{\tilde\delta_{\rm m}(\vec k,t)\,\tilde\delta_{\rm m}(\vec k',t)}
 =(2\pi)^3\,\delta_{\rm D}(\vec k + \vec k')\,P_{\rm m}(|\vec k|,t)\;,
-\label{eq:LSS6}
+\tag{LSS.6}
+\label{eq:LSS.6}
 \ee
 %
 where the Dirac delta `function' is due to the assumed statistical
@@ -4640,7 +5085,8 @@ perturbation theory, the matter power spectrum then becomes
 %
 \be
 P(k,t)=A\,k^{n_{\rm s}}\,T_k^2\,D_+^2(t)\;,
-\label{eq:LSS7}
+\tag{LSS.7}
+\label{eq:LSS.7}
 \ee
 %
 valid for the matter-dominated epoch. The \index{Transfer function
@@ -4649,5 +5095,5 @@ effect, the presence of baryonic acoustic oscillations and the effects
 of hot dark matter and can be obtained from solving the linearized
 coupled Boltzmann equations for the various components (cold dark
 matter, baryons, photons, neutrinos) in the perturbed
-Friedman--Robertson--Walker metric (\ref{eq:LE22}); there are publicly
+Friedman--Robertson--Walker metric (\ref{eq:WLE.21}); there are publicly
 available codes for obtaining accurate transfer functions (see e.g. \citep{1999ApJ...511....5E}).}
