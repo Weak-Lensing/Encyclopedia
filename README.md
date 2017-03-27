@@ -15,9 +15,9 @@ PDF download here: https://github.com/Weak-Lensing/Encyclopedia/blob/master/PDDd
   that are used commonly throughout the weak lensing literature. In
   this document we provide a reference for some of those specialised terms in
   an easily referenceable manner, as well as commonly used terms that
-  have a special meaning in weak lensing studies. This document is a live
-  document that will be updated in response to community input that can be
-  submitted here https://github.com/Weak-Lensing/Encyclopedia/issues as issues.
+  have a special meaning in weak lensing studies. 
+  
+*This document is a live document that will be updated in response to community input that can be submitted here* https://github.com/Weak-Lensing/Encyclopedia/issues as issues.
   
   The structure and content of the files is as follows: 
   * PDDdict.tex is the main Latex file 
