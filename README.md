@@ -1,6 +1,6 @@
 # The Euclid Weak Lensing Encyclopedia
 
-PDF download here: https://github.com/Weak-Lensing/Encyclopedia/blob/master/PDDdict.pdf
+*Currently under-construction - waiting for the Euclid WL Parameter Definition Document to be completed/updated
 
 *This document is a live document that will be updated in response to community input that can be submitted here* https://github.com/Weak-Lensing/Encyclopedia/issues as issues.
 
