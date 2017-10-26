@@ -1,6 +1,6 @@
 # The Euclid Weak Lensing Encyclopedia
 
-**Currently under-construction - waiting for the Euclid WL Parameter Definition Document to be completed/updated
+**Currently under-construction - waiting for the Euclid WL Parameter Definition Document to be completed/updated**
 
 *This document is a live document that will be updated in response to community input that can be submitted here* https://github.com/Weak-Lensing/Encyclopedia/issues as issues.
 
